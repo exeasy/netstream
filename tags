@@ -1,0 +1,2615 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACLOCAL	Makefile	/^ACLOCAL = aclocal-1.14$/;"	m
+ACLOCAL	comm/Makefile	/^ACLOCAL = aclocal-1.14$/;"	m
+ACLOCAL	lib/Makefile	/^ACLOCAL = aclocal-1.14$/;"	m
+ACLOCAL	utils/Makefile	/^ACLOCAL = aclocal-1.14$/;"	m
+ACLOCAL_M4	Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	comm/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	lib/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	utils/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+AFI_IP	lib/zebra.h	291;"	d
+AFI_IP6	lib/zebra.h	292;"	d
+AFI_MAX	lib/zebra.h	293;"	d
+ALL	utils/utils.h	/^	ALL$/;"	e	enum:DBG_LEVEL
+ALREADY_EXISTS_ERR	utils/pma_err.h	28;"	d
+AMTAR	Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AMTAR	comm/Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AMTAR	lib/Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AMTAR	utils/Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AM_CFLAGS	Makefile	/^AM_CFLAGS = -O2 -ggdb3 -std=c99 -I$(LIB_XML_INCLUDE) -lpthread $/;"	m
+AM_DEFAULT_VERBOSITY	Makefile	/^AM_DEFAULT_VERBOSITY = 1$/;"	m
+AM_DEFAULT_VERBOSITY	comm/Makefile	/^AM_DEFAULT_VERBOSITY = 1$/;"	m
+AM_DEFAULT_VERBOSITY	lib/Makefile	/^AM_DEFAULT_VERBOSITY = 1$/;"	m
+AM_DEFAULT_VERBOSITY	utils/Makefile	/^AM_DEFAULT_VERBOSITY = 1$/;"	m
+AM_LDFLAGS	Makefile	/^AM_LDFLAGS = $/;"	m
+AM_RECURSIVE_TARGETS	Makefile	/^AM_RECURSIVE_TARGETS = $(am__recursive_targets:-recursive=) TAGS CTAGS \\$/;"	m
+AM_V_AR	comm/Makefile	/^AM_V_AR = $(am__v_AR_$(V))$/;"	m
+AM_V_AR	lib/Makefile	/^AM_V_AR = $(am__v_AR_$(V))$/;"	m
+AM_V_AR	utils/Makefile	/^AM_V_AR = $(am__v_AR_$(V))$/;"	m
+AM_V_CC	Makefile	/^AM_V_CC = $(am__v_CC_$(V))$/;"	m
+AM_V_CC	comm/Makefile	/^AM_V_CC = $(am__v_CC_$(V))$/;"	m
+AM_V_CC	lib/Makefile	/^AM_V_CC = $(am__v_CC_$(V))$/;"	m
+AM_V_CC	utils/Makefile	/^AM_V_CC = $(am__v_CC_$(V))$/;"	m
+AM_V_CCLD	Makefile	/^AM_V_CCLD = $(am__v_CCLD_$(V))$/;"	m
+AM_V_CCLD	comm/Makefile	/^AM_V_CCLD = $(am__v_CCLD_$(V))$/;"	m
+AM_V_CCLD	lib/Makefile	/^AM_V_CCLD = $(am__v_CCLD_$(V))$/;"	m
+AM_V_CCLD	utils/Makefile	/^AM_V_CCLD = $(am__v_CCLD_$(V))$/;"	m
+AM_V_GEN	Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m
+AM_V_GEN	comm/Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m
+AM_V_GEN	lib/Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m
+AM_V_GEN	utils/Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m
+AM_V_P	Makefile	/^AM_V_P = $(am__v_P_$(V))$/;"	m
+AM_V_P	comm/Makefile	/^AM_V_P = $(am__v_P_$(V))$/;"	m
+AM_V_P	lib/Makefile	/^AM_V_P = $(am__v_P_$(V))$/;"	m
+AM_V_P	utils/Makefile	/^AM_V_P = $(am__v_P_$(V))$/;"	m
+AM_V_at	Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
+AM_V_at	comm/Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
+AM_V_at	lib/Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
+AM_V_at	utils/Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
+AM_V_lt	Makefile	/^AM_V_lt = $(am__v_lt_$(V))$/;"	m
+AM_V_lt	comm/Makefile	/^AM_V_lt = $(am__v_lt_$(V))$/;"	m
+AM_V_lt	lib/Makefile	/^AM_V_lt = $(am__v_lt_$(V))$/;"	m
+AM_V_lt	utils/Makefile	/^AM_V_lt = $(am__v_lt_$(V))$/;"	m
+AR	Makefile	/^AR = ar$/;"	m
+AR	comm/Makefile	/^AR = ar$/;"	m
+AR	lib/Makefile	/^AR = ar$/;"	m
+AR	utils/Makefile	/^AR = ar$/;"	m
+ARFLAGS	comm/Makefile	/^ARFLAGS = cru$/;"	m
+ARFLAGS	lib/Makefile	/^ARFLAGS = cru$/;"	m
+ARFLAGS	utils/Makefile	/^ARFLAGS = cru$/;"	m
+ASSERT_ERR	utils/pma_err.h	32;"	d
+AUTOCONF	Makefile	/^AUTOCONF = autoconf$/;"	m
+AUTOCONF	comm/Makefile	/^AUTOCONF = autoconf$/;"	m
+AUTOCONF	lib/Makefile	/^AUTOCONF = autoconf$/;"	m
+AUTOCONF	utils/Makefile	/^AUTOCONF = autoconf$/;"	m
+AUTOHEADER	Makefile	/^AUTOHEADER = autoheader$/;"	m
+AUTOHEADER	comm/Makefile	/^AUTOHEADER = autoheader$/;"	m
+AUTOHEADER	lib/Makefile	/^AUTOHEADER = autoheader$/;"	m
+AUTOHEADER	utils/Makefile	/^AUTOHEADER = autoheader$/;"	m
+AUTOMAKE	Makefile	/^AUTOMAKE = automake-1.14$/;"	m
+AUTOMAKE	comm/Makefile	/^AUTOMAKE = automake-1.14$/;"	m
+AUTOMAKE	lib/Makefile	/^AUTOMAKE = automake-1.14$/;"	m
+AUTOMAKE	utils/Makefile	/^AUTOMAKE = automake-1.14$/;"	m
+AWK	Makefile	/^AWK = gawk$/;"	m
+AWK	comm/Makefile	/^AWK = gawk$/;"	m
+AWK	lib/Makefile	/^AWK = gawk$/;"	m
+AWK	utils/Makefile	/^AWK = gawk$/;"	m
+BLOCKED	comm/comm_lite.h	8;"	d
+BOOLEAN	confparser.h	7;"	d
+CC	Makefile	/^CC = gcc$/;"	m
+CC	comm/Makefile	/^CC = gcc$/;"	m
+CC	lib/Makefile	/^CC = gcc$/;"	m
+CC	utils/Makefile	/^CC = gcc$/;"	m
+CCDEPMODE	Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCDEPMODE	comm/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCDEPMODE	lib/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCDEPMODE	utils/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCLD	Makefile	/^CCLD = $(CC)$/;"	m
+CCLD	comm/Makefile	/^CCLD = $(CC)$/;"	m
+CCLD	lib/Makefile	/^CCLD = $(CC)$/;"	m
+CCLD	utils/Makefile	/^CCLD = $(CC)$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g -O2$/;"	m
+CFLAGS	comm/Makefile	/^CFLAGS = -g -O2$/;"	m
+CFLAGS	lib/Makefile	/^CFLAGS = -g -O2$/;"	m
+CFLAGS	utils/Makefile	/^CFLAGS = -g -O2$/;"	m
+CHECK_BIT	lib/table.c	169;"	d	file:
+CHECK_FLAG	lib/zebra.h	319;"	d
+CMSG_ALIGN	lib/zebra.h	192;"	d
+CMSG_LEN	lib/zebra.h	194;"	d
+CMSG_SPACE	lib/zebra.h	193;"	d
+COMM_LITE_H	comm/comm_lite.h	3;"	d
+COMPILE	Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+COMPILE	comm/Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+COMPILE	lib/Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+COMPILE	utils/Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+CONFIG_CLEAN_FILES	Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_FILES	comm/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_FILES	lib/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_FILES	utils/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	comm/Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	lib/Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	utils/Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_HEADER	Makefile	/^CONFIG_HEADER = config.h$/;"	m
+CONFIG_HEADER	comm/Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CONFIG_HEADER	lib/Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CONFIG_HEADER	utils/Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CONFPARSER_H	confparser.h	3;"	d
+CONNECT_TIMEOUT	comm/comm_lite.h	5;"	d
+CONTAINER_EMPTY_ERR	utils/pma_err.h	31;"	d
+COVL	netstream.h	6;"	d
+COVS	netstream.h	5;"	d
+CPP	Makefile	/^CPP = gcc -E$/;"	m
+CPP	comm/Makefile	/^CPP = gcc -E$/;"	m
+CPP	lib/Makefile	/^CPP = gcc -E$/;"	m
+CPP	utils/Makefile	/^CPP = gcc -E$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAGS	comm/Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAGS	lib/Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAGS	utils/Makefile	/^CPPFLAGS = $/;"	m
+CR_LIST_ENTRY	utils/list.h	12;"	d
+CR_OFFSETOF	utils/list.h	6;"	d
+CSCOPE	Makefile	/^CSCOPE = cscope$/;"	m
+CTAGS	Makefile	/^CTAGS = ctags$/;"	m
+CTAGS	comm/Makefile	/^CTAGS = ctags$/;"	m
+CTAGS	lib/Makefile	/^CTAGS = ctags$/;"	m
+CTAGS	utils/Makefile	/^CTAGS = ctags$/;"	m
+CXX	Makefile	/^CXX = g++$/;"	m
+CXX	comm/Makefile	/^CXX = g++$/;"	m
+CXX	lib/Makefile	/^CXX = g++$/;"	m
+CXX	utils/Makefile	/^CXX = g++$/;"	m
+CXXCPP	Makefile	/^CXXCPP = g++ -E$/;"	m
+CXXCPP	comm/Makefile	/^CXXCPP = g++ -E$/;"	m
+CXXCPP	lib/Makefile	/^CXXCPP = g++ -E$/;"	m
+CXXCPP	utils/Makefile	/^CXXCPP = g++ -E$/;"	m
+CXXDEPMODE	Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXDEPMODE	comm/Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXDEPMODE	lib/Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXDEPMODE	utils/Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CXXFLAGS	comm/Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CXXFLAGS	lib/Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CXXFLAGS	utils/Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CYGPATH_W	Makefile	/^CYGPATH_W = echo$/;"	m
+CYGPATH_W	comm/Makefile	/^CYGPATH_W = echo$/;"	m
+CYGPATH_W	lib/Makefile	/^CYGPATH_W = echo$/;"	m
+CYGPATH_W	utils/Makefile	/^CYGPATH_W = echo$/;"	m
+ConfigParser	conf.py	/^import ConfigParser$/;"	i
+CreateProcess	libtool	/^   CreateProcess().  We must quote the arguments since Win32 CreateProcess()$/;"	f
+CreateProcess	ltmain.sh	/^   CreateProcess().  We must quote the arguments since Win32 CreateProcess()$/;"	f
+DATA	utils/utils.h	/^	DATA,$/;"	e	enum:DBG_LEVEL
+DBG	utils/utils.h	40;"	d
+DBG_LEVEL	utils/utils.h	/^enum DBG_LEVEL{$/;"	g
+DEBUG	utils/utils.h	45;"	d
+DEBUG_LEVEL	utils/utils.h	42;"	d
+DEFAULT_INCLUDES	Makefile	/^DEFAULT_INCLUDES = -I.$/;"	m
+DEFAULT_INCLUDES	comm/Makefile	/^DEFAULT_INCLUDES = -I. -I$(top_builddir)$/;"	m
+DEFAULT_INCLUDES	lib/Makefile	/^DEFAULT_INCLUDES = -I. -I$(top_builddir)$/;"	m
+DEFAULT_INCLUDES	utils/Makefile	/^DEFAULT_INCLUDES = -I. -I$(top_builddir)$/;"	m
+DEFS	Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEFS	comm/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEFS	lib/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEFS	utils/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEPDIR	Makefile	/^DEPDIR = .deps$/;"	m
+DEPDIR	comm/Makefile	/^DEPDIR = .deps$/;"	m
+DEPDIR	lib/Makefile	/^DEPDIR = .deps$/;"	m
+DEPDIR	utils/Makefile	/^DEPDIR = .deps$/;"	m
+DISTFILES	Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	comm/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	lib/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	utils/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_ARCHIVES	Makefile	/^DIST_ARCHIVES = $(distdir).tar.gz$/;"	m
+DIST_COMMON	Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.in $(srcdir)\/Makefile.am \\$/;"	m
+DIST_COMMON	comm/Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.in $(srcdir)\/Makefile.am \\$/;"	m
+DIST_COMMON	lib/Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.in $(srcdir)\/Makefile.am \\$/;"	m
+DIST_COMMON	utils/Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.in $(srcdir)\/Makefile.am \\$/;"	m
+DIST_SOURCES	Makefile	/^DIST_SOURCES = $(netstream_SOURCES)$/;"	m
+DIST_SOURCES	comm/Makefile	/^DIST_SOURCES = $(libcommlite_a_SOURCES) $(libudplite_a_SOURCES)$/;"	m
+DIST_SOURCES	lib/Makefile	/^DIST_SOURCES = $(libmytools_a_SOURCES)$/;"	m
+DIST_SOURCES	utils/Makefile	/^DIST_SOURCES = $(libutils_a_SOURCES)$/;"	m
+DIST_SUBDIRS	Makefile	/^DIST_SUBDIRS = $(SUBDIRS)$/;"	m
+DIST_TARGETS	Makefile	/^DIST_TARGETS = dist-gzip$/;"	m
+DLLTOOL	Makefile	/^DLLTOOL = false$/;"	m
+DLLTOOL	comm/Makefile	/^DLLTOOL = false$/;"	m
+DLLTOOL	lib/Makefile	/^DLLTOOL = false$/;"	m
+DLLTOOL	utils/Makefile	/^DLLTOOL = false$/;"	m
+DSYMUTIL	Makefile	/^DSYMUTIL = $/;"	m
+DSYMUTIL	comm/Makefile	/^DSYMUTIL = $/;"	m
+DSYMUTIL	lib/Makefile	/^DSYMUTIL = $/;"	m
+DSYMUTIL	utils/Makefile	/^DSYMUTIL = $/;"	m
+DUMPBIN	Makefile	/^DUMPBIN = $/;"	m
+DUMPBIN	comm/Makefile	/^DUMPBIN = $/;"	m
+DUMPBIN	lib/Makefile	/^DUMPBIN = $/;"	m
+DUMPBIN	utils/Makefile	/^DUMPBIN = $/;"	m
+EACCES	utils/pma_err.h	10;"	d
+ECHO_C	Makefile	/^ECHO_C = $/;"	m
+ECHO_C	comm/Makefile	/^ECHO_C = $/;"	m
+ECHO_C	lib/Makefile	/^ECHO_C = $/;"	m
+ECHO_C	utils/Makefile	/^ECHO_C = $/;"	m
+ECHO_N	Makefile	/^ECHO_N = -n$/;"	m
+ECHO_N	comm/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_N	lib/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_N	utils/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	Makefile	/^ECHO_T = $/;"	m
+ECHO_T	comm/Makefile	/^ECHO_T = $/;"	m
+ECHO_T	lib/Makefile	/^ECHO_T = $/;"	m
+ECHO_T	utils/Makefile	/^ECHO_T = $/;"	m
+EEXIST	utils/pma_err.h	12;"	d
+EFAULT	utils/pma_err.h	11;"	d
+EGREP	Makefile	/^EGREP = \/usr\/bin\/grep -E$/;"	m
+EGREP	comm/Makefile	/^EGREP = \/usr\/bin\/grep -E$/;"	m
+EGREP	lib/Makefile	/^EGREP = \/usr\/bin\/grep -E$/;"	m
+EGREP	utils/Makefile	/^EGREP = \/usr\/bin\/grep -E$/;"	m
+EINVAL	utils/pma_err.h	14;"	d
+EIO	utils/pma_err.h	8;"	d
+ENFILE	utils/pma_err.h	15;"	d
+ENODEV	utils/pma_err.h	13;"	d
+ENOENT	utils/pma_err.h	7;"	d
+ENOMEM	utils/pma_err.h	9;"	d
+ENORMERR	utils/pma_err.h	5;"	d
+ERROR	utils/utils.h	/^	ERROR,$/;"	e	enum:DBG_LEVEL
+ETAGS	Makefile	/^ETAGS = etags$/;"	m
+ETAGS	comm/Makefile	/^ETAGS = etags$/;"	m
+ETAGS	lib/Makefile	/^ETAGS = etags$/;"	m
+ETAGS	utils/Makefile	/^ETAGS = etags$/;"	m
+EVENT_H_	lib/event.h	2;"	d
+EXEEXT	Makefile	/^EXEEXT = $/;"	m
+EXEEXT	comm/Makefile	/^EXEEXT = $/;"	m
+EXEEXT	lib/Makefile	/^EXEEXT = $/;"	m
+EXEEXT	utils/Makefile	/^EXEEXT = $/;"	m
+FALSE	utils/common.h	45;"	d
+FALSE	utils/list.h	4;"	d
+FATAL	utils/utils.h	/^	FATAL = 0,$/;"	e	enum:DBG_LEVEL
+FGREP	Makefile	/^FGREP = \/usr\/bin\/grep -F$/;"	m
+FGREP	comm/Makefile	/^FGREP = \/usr\/bin\/grep -F$/;"	m
+FGREP	lib/Makefile	/^FGREP = \/usr\/bin\/grep -F$/;"	m
+FGREP	utils/Makefile	/^FGREP = \/usr\/bin\/grep -F$/;"	m
+FIFO_ADD	lib/zebra.h	344;"	d
+FIFO_DEL	lib/zebra.h	353;"	d
+FIFO_EMPTY	lib/zebra.h	364;"	d
+FIFO_HEAD	lib/zebra.h	360;"	d
+FIFO_INIT	lib/zebra.h	338;"	d
+FIFO_TOP	lib/zebra.h	367;"	d
+FILTER_IN	lib/zebra.h	303;"	d
+FILTER_MAX	lib/zebra.h	305;"	d
+FILTER_OUT	lib/zebra.h	304;"	d
+FREE_LINK_LIST	utils/utils.h	119;"	d
+FlowHeader	netstream.h	/^} FlowHeader ;$/;"	t	typeref:struct:StreamHeader
+GETRUSAGE	lib/thread.h	27;"	d
+GETRUSAGE	lib/thread.h	30;"	d
+GREP	Makefile	/^GREP = \/usr\/bin\/grep$/;"	m
+GREP	comm/Makefile	/^GREP = \/usr\/bin\/grep$/;"	m
+GREP	lib/Makefile	/^GREP = \/usr\/bin\/grep$/;"	m
+GREP	utils/Makefile	/^GREP = \/usr\/bin\/grep$/;"	m
+GZIP_ENV	Makefile	/^GZIP_ENV = --best$/;"	m
+HAVE_ARPA_INET_H	config.h	5;"	d
+HAVE_BZERO	config.h	8;"	d
+HAVE_DLFCN_H	config.h	11;"	d
+HAVE_FCNTL_H	config.h	14;"	d
+HAVE_GETCWD	config.h	17;"	d
+HAVE_GETTIMEOFDAY	config.h	20;"	d
+HAVE_INTTYPES_H	config.h	23;"	d
+HAVE_IPV6	lib/prefix.h	24;"	d
+HAVE_LIMITS_H	config.h	26;"	d
+HAVE_LOCALTIME_R	config.h	29;"	d
+HAVE_MALLOC	config.h	33;"	d
+HAVE_MEMORY_H	config.h	36;"	d
+HAVE_MEMSET	config.h	39;"	d
+HAVE_NETDB_H	config.h	42;"	d
+HAVE_NETINET_IN_H	config.h	45;"	d
+HAVE_REALLOC	config.h	49;"	d
+HAVE_SELECT	config.h	52;"	d
+HAVE_SOCKET	config.h	55;"	d
+HAVE_STDDEF_H	config.h	58;"	d
+HAVE_STDINT_H	config.h	61;"	d
+HAVE_STDLIB_H	config.h	64;"	d
+HAVE_STRCHR	config.h	67;"	d
+HAVE_STRDUP	config.h	70;"	d
+HAVE_STRERROR	config.h	73;"	d
+HAVE_STRINGS_H	config.h	76;"	d
+HAVE_STRING_H	config.h	79;"	d
+HAVE_SYSLOG_H	config.h	82;"	d
+HAVE_SYS_IOCTL_H	config.h	85;"	d
+HAVE_SYS_PARAM_H	config.h	88;"	d
+HAVE_SYS_SOCKET_H	config.h	91;"	d
+HAVE_SYS_STAT_H	config.h	94;"	d
+HAVE_SYS_TIME_H	config.h	97;"	d
+HAVE_SYS_TYPES_H	config.h	100;"	d
+HAVE_UNISTD_H	config.h	103;"	d
+HEADERS	comm/Makefile	/^HEADERS = $(noinst_HEADERS)$/;"	m
+HEADERS	lib/Makefile	/^HEADERS = $(noinst_HEADERS)$/;"	m
+HEADERS	utils/Makefile	/^HEADERS = $(noinst_HEADERS)$/;"	m
+IFF_LINK0	lib/if.h	171;"	d
+IFF_LINK1	lib/if.h	174;"	d
+IFF_LINK2	lib/if.h	177;"	d
+IFF_NOTRAILERS	lib/if.h	162;"	d
+IFF_OACTIVE	lib/if.h	165;"	d
+IFF_SIMPLEX	lib/if.h	168;"	d
+IFINDEX_INTERNBASE	lib/if.h	40;"	d
+IF_DELETE_HOOK	lib/if.h	156;"	d
+IF_NEW_HOOK	lib/if.h	155;"	d
+ILLEGAL_ARGS_ERR	utils/pma_err.h	33;"	d
+IN6_ARE_ADDR_EQUAL	lib/zebra.h	188;"	d
+IN6_ARE_ADDR_EQUAL	lib/zebra.h	218;"	d
+INADDR_LOOPBACK	lib/zebra.h	287;"	d
+INET6_ADDRSTRLEN	lib/prefix.h	85;"	d
+INET6_BUFSIZ	lib/prefix.h	89;"	d
+INET_ADDRSTRLEN	lib/prefix.h	81;"	d
+INFO	utils/utils.h	/^	INFO,$/;"	e	enum:DBG_LEVEL
+INSTALL	Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL	comm/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL	lib/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL	utils/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_DATA	comm/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_DATA	lib/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_DATA	utils/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	comm/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	lib/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	utils/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_PROGRAM	comm/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_PROGRAM	lib/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_PROGRAM	utils/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	comm/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	lib/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	utils/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTALL_STRIP_PROGRAM	comm/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTALL_STRIP_PROGRAM	lib/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTALL_STRIP_PROGRAM	utils/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INTERFACE_HWADDR_MAX	lib/if.h	36;"	d
+INTERFACE_NAMSIZ	lib/if.h	35;"	d
+IO_ERR	utils/pma_err.h	34;"	d
+IPV4_ADDR_CMP	lib/prefix.h	96;"	d
+IPV4_ADDR_COPY	lib/prefix.h	98;"	d
+IPV4_ADDR_SAME	lib/prefix.h	97;"	d
+IPV4_MAX_BITLEN	lib/prefix.h	94;"	d
+IPV4_MAX_BYTELEN	lib/prefix.h	93;"	d
+IPV4_MAX_PREFIXLEN	lib/prefix.h	95;"	d
+IPV4_NET0	lib/prefix.h	100;"	d
+IPV4_NET127	lib/prefix.h	101;"	d
+IPV6_ADDR_CMP	lib/prefix.h	107;"	d
+IPV6_ADDR_COPY	lib/prefix.h	109;"	d
+IPV6_ADDR_SAME	lib/prefix.h	108;"	d
+IPV6_MAX_BITLEN	lib/prefix.h	105;"	d
+IPV6_MAX_BYTELEN	lib/prefix.h	104;"	d
+IPV6_MAX_PREFIXLEN	lib/prefix.h	106;"	d
+Item	confparser.h	/^typedef struct Item{$/;"	s
+Item	confparser.h	/^} Item;$/;"	t	typeref:struct:Item
+Item::name	confparser.h	/^	char name[100];$/;"	m	struct:Item	access:public
+Item::next	confparser.h	/^	Item *next;$/;"	m	struct:Item	access:public
+Item::type	confparser.h	/^	int type;$/;"	m	struct:Item	access:public
+Item::value	confparser.h	/^	char value[100];$/;"	m	struct:Item	access:public
+LD	Makefile	/^LD = \/usr\/bin\/ld$/;"	m
+LD	comm/Makefile	/^LD = \/usr\/bin\/ld$/;"	m
+LD	lib/Makefile	/^LD = \/usr\/bin\/ld$/;"	m
+LD	utils/Makefile	/^LD = \/usr\/bin\/ld$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	comm/Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	lib/Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	utils/Makefile	/^LDFLAGS = $/;"	m
+LEVEL_ERR	utils/pma_err.h	19;"	d
+LEVEL_INFO	utils/pma_err.h	21;"	d
+LEVEL_WARNING	utils/pma_err.h	20;"	d
+LIBOBJS	Makefile	/^LIBOBJS = $/;"	m
+LIBOBJS	comm/Makefile	/^LIBOBJS = $/;"	m
+LIBOBJS	lib/Makefile	/^LIBOBJS = $/;"	m
+LIBOBJS	utils/Makefile	/^LIBOBJS = $/;"	m
+LIBRARIES	comm/Makefile	/^LIBRARIES = $(noinst_LIBRARIES)$/;"	m
+LIBRARIES	lib/Makefile	/^LIBRARIES = $(noinst_LIBRARIES)$/;"	m
+LIBRARIES	utils/Makefile	/^LIBRARIES = $(noinst_LIBRARIES)$/;"	m
+LIBS	Makefile	/^LIBS = -lxml2 -lpthread $/;"	m
+LIBS	comm/Makefile	/^LIBS = -lxml2 -lpthread $/;"	m
+LIBS	lib/Makefile	/^LIBS = -lxml2 -lpthread $/;"	m
+LIBS	utils/Makefile	/^LIBS = -lxml2 -lpthread $/;"	m
+LIBTOOL	Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LIBTOOL	comm/Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LIBTOOL	lib/Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LIBTOOL	utils/Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LIB_SNMP_INCLUDE	Makefile	/^LIB_SNMP_INCLUDE = \/usr\/local\/snmp\/include\/$/;"	m
+LIB_SNMP_INCLUDE	comm/Makefile	/^LIB_SNMP_INCLUDE = \/usr\/local\/snmp\/include\/$/;"	m
+LIB_SNMP_INCLUDE	lib/Makefile	/^LIB_SNMP_INCLUDE = \/usr\/local\/snmp\/include\/$/;"	m
+LIB_SNMP_INCLUDE	utils/Makefile	/^LIB_SNMP_INCLUDE = \/usr\/local\/snmp\/include\/$/;"	m
+LIB_SNMP_LIB	Makefile	/^LIB_SNMP_LIB = \/usr\/local\/snmp\/lib\/$/;"	m
+LIB_SNMP_LIB	comm/Makefile	/^LIB_SNMP_LIB = \/usr\/local\/snmp\/lib\/$/;"	m
+LIB_SNMP_LIB	lib/Makefile	/^LIB_SNMP_LIB = \/usr\/local\/snmp\/lib\/$/;"	m
+LIB_SNMP_LIB	utils/Makefile	/^LIB_SNMP_LIB = \/usr\/local\/snmp\/lib\/$/;"	m
+LIB_XML_INCLUDE	Makefile	/^LIB_XML_INCLUDE = \/usr\/include\/libxml2\/$/;"	m
+LIB_XML_INCLUDE	comm/Makefile	/^LIB_XML_INCLUDE = \/usr\/include\/libxml2\/$/;"	m
+LIB_XML_INCLUDE	lib/Makefile	/^LIB_XML_INCLUDE = \/usr\/include\/libxml2\/$/;"	m
+LIB_XML_INCLUDE	utils/Makefile	/^LIB_XML_INCLUDE = \/usr\/include\/libxml2\/$/;"	m
+LINK	Makefile	/^LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+LINK	comm/Makefile	/^LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+LINK	lib/Makefile	/^LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+LINK	utils/Makefile	/^LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+LIPO	Makefile	/^LIPO = $/;"	m
+LIPO	comm/Makefile	/^LIPO = $/;"	m
+LIPO	lib/Makefile	/^LIPO = $/;"	m
+LIPO	utils/Makefile	/^LIPO = $/;"	m
+LISTNODE_ADD	lib/linklist.h	78;"	d
+LISTNODE_DELETE	lib/linklist.h	89;"	d
+LIST_H	utils/list.h	2;"	d
+LIST_LOOP	lib/linklist.h	73;"	d
+LN_S	Makefile	/^LN_S = ln -s$/;"	m
+LN_S	comm/Makefile	/^LN_S = ln -s$/;"	m
+LN_S	lib/Makefile	/^LN_S = ln -s$/;"	m
+LN_S	utils/Makefile	/^LN_S = ln -s$/;"	m
+LOOKUP	lib/log.h	121;"	d
+LTCOMPILE	Makefile	/^LTCOMPILE = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+LTCOMPILE	comm/Makefile	/^LTCOMPILE = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+LTCOMPILE	lib/Makefile	/^LTCOMPILE = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+LTCOMPILE	utils/Makefile	/^LTCOMPILE = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+LTLIBOBJS	Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBOBJS	comm/Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBOBJS	lib/Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBOBJS	utils/Makefile	/^LTLIBOBJS = $/;"	m
+LT_OBJDIR	config.h	107;"	d
+MAKEINFO	Makefile	/^MAKEINFO = makeinfo$/;"	m
+MAKEINFO	comm/Makefile	/^MAKEINFO = makeinfo$/;"	m
+MAKEINFO	lib/Makefile	/^MAKEINFO = makeinfo$/;"	m
+MAKEINFO	utils/Makefile	/^MAKEINFO = makeinfo$/;"	m
+MANIFEST_TOOL	Makefile	/^MANIFEST_TOOL = :$/;"	m
+MANIFEST_TOOL	comm/Makefile	/^MANIFEST_TOOL = :$/;"	m
+MANIFEST_TOOL	lib/Makefile	/^MANIFEST_TOOL = :$/;"	m
+MANIFEST_TOOL	utils/Makefile	/^MANIFEST_TOOL = :$/;"	m
+MASKBIT	lib/prefix.c	40;"	d	file:
+MAXBUF	comm/comm_lite.h	10;"	d
+MAX_MESSAGE_LEN	comm/udp_lite.c	6;"	d	file:
+MAX_POOL	lib/thread_pool.h	4;"	d
+MAX_THREAD	lib/thread_pool.h	3;"	d
+MKDIR_P	Makefile	/^MKDIR_P = \/usr\/bin\/mkdir -p$/;"	m
+MKDIR_P	comm/Makefile	/^MKDIR_P = \/usr\/bin\/mkdir -p$/;"	m
+MKDIR_P	lib/Makefile	/^MKDIR_P = \/usr\/bin\/mkdir -p$/;"	m
+MKDIR_P	utils/Makefile	/^MKDIR_P = \/usr\/bin\/mkdir -p$/;"	m
+MTYPE_ACCESS_FILTER	lib/memory.h	/^  MTYPE_ACCESS_FILTER,$/;"	e	enum:__anon7
+MTYPE_ACCESS_LIST	lib/memory.h	/^  MTYPE_ACCESS_LIST,$/;"	e	enum:__anon7
+MTYPE_ACCESS_LIST_STR	lib/memory.h	/^  MTYPE_ACCESS_LIST_STR,$/;"	e	enum:__anon7
+MTYPE_AS_FILTER	lib/memory.h	/^  MTYPE_AS_FILTER,$/;"	e	enum:__anon7
+MTYPE_AS_FILTER_STR	lib/memory.h	/^  MTYPE_AS_FILTER_STR,$/;"	e	enum:__anon7
+MTYPE_AS_LIST	lib/memory.h	/^  MTYPE_AS_LIST,$/;"	e	enum:__anon7
+MTYPE_AS_PATH	lib/memory.h	/^  MTYPE_AS_PATH,$/;"	e	enum:__anon7
+MTYPE_AS_SEG	lib/memory.h	/^  MTYPE_AS_SEG,$/;"	e	enum:__anon7
+MTYPE_AS_STR	lib/memory.h	/^  MTYPE_AS_STR,$/;"	e	enum:__anon7
+MTYPE_ATTR	lib/memory.h	/^  MTYPE_ATTR,$/;"	e	enum:__anon7
+MTYPE_BGP	lib/memory.h	/^  MTYPE_BGP,$/;"	e	enum:__anon7
+MTYPE_BGP_ADJ_IN	lib/memory.h	/^  MTYPE_BGP_ADJ_IN,$/;"	e	enum:__anon7
+MTYPE_BGP_ADJ_OUT	lib/memory.h	/^  MTYPE_BGP_ADJ_OUT,$/;"	e	enum:__anon7
+MTYPE_BGP_ADVERTISE	lib/memory.h	/^  MTYPE_BGP_ADVERTISE,$/;"	e	enum:__anon7
+MTYPE_BGP_ADVERTISE_ATTR	lib/memory.h	/^  MTYPE_BGP_ADVERTISE_ATTR,$/;"	e	enum:__anon7
+MTYPE_BGP_AGGREGATE	lib/memory.h	/^  MTYPE_BGP_AGGREGATE,$/;"	e	enum:__anon7
+MTYPE_BGP_ANNOUNCE	lib/memory.h	/^  MTYPE_BGP_ANNOUNCE,$/;"	e	enum:__anon7
+MTYPE_BGP_ATTR_QUEUE	lib/memory.h	/^  MTYPE_BGP_ATTR_QUEUE,$/;"	e	enum:__anon7
+MTYPE_BGP_CONFED_LIST	lib/memory.h	/^  MTYPE_BGP_CONFED_LIST,$/;"	e	enum:__anon7
+MTYPE_BGP_DAMP_ARRAY	lib/memory.h	/^  MTYPE_BGP_DAMP_ARRAY,$/;"	e	enum:__anon7
+MTYPE_BGP_DAMP_INFO	lib/memory.h	/^  MTYPE_BGP_DAMP_INFO,$/;"	e	enum:__anon7
+MTYPE_BGP_DISTANCE	lib/memory.h	/^  MTYPE_BGP_DISTANCE,$/;"	e	enum:__anon7
+MTYPE_BGP_NEXTHOP_CACHE	lib/memory.h	/^  MTYPE_BGP_NEXTHOP_CACHE,$/;"	e	enum:__anon7
+MTYPE_BGP_NODE	lib/memory.h	/^  MTYPE_BGP_NODE,$/;"	e	enum:__anon7
+MTYPE_BGP_PEER	lib/memory.h	/^  MTYPE_BGP_PEER,$/;"	e	enum:__anon7
+MTYPE_BGP_REGEXP	lib/memory.h	/^  MTYPE_BGP_REGEXP,$/;"	e	enum:__anon7
+MTYPE_BGP_ROUTE	lib/memory.h	/^  MTYPE_BGP_ROUTE,$/;"	e	enum:__anon7
+MTYPE_BGP_ROUTE_QUEUE	lib/memory.h	/^  MTYPE_BGP_ROUTE_QUEUE,$/;"	e	enum:__anon7
+MTYPE_BGP_STATIC	lib/memory.h	/^  MTYPE_BGP_STATIC,$/;"	e	enum:__anon7
+MTYPE_BGP_TABLE	lib/memory.h	/^  MTYPE_BGP_TABLE,$/;"	e	enum:__anon7
+MTYPE_BUFFER	lib/memory.h	/^  MTYPE_BUFFER,$/;"	e	enum:__anon7
+MTYPE_BUFFER_DATA	lib/memory.h	/^  MTYPE_BUFFER_DATA,$/;"	e	enum:__anon7
+MTYPE_CLUSTER	lib/memory.h	/^  MTYPE_CLUSTER,$/;"	e	enum:__anon7
+MTYPE_CLUSTER_VAL	lib/memory.h	/^  MTYPE_CLUSTER_VAL,$/;"	e	enum:__anon7
+MTYPE_COMMUNITY	lib/memory.h	/^  MTYPE_COMMUNITY,$/;"	e	enum:__anon7
+MTYPE_COMMUNITY_LIST	lib/memory.h	/^  MTYPE_COMMUNITY_LIST,$/;"	e	enum:__anon7
+MTYPE_COMMUNITY_LIST_CONFIG	lib/memory.h	/^  MTYPE_COMMUNITY_LIST_CONFIG,$/;"	e	enum:__anon7
+MTYPE_COMMUNITY_LIST_ENTRY	lib/memory.h	/^  MTYPE_COMMUNITY_LIST_ENTRY,$/;"	e	enum:__anon7
+MTYPE_COMMUNITY_LIST_HANDLER	lib/memory.h	/^  MTYPE_COMMUNITY_LIST_HANDLER,$/;"	e	enum:__anon7
+MTYPE_COMMUNITY_LIST_NAME	lib/memory.h	/^  MTYPE_COMMUNITY_LIST_NAME,$/;"	e	enum:__anon7
+MTYPE_COMMUNITY_STR	lib/memory.h	/^  MTYPE_COMMUNITY_STR,$/;"	e	enum:__anon7
+MTYPE_COMMUNITY_VAL	lib/memory.h	/^  MTYPE_COMMUNITY_VAL,$/;"	e	enum:__anon7
+MTYPE_CONNECTED	lib/memory.h	/^  MTYPE_CONNECTED,$/;"	e	enum:__anon7
+MTYPE_DESC	lib/memory.h	/^  MTYPE_DESC,$/;"	e	enum:__anon7
+MTYPE_DISTRIBUTE	lib/memory.h	/^  MTYPE_DISTRIBUTE,$/;"	e	enum:__anon7
+MTYPE_ECOMMUNITY	lib/memory.h	/^  MTYPE_ECOMMUNITY,$/;"	e	enum:__anon7
+MTYPE_ECOMMUNITY_STR	lib/memory.h	/^  MTYPE_ECOMMUNITY_STR,$/;"	e	enum:__anon7
+MTYPE_ECOMMUNITY_VAL	lib/memory.h	/^  MTYPE_ECOMMUNITY_VAL,$/;"	e	enum:__anon7
+MTYPE_HASH	lib/memory.h	/^  MTYPE_HASH,$/;"	e	enum:__anon7
+MTYPE_HASH_BACKET	lib/memory.h	/^  MTYPE_HASH_BACKET,$/;"	e	enum:__anon7
+MTYPE_HASH_INDEX	lib/memory.h	/^  MTYPE_HASH_INDEX,$/;"	e	enum:__anon7
+MTYPE_IF	lib/memory.h	/^  MTYPE_IF,$/;"	e	enum:__anon7
+MTYPE_IF_IRDP	lib/memory.h	/^  MTYPE_IF_IRDP,$/;"	e	enum:__anon7
+MTYPE_IF_RMAP	lib/memory.h	/^  MTYPE_IF_RMAP,$/;"	e	enum:__anon7
+MTYPE_KEY	lib/memory.h	/^  MTYPE_KEY,$/;"	e	enum:__anon7
+MTYPE_KEYCHAIN	lib/memory.h	/^  MTYPE_KEYCHAIN,$/;"	e	enum:__anon7
+MTYPE_LINK_LIST	lib/memory.h	/^  MTYPE_LINK_LIST,$/;"	e	enum:__anon7
+MTYPE_LINK_NODE	lib/memory.h	/^  MTYPE_LINK_NODE,$/;"	e	enum:__anon7
+MTYPE_MAX	lib/memory.h	/^  MTYPE_MAX$/;"	e	enum:__anon7
+MTYPE_NEXTHOP	lib/memory.h	/^  MTYPE_NEXTHOP,$/;"	e	enum:__anon7
+MTYPE_OSPF6_AREA	lib/memory.h	/^  MTYPE_OSPF6_AREA,$/;"	e	enum:__anon7
+MTYPE_OSPF6_EXTERNAL_INFO	lib/memory.h	/^  MTYPE_OSPF6_EXTERNAL_INFO,$/;"	e	enum:__anon7
+MTYPE_OSPF6_IF	lib/memory.h	/^  MTYPE_OSPF6_IF,$/;"	e	enum:__anon7
+MTYPE_OSPF6_LSA	lib/memory.h	/^  MTYPE_OSPF6_LSA,$/;"	e	enum:__anon7
+MTYPE_OSPF6_LSA_SUMMARY	lib/memory.h	/^  MTYPE_OSPF6_LSA_SUMMARY,$/;"	e	enum:__anon7
+MTYPE_OSPF6_LSDB	lib/memory.h	/^  MTYPE_OSPF6_LSDB,$/;"	e	enum:__anon7
+MTYPE_OSPF6_MESSAGE	lib/memory.h	/^  MTYPE_OSPF6_MESSAGE,$/;"	e	enum:__anon7
+MTYPE_OSPF6_NEIGHBOR	lib/memory.h	/^  MTYPE_OSPF6_NEIGHBOR,$/;"	e	enum:__anon7
+MTYPE_OSPF6_NEXTHOP	lib/memory.h	/^  MTYPE_OSPF6_NEXTHOP,$/;"	e	enum:__anon7
+MTYPE_OSPF6_OTHER	lib/memory.h	/^  MTYPE_OSPF6_OTHER,$/;"	e	enum:__anon7
+MTYPE_OSPF6_PREFIX	lib/memory.h	/^  MTYPE_OSPF6_PREFIX,$/;"	e	enum:__anon7
+MTYPE_OSPF6_ROUTE	lib/memory.h	/^  MTYPE_OSPF6_ROUTE,$/;"	e	enum:__anon7
+MTYPE_OSPF6_SPFTREE	lib/memory.h	/^  MTYPE_OSPF6_SPFTREE,$/;"	e	enum:__anon7
+MTYPE_OSPF6_TOP	lib/memory.h	/^  MTYPE_OSPF6_TOP,$/;"	e	enum:__anon7
+MTYPE_OSPF6_VERTEX	lib/memory.h	/^  MTYPE_OSPF6_VERTEX,$/;"	e	enum:__anon7
+MTYPE_OSPF_AREA	lib/memory.h	/^  MTYPE_OSPF_AREA,$/;"	e	enum:__anon7
+MTYPE_OSPF_AREA_RANGE	lib/memory.h	/^  MTYPE_OSPF_AREA_RANGE,$/;"	e	enum:__anon7
+MTYPE_OSPF_CRYPT_KEY	lib/memory.h	/^  MTYPE_OSPF_CRYPT_KEY,$/;"	e	enum:__anon7
+MTYPE_OSPF_DISTANCE	lib/memory.h	/^  MTYPE_OSPF_DISTANCE,$/;"	e	enum:__anon7
+MTYPE_OSPF_EXTERNAL_INFO	lib/memory.h	/^  MTYPE_OSPF_EXTERNAL_INFO,$/;"	e	enum:__anon7
+MTYPE_OSPF_FIFO	lib/memory.h	/^  MTYPE_OSPF_FIFO,$/;"	e	enum:__anon7
+MTYPE_OSPF_IF	lib/memory.h	/^  MTYPE_OSPF_IF,$/;"	e	enum:__anon7
+MTYPE_OSPF_IF_INFO	lib/memory.h	/^  MTYPE_OSPF_IF_INFO,$/;"	e	enum:__anon7
+MTYPE_OSPF_IF_PARAMS	lib/memory.h	/^  MTYPE_OSPF_IF_PARAMS,$/;"	e	enum:__anon7
+MTYPE_OSPF_LSA	lib/memory.h	/^  MTYPE_OSPF_LSA,$/;"	e	enum:__anon7
+MTYPE_OSPF_LSA_DATA	lib/memory.h	/^  MTYPE_OSPF_LSA_DATA,$/;"	e	enum:__anon7
+MTYPE_OSPF_LSDB	lib/memory.h	/^  MTYPE_OSPF_LSDB,$/;"	e	enum:__anon7
+MTYPE_OSPF_MESSAGE	lib/memory.h	/^  MTYPE_OSPF_MESSAGE,$/;"	e	enum:__anon7
+MTYPE_OSPF_NEIGHBOR	lib/memory.h	/^  MTYPE_OSPF_NEIGHBOR,$/;"	e	enum:__anon7
+MTYPE_OSPF_NEIGHBOR_STATIC	lib/memory.h	/^  MTYPE_OSPF_NEIGHBOR_STATIC,$/;"	e	enum:__anon7
+MTYPE_OSPF_NETWORK	lib/memory.h	/^  MTYPE_OSPF_NETWORK,$/;"	e	enum:__anon7
+MTYPE_OSPF_NEXTHOP	lib/memory.h	/^  MTYPE_OSPF_NEXTHOP,$/;"	e	enum:__anon7
+MTYPE_OSPF_PACKET	lib/memory.h	/^  MTYPE_OSPF_PACKET,$/;"	e	enum:__anon7
+MTYPE_OSPF_PATH	lib/memory.h	/^  MTYPE_OSPF_PATH,$/;"	e	enum:__anon7
+MTYPE_OSPF_ROUTE	lib/memory.h	/^  MTYPE_OSPF_ROUTE,$/;"	e	enum:__anon7
+MTYPE_OSPF_TMP	lib/memory.h	/^  MTYPE_OSPF_TMP,$/;"	e	enum:__anon7
+MTYPE_OSPF_TOP	lib/memory.h	/^  MTYPE_OSPF_TOP,$/;"	e	enum:__anon7
+MTYPE_OSPF_VERTEX	lib/memory.h	/^  MTYPE_OSPF_VERTEX,$/;"	e	enum:__anon7
+MTYPE_OSPF_VL_DATA	lib/memory.h	/^  MTYPE_OSPF_VL_DATA,$/;"	e	enum:__anon7
+MTYPE_PEER_DESC	lib/memory.h	/^  MTYPE_PEER_DESC,$/;"	e	enum:__anon7
+MTYPE_PEER_GROUP	lib/memory.h	/^  MTYPE_PEER_GROUP,$/;"	e	enum:__anon7
+MTYPE_PEER_UPDATE_SOURCE	lib/memory.h	/^  MTYPE_PEER_UPDATE_SOURCE,$/;"	e	enum:__anon7
+MTYPE_PREFIX	lib/memory.h	/^  MTYPE_PREFIX,$/;"	e	enum:__anon7
+MTYPE_PREFIX_IPV4	lib/memory.h	/^  MTYPE_PREFIX_IPV4,$/;"	e	enum:__anon7
+MTYPE_PREFIX_IPV6	lib/memory.h	/^  MTYPE_PREFIX_IPV6,$/;"	e	enum:__anon7
+MTYPE_PREFIX_LIST	lib/memory.h	/^  MTYPE_PREFIX_LIST,$/;"	e	enum:__anon7
+MTYPE_PREFIX_LIST_ENTRY	lib/memory.h	/^  MTYPE_PREFIX_LIST_ENTRY,$/;"	e	enum:__anon7
+MTYPE_PREFIX_LIST_STR	lib/memory.h	/^  MTYPE_PREFIX_LIST_STR,$/;"	e	enum:__anon7
+MTYPE_RIB	lib/memory.h	/^  MTYPE_RIB,$/;"	e	enum:__anon7
+MTYPE_RIP	lib/memory.h	/^  MTYPE_RIP,$/;"	e	enum:__anon7
+MTYPE_RIPNG_AGGREGATE	lib/memory.h	/^  MTYPE_RIPNG_AGGREGATE,$/;"	e	enum:__anon7
+MTYPE_RIPNG_ROUTE	lib/memory.h	/^  MTYPE_RIPNG_ROUTE,$/;"	e	enum:__anon7
+MTYPE_RIP_DISTANCE	lib/memory.h	/^  MTYPE_RIP_DISTANCE,$/;"	e	enum:__anon7
+MTYPE_RIP_INFO	lib/memory.h	/^  MTYPE_RIP_INFO,$/;"	e	enum:__anon7
+MTYPE_RIP_INTERFACE	lib/memory.h	/^  MTYPE_RIP_INTERFACE,$/;"	e	enum:__anon7
+MTYPE_RIP_OFFSET_LIST	lib/memory.h	/^  MTYPE_RIP_OFFSET_LIST,$/;"	e	enum:__anon7
+MTYPE_RIP_PEER	lib/memory.h	/^  MTYPE_RIP_PEER,$/;"	e	enum:__anon7
+MTYPE_ROUTE_MAP	lib/memory.h	/^  MTYPE_ROUTE_MAP,$/;"	e	enum:__anon7
+MTYPE_ROUTE_MAP_COMPILED	lib/memory.h	/^  MTYPE_ROUTE_MAP_COMPILED,$/;"	e	enum:__anon7
+MTYPE_ROUTE_MAP_INDEX	lib/memory.h	/^  MTYPE_ROUTE_MAP_INDEX,$/;"	e	enum:__anon7
+MTYPE_ROUTE_MAP_NAME	lib/memory.h	/^  MTYPE_ROUTE_MAP_NAME,$/;"	e	enum:__anon7
+MTYPE_ROUTE_MAP_RULE	lib/memory.h	/^  MTYPE_ROUTE_MAP_RULE,$/;"	e	enum:__anon7
+MTYPE_ROUTE_MAP_RULE_STR	lib/memory.h	/^  MTYPE_ROUTE_MAP_RULE_STR,$/;"	e	enum:__anon7
+MTYPE_ROUTE_NODE	lib/memory.h	/^  MTYPE_ROUTE_NODE,$/;"	e	enum:__anon7
+MTYPE_ROUTE_TABLE	lib/memory.h	/^  MTYPE_ROUTE_TABLE,$/;"	e	enum:__anon7
+MTYPE_RTADV_PREFIX	lib/memory.h	/^  MTYPE_RTADV_PREFIX,$/;"	e	enum:__anon7
+MTYPE_SOCKUNION	lib/memory.h	/^  MTYPE_SOCKUNION,$/;"	e	enum:__anon7
+MTYPE_STATIC_IPV4	lib/memory.h	/^  MTYPE_STATIC_IPV4,$/;"	e	enum:__anon7
+MTYPE_STATIC_IPV6	lib/memory.h	/^  MTYPE_STATIC_IPV6,$/;"	e	enum:__anon7
+MTYPE_STREAM	lib/memory.h	/^  MTYPE_STREAM,$/;"	e	enum:__anon7
+MTYPE_STREAM_DATA	lib/memory.h	/^  MTYPE_STREAM_DATA,$/;"	e	enum:__anon7
+MTYPE_STREAM_FIFO	lib/memory.h	/^  MTYPE_STREAM_FIFO,$/;"	e	enum:__anon7
+MTYPE_STRVEC	lib/memory.h	/^  MTYPE_STRVEC,$/;"	e	enum:__anon7
+MTYPE_THREAD	lib/memory.h	/^  MTYPE_THREAD,$/;"	e	enum:__anon7
+MTYPE_THREAD_MASTER	lib/memory.h	/^  MTYPE_THREAD_MASTER,$/;"	e	enum:__anon7
+MTYPE_TMP	lib/memory.h	/^  MTYPE_TMP = 1,$/;"	e	enum:__anon7
+MTYPE_TRANSIT	lib/memory.h	/^  MTYPE_TRANSIT,$/;"	e	enum:__anon7
+MTYPE_TRANSIT_VAL	lib/memory.h	/^  MTYPE_TRANSIT_VAL,$/;"	e	enum:__anon7
+MTYPE_VECTOR	lib/memory.h	/^  MTYPE_VECTOR,$/;"	e	enum:__anon7
+MTYPE_VECTOR_INDEX	lib/memory.h	/^  MTYPE_VECTOR_INDEX,$/;"	e	enum:__anon7
+MTYPE_VRF	lib/memory.h	/^  MTYPE_VRF,$/;"	e	enum:__anon7
+MTYPE_VRF_NAME	lib/memory.h	/^  MTYPE_VRF_NAME,$/;"	e	enum:__anon7
+MTYPE_VTY	lib/memory.h	/^  MTYPE_VTY,$/;"	e	enum:__anon7
+MTYPE_VTYSH_CONFIG	lib/memory.h	/^  MTYPE_VTYSH_CONFIG,$/;"	e	enum:__anon7
+MTYPE_VTYSH_CONFIG_LINE	lib/memory.h	/^  MTYPE_VTYSH_CONFIG_LINE,$/;"	e	enum:__anon7
+MTYPE_VTY_HIST	lib/memory.h	/^  MTYPE_VTY_HIST,$/;"	e	enum:__anon7
+MTYPE_VTY_OUT_BUF	lib/memory.h	/^  MTYPE_VTY_OUT_BUF,$/;"	e	enum:__anon7
+MTYPE_ZCLIENT	lib/memory.h	/^  MTYPE_ZCLIENT,$/;"	e	enum:__anon7
+MTYPE_ZLOG	lib/memory.h	/^  MTYPE_ZLOG,$/;"	e	enum:__anon7
+N0_DEPENDENCE_ERR	utils/pma_err.h	29;"	d
+NETSTREAM_H	netstream.h	3;"	d
+NM	Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NM	comm/Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NM	lib/Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NM	utils/Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NMEDIT	Makefile	/^NMEDIT = $/;"	m
+NMEDIT	comm/Makefile	/^NMEDIT = $/;"	m
+NMEDIT	lib/Makefile	/^NMEDIT = $/;"	m
+NMEDIT	utils/Makefile	/^NMEDIT = $/;"	m
+NORMAL_INSTALL	Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	comm/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	lib/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	utils/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	comm/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	lib/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	utils/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NOT_FOUND_ERR	utils/pma_err.h	27;"	d
+NO_BLOCKED	comm/comm_lite.h	7;"	d
+NO_ERR	utils/pma_err.h	25;"	d
+NO_MEM_ERR	utils/pma_err.h	26;"	d
+NUMBERIC	confparser.h	6;"	d
+NetFlow	netstream.h	/^typedef struct NetFlow{$/;"	s
+NetFlow	netstream.h	/^} NetFlow;$/;"	t	typeref:struct:NetFlow
+NetFlow::byte_count	netstream.h	/^	u32 byte_count;$/;"	m	struct:NetFlow	access:public
+NetFlow::dasid	netstream.h	/^	u16 dasid;$/;"	m	struct:NetFlow	access:public
+NetFlow::dip	netstream.h	/^	u32 dip;$/;"	m	struct:NetFlow	access:public
+NetFlow::dmask	netstream.h	/^	u8 dmask;$/;"	m	struct:NetFlow	access:public
+NetFlow::dport	netstream.h	/^	u16 dport;$/;"	m	struct:NetFlow	access:public
+NetFlow::in_ifdex	netstream.h	/^	u16 in_ifdex;$/;"	m	struct:NetFlow	access:public
+NetFlow::layer4	netstream.h	/^	u8 layer4;$/;"	m	struct:NetFlow	access:public
+NetFlow::nexthop	netstream.h	/^	u32 nexthop;$/;"	m	struct:NetFlow	access:public
+NetFlow::out_ifdex	netstream.h	/^	u16 out_ifdex;$/;"	m	struct:NetFlow	access:public
+NetFlow::packet_count	netstream.h	/^	u32 packet_count;$/;"	m	struct:NetFlow	access:public
+NetFlow::pad	netstream.h	/^	u8 pad;$/;"	m	struct:NetFlow	access:public
+NetFlow::pad2	netstream.h	/^	u16 pad2;$/;"	m	struct:NetFlow	access:public
+NetFlow::sasid	netstream.h	/^	u16 sasid;$/;"	m	struct:NetFlow	access:public
+NetFlow::sip	netstream.h	/^	u32 sip;$/;"	m	struct:NetFlow	access:public
+NetFlow::smask	netstream.h	/^	u8 smask;$/;"	m	struct:NetFlow	access:public
+NetFlow::sport	netstream.h	/^	u16 sport;$/;"	m	struct:NetFlow	access:public
+NetFlow::tcpflag	netstream.h	/^	u8 tcpflag;$/;"	m	struct:NetFlow	access:public
+NetFlow::time_at_end	netstream.h	/^	u32 time_at_end;$/;"	m	struct:NetFlow	access:public
+NetFlow::time_at_start	netstream.h	/^	u32 time_at_start;$/;"	m	struct:NetFlow	access:public
+NetFlow::tos	netstream.h	/^	u8 tos;$/;"	m	struct:NetFlow	access:public
+OBJDUMP	Makefile	/^OBJDUMP = objdump$/;"	m
+OBJDUMP	comm/Makefile	/^OBJDUMP = objdump$/;"	m
+OBJDUMP	lib/Makefile	/^OBJDUMP = objdump$/;"	m
+OBJDUMP	utils/Makefile	/^OBJDUMP = objdump$/;"	m
+OBJEXT	Makefile	/^OBJEXT = o$/;"	m
+OBJEXT	comm/Makefile	/^OBJEXT = o$/;"	m
+OBJEXT	lib/Makefile	/^OBJEXT = o$/;"	m
+OBJEXT	utils/Makefile	/^OBJEXT = o$/;"	m
+OSPF_VERSION	config.h	110;"	d
+OTOOL	Makefile	/^OTOOL = $/;"	m
+OTOOL	comm/Makefile	/^OTOOL = $/;"	m
+OTOOL	lib/Makefile	/^OTOOL = $/;"	m
+OTOOL	utils/Makefile	/^OTOOL = $/;"	m
+OTOOL64	Makefile	/^OTOOL64 = $/;"	m
+OTOOL64	comm/Makefile	/^OTOOL64 = $/;"	m
+OTOOL64	lib/Makefile	/^OTOOL64 = $/;"	m
+OTOOL64	utils/Makefile	/^OTOOL64 = $/;"	m
+OpenBSD_IP_LEN	lib/zebra.h	212;"	d
+PACKAGE	Makefile	/^PACKAGE = full-package-name$/;"	m
+PACKAGE	comm/Makefile	/^PACKAGE = full-package-name$/;"	m
+PACKAGE	config.h	113;"	d
+PACKAGE	lib/Makefile	/^PACKAGE = full-package-name$/;"	m
+PACKAGE	utils/Makefile	/^PACKAGE = full-package-name$/;"	m
+PACKAGE_BUGREPORT	Makefile	/^PACKAGE_BUGREPORT = BUG-REPORT-ADDRESS$/;"	m
+PACKAGE_BUGREPORT	comm/Makefile	/^PACKAGE_BUGREPORT = BUG-REPORT-ADDRESS$/;"	m
+PACKAGE_BUGREPORT	config.h	116;"	d
+PACKAGE_BUGREPORT	lib/Makefile	/^PACKAGE_BUGREPORT = BUG-REPORT-ADDRESS$/;"	m
+PACKAGE_BUGREPORT	utils/Makefile	/^PACKAGE_BUGREPORT = BUG-REPORT-ADDRESS$/;"	m
+PACKAGE_NAME	Makefile	/^PACKAGE_NAME = FULL-PACKAGE-NAME$/;"	m
+PACKAGE_NAME	comm/Makefile	/^PACKAGE_NAME = FULL-PACKAGE-NAME$/;"	m
+PACKAGE_NAME	config.h	119;"	d
+PACKAGE_NAME	lib/Makefile	/^PACKAGE_NAME = FULL-PACKAGE-NAME$/;"	m
+PACKAGE_NAME	utils/Makefile	/^PACKAGE_NAME = FULL-PACKAGE-NAME$/;"	m
+PACKAGE_STRING	Makefile	/^PACKAGE_STRING = FULL-PACKAGE-NAME VERSION$/;"	m
+PACKAGE_STRING	comm/Makefile	/^PACKAGE_STRING = FULL-PACKAGE-NAME VERSION$/;"	m
+PACKAGE_STRING	config.h	122;"	d
+PACKAGE_STRING	lib/Makefile	/^PACKAGE_STRING = FULL-PACKAGE-NAME VERSION$/;"	m
+PACKAGE_STRING	utils/Makefile	/^PACKAGE_STRING = FULL-PACKAGE-NAME VERSION$/;"	m
+PACKAGE_TARNAME	Makefile	/^PACKAGE_TARNAME = full-package-name$/;"	m
+PACKAGE_TARNAME	comm/Makefile	/^PACKAGE_TARNAME = full-package-name$/;"	m
+PACKAGE_TARNAME	config.h	125;"	d
+PACKAGE_TARNAME	lib/Makefile	/^PACKAGE_TARNAME = full-package-name$/;"	m
+PACKAGE_TARNAME	utils/Makefile	/^PACKAGE_TARNAME = full-package-name$/;"	m
+PACKAGE_URL	Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_URL	comm/Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_URL	config.h	128;"	d
+PACKAGE_URL	lib/Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_URL	utils/Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_VERSION	Makefile	/^PACKAGE_VERSION = VERSION$/;"	m
+PACKAGE_VERSION	comm/Makefile	/^PACKAGE_VERSION = VERSION$/;"	m
+PACKAGE_VERSION	config.h	131;"	d
+PACKAGE_VERSION	lib/Makefile	/^PACKAGE_VERSION = VERSION$/;"	m
+PACKAGE_VERSION	utils/Makefile	/^PACKAGE_VERSION = VERSION$/;"	m
+PATH_SEPARATOR	Makefile	/^PATH_SEPARATOR = :$/;"	m
+PATH_SEPARATOR	comm/Makefile	/^PATH_SEPARATOR = :$/;"	m
+PATH_SEPARATOR	lib/Makefile	/^PATH_SEPARATOR = :$/;"	m
+PATH_SEPARATOR	utils/Makefile	/^PATH_SEPARATOR = :$/;"	m
+PMA_ERR_H	utils/pma_err.h	2;"	d
+PMA_UTILS_H	utils/utils.h	2;"	d
+PNBBY	lib/prefix.c	37;"	d	file:
+POST_INSTALL	Makefile	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	comm/Makefile	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	lib/Makefile	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	utils/Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	Makefile	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	comm/Makefile	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	lib/Makefile	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	utils/Makefile	/^POST_UNINSTALL = :$/;"	m
+PREFIX_FAMILY	lib/prefix.h	115;"	d
+PRE_INSTALL	Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	comm/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	lib/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	utils/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	comm/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	lib/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	utils/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRINTF_ATTRIBUTE	lib/log.h	87;"	d
+PRINTF_ATTRIBUTE	lib/log.h	89;"	d
+PRINTTIME	utils/utils.c	/^char* PRINTTIME(struct timeval timeinfo){$/;"	f	signature:(struct timeval timeinfo)
+PRINTTIME	utils/utils.h	/^char* PRINTTIME(struct timeval timeinfo);$/;"	p	signature:(struct timeval timeinfo)
+PROGRAMS	Makefile	/^PROGRAMS = $(bin_PROGRAMS)$/;"	m
+PSIZE	lib/prefix.h	112;"	d
+PTR_ERR	utils/pma_err.h	23;"	d
+Pool	lib/thread_pool.h	/^typedef struct Pool{$/;"	s
+Pool	lib/thread_pool.h	/^}Pool,*Poolp;$/;"	t	typeref:struct:Pool
+Pool::cond	lib/thread_pool.h	/^	pthread_cond_t cond;$/;"	m	struct:Pool	access:public
+Pool::mtx	lib/thread_pool.h	/^	pthread_mutex_t mtx;$/;"	m	struct:Pool	access:public
+Pool::pqueue	lib/thread_pool.h	/^	pthread_t *pqueue;$/;"	m	struct:Pool	access:public
+Pool::shutdown	lib/thread_pool.h	/^	int shutdown;\/\/ destory the pool$/;"	m	struct:Pool	access:public
+Pool::size	lib/thread_pool.h	/^	int size;$/;"	m	struct:Pool	access:public
+Pool::status	lib/thread_pool.h	/^	int status;\/\/ 0 init  1 usable$/;"	m	struct:Pool	access:public
+Pool::tail	lib/thread_pool.h	/^	Task *tail;$/;"	m	struct:Pool	access:public
+Pool::taskqueue	lib/thread_pool.h	/^	Task *taskqueue;$/;"	m	struct:Pool	access:public
+Poolp	lib/thread_pool.h	/^}Pool,*Poolp;$/;"	t	typeref:struct:Pool
+RANLIB	Makefile	/^RANLIB = ranlib$/;"	m
+RANLIB	comm/Makefile	/^RANLIB = ranlib$/;"	m
+RANLIB	lib/Makefile	/^RANLIB = ranlib$/;"	m
+RANLIB	utils/Makefile	/^RANLIB = ranlib$/;"	m
+RECURSIVE_CLEAN_TARGETS	Makefile	/^RECURSIVE_CLEAN_TARGETS = mostlyclean-recursive clean-recursive	\\$/;"	m
+RECURSIVE_TARGETS	Makefile	/^RECURSIVE_TARGETS = all-recursive check-recursive cscopelist-recursive \\$/;"	m
+RESERVE_SIZE	lib/shmem.h	11;"	d
+RT_TABLE_MAIN	lib/zebra.h	135;"	d
+RUSAGE_T	lib/thread.h	26;"	d
+RUSAGE_T	lib/thread.h	29;"	d
+SAFI_MAX	lib/zebra.h	300;"	d
+SAFI_MPLS_VPN	lib/zebra.h	299;"	d
+SAFI_MULTICAST	lib/zebra.h	297;"	d
+SAFI_UNICAST	lib/zebra.h	296;"	d
+SAFI_UNICAST_MULTICAST	lib/zebra.h	298;"	d
+SED	Makefile	/^SED = \/usr\/bin\/sed$/;"	m
+SED	comm/Makefile	/^SED = \/usr\/bin\/sed$/;"	m
+SED	lib/Makefile	/^SED = \/usr\/bin\/sed$/;"	m
+SED	utils/Makefile	/^SED = \/usr\/bin\/sed$/;"	m
+SEMPH_H_	lib/semph.h	2;"	d
+SERIOUS_ERR	utils/pma_err.h	36;"	d
+SET_FLAG	lib/zebra.h	320;"	d
+SET_LINK	lib/table.c	188;"	d	file:
+SET_MAKE	Makefile	/^SET_MAKE = $/;"	m
+SET_MAKE	comm/Makefile	/^SET_MAKE = $/;"	m
+SET_MAKE	lib/Makefile	/^SET_MAKE = $/;"	m
+SET_MAKE	utils/Makefile	/^SET_MAKE = $/;"	m
+SHELL	Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	comm/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	lib/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	utils/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHMEM_H_	lib/shmem.h	2;"	d
+SLEEP	utils/utils.h	150;"	d
+SOURCES	Makefile	/^SOURCES = $(netstream_SOURCES)$/;"	m
+SOURCES	comm/Makefile	/^SOURCES = $(libcommlite_a_SOURCES) $(libudplite_a_SOURCES)$/;"	m
+SOURCES	lib/Makefile	/^SOURCES = $(libmytools_a_SOURCES)$/;"	m
+SOURCES	utils/Makefile	/^SOURCES = $(libutils_a_SOURCES)$/;"	m
+STDC_HEADERS	config.h	134;"	d
+STRING	confparser.h	5;"	d
+STRIP	Makefile	/^STRIP = strip$/;"	m
+STRIP	comm/Makefile	/^STRIP = strip$/;"	m
+STRIP	lib/Makefile	/^STRIP = strip$/;"	m
+STRIP	utils/Makefile	/^STRIP = strip$/;"	m
+SUBDIRS	Makefile	/^SUBDIRS = comm utils lib$/;"	m
+SUCCESS	utils/pma_err.h	4;"	d
+Section	confparser.h	/^typedef struct Section{$/;"	s
+Section	confparser.h	/^} Section;$/;"	t	typeref:struct:Section
+Section::count	confparser.h	/^	int count;$/;"	m	struct:Section	access:public
+Section::items	confparser.h	/^	Item *items;$/;"	m	struct:Section	access:public
+Section::name	confparser.h	/^	char name[100];$/;"	m	struct:Section	access:public
+Section::next	confparser.h	/^	Section *next;$/;"	m	struct:Section	access:public
+StreamHeader	netstream.h	/^typedef struct StreamHeader {$/;"	s
+StreamHeader::count	netstream.h	/^	u16 count;$/;"	m	struct:StreamHeader	access:public
+StreamHeader::engine_id	netstream.h	/^	u8 engine_id;$/;"	m	struct:StreamHeader	access:public
+StreamHeader::engine_type	netstream.h	/^	u8 engine_type;$/;"	m	struct:StreamHeader	access:public
+StreamHeader::flow_sequence	netstream.h	/^	u32 flow_sequence;$/;"	m	struct:StreamHeader	access:public
+StreamHeader::sample_interval	netstream.h	/^	u16 sample_interval;$/;"	m	struct:StreamHeader	access:public
+StreamHeader::unix_nsecs	netstream.h	/^	u32 unix_nsecs;$/;"	m	struct:StreamHeader	access:public
+StreamHeader::unix_secs	netstream.h	/^	u32 unix_secs;$/;"	m	struct:StreamHeader	access:public
+StreamHeader::uptime	netstream.h	/^	u32 uptime;$/;"	m	struct:StreamHeader	access:public
+StreamHeader::version	netstream.h	/^	u16 version;$/;"	m	struct:StreamHeader	access:public
+THREAD_ARG	lib/thread.h	85;"	d
+THREAD_EVENT	lib/thread.h	77;"	d
+THREAD_FD	lib/thread.h	86;"	d
+THREAD_OFF	lib/thread.h	107;"	d
+THREAD_READ	lib/thread.h	74;"	d
+THREAD_READY	lib/thread.h	78;"	d
+THREAD_READ_OFF	lib/thread.h	116;"	d
+THREAD_READ_ON	lib/thread.h	89;"	d
+THREAD_TIMER	lib/thread.h	76;"	d
+THREAD_TIMER_OFF	lib/thread.h	118;"	d
+THREAD_TIMER_ON	lib/thread.h	101;"	d
+THREAD_UNUSED	lib/thread.h	79;"	d
+THREAD_VAL	lib/thread.h	87;"	d
+THREAD_WRITE	lib/thread.h	75;"	d
+THREAD_WRITE_OFF	lib/thread.h	117;"	d
+THREAD_WRITE_ON	lib/thread.h	95;"	d
+THREAD_YIELD_TIME_SLOT	lib/thread.h	82;"	d
+TIMER_SECOND_MICRO	lib/thread.c	31;"	d	file:
+TIME_BUF	lib/log.c	60;"	d	file:
+TRUE	utils/common.h	44;"	d
+TRUE	utils/list.h	3;"	d
+Task	lib/thread_pool.h	/^typedef struct Task{$/;"	s
+Task	lib/thread_pool.h	/^}Task,*Taskp;$/;"	t	typeref:struct:Task
+Task::args	lib/thread_pool.h	/^	void *args;$/;"	m	struct:Task	access:public
+Task::next	lib/thread_pool.h	/^	struct Task *next;$/;"	m	struct:Task	typeref:struct:Task::Task	access:public
+Task::runner	lib/thread_pool.h	/^	func runner;$/;"	m	struct:Task	access:public
+Taskp	lib/thread_pool.h	/^}Task,*Taskp;$/;"	t	typeref:struct:Task
+UDP_LITE_H	comm/udp_lite.h	3;"	d
+UNSET_FLAG	lib/zebra.h	321;"	d
+USING	utils/utils.h	10;"	d
+VECTOR_MIN_SIZE	lib/vector.h	35;"	d
+VERSION	Makefile	/^VERSION = VERSION$/;"	m
+VERSION	comm/Makefile	/^VERSION = VERSION$/;"	m
+VERSION	config.h	137;"	d
+VERSION	lib/Makefile	/^VERSION = VERSION$/;"	m
+VERSION	utils/Makefile	/^VERSION = VERSION$/;"	m
+WR_FROMAT_ERR	utils/pma_err.h	30;"	d
+XCALLOC	lib/memory.h	195;"	d
+XCALLOC	lib/memory.h	205;"	d
+XFREE	lib/memory.h	199;"	d
+XFREE	lib/memory.h	207;"	d
+XMALLOC	lib/memory.h	193;"	d
+XMALLOC	lib/memory.h	204;"	d
+XREALLOC	lib/memory.h	197;"	d
+XREALLOC	lib/memory.h	206;"	d
+XSTRDUP	lib/memory.h	201;"	d
+XSTRDUP	lib/memory.h	208;"	d
+ZEBRA_CONNECT_DISTANCE_DEFAULT	lib/zebra.h	309;"	d
+ZEBRA_EBGP_DISTANCE_DEFAULT	lib/zebra.h	316;"	d
+ZEBRA_ERR_EPERM	lib/zebra.h	263;"	d
+ZEBRA_ERR_RTEXIST	lib/zebra.h	261;"	d
+ZEBRA_ERR_RTNOEXIST	lib/zebra.h	264;"	d
+ZEBRA_ERR_RTUNREACH	lib/zebra.h	262;"	d
+ZEBRA_FAMILY_IPV4	lib/zebra.h	256;"	d
+ZEBRA_FAMILY_IPV6	lib/zebra.h	257;"	d
+ZEBRA_FAMILY_MAX	lib/zebra.h	258;"	d
+ZEBRA_FLAG_BLACKHOLE	lib/zebra.h	269;"	d
+ZEBRA_FLAG_CHANGED	lib/zebra.h	272;"	d
+ZEBRA_FLAG_IBGP	lib/zebra.h	270;"	d
+ZEBRA_FLAG_INTERNAL	lib/zebra.h	267;"	d
+ZEBRA_FLAG_SELECTED	lib/zebra.h	271;"	d
+ZEBRA_FLAG_SELFROUTE	lib/zebra.h	268;"	d
+ZEBRA_FLAG_STATIC	lib/zebra.h	273;"	d
+ZEBRA_IBGP_DISTANCE_DEFAULT	lib/zebra.h	315;"	d
+ZEBRA_IFA_SECONDARY	lib/if.h	144;"	d
+ZEBRA_IFC_CONFIGURED	lib/if.h	140;"	d
+ZEBRA_IFC_REAL	lib/if.h	139;"	d
+ZEBRA_INTERFACE_ACTIVE	lib/if.h	85;"	d
+ZEBRA_INTERFACE_ADD	lib/zebra.h	222;"	d
+ZEBRA_INTERFACE_ADDRESS_ADD	lib/zebra.h	224;"	d
+ZEBRA_INTERFACE_ADDRESS_DELETE	lib/zebra.h	225;"	d
+ZEBRA_INTERFACE_DELETE	lib/zebra.h	223;"	d
+ZEBRA_INTERFACE_DOWN	lib/zebra.h	227;"	d
+ZEBRA_INTERFACE_SUB	lib/if.h	86;"	d
+ZEBRA_INTERFACE_UP	lib/zebra.h	226;"	d
+ZEBRA_IPV4_IMPORT_LOOKUP	lib/zebra.h	238;"	d
+ZEBRA_IPV4_NEXTHOP_LOOKUP	lib/zebra.h	236;"	d
+ZEBRA_IPV4_ROUTE_ADD	lib/zebra.h	228;"	d
+ZEBRA_IPV4_ROUTE_DELETE	lib/zebra.h	229;"	d
+ZEBRA_IPV6_IMPORT_LOOKUP	lib/zebra.h	239;"	d
+ZEBRA_IPV6_NEXTHOP_LOOKUP	lib/zebra.h	237;"	d
+ZEBRA_IPV6_ROUTE_ADD	lib/zebra.h	230;"	d
+ZEBRA_IPV6_ROUTE_DELETE	lib/zebra.h	231;"	d
+ZEBRA_KERNEL_DISTANCE_DEFAULT	lib/zebra.h	308;"	d
+ZEBRA_MESSAGE_MAX	lib/zebra.h	240;"	d
+ZEBRA_NEXTHOP_BLACKHOLE	lib/zebra.h	284;"	d
+ZEBRA_NEXTHOP_IFINDEX	lib/zebra.h	276;"	d
+ZEBRA_NEXTHOP_IFNAME	lib/zebra.h	277;"	d
+ZEBRA_NEXTHOP_IPV4	lib/zebra.h	278;"	d
+ZEBRA_NEXTHOP_IPV4_IFINDEX	lib/zebra.h	279;"	d
+ZEBRA_NEXTHOP_IPV4_IFNAME	lib/zebra.h	280;"	d
+ZEBRA_NEXTHOP_IPV6	lib/zebra.h	281;"	d
+ZEBRA_NEXTHOP_IPV6_IFINDEX	lib/zebra.h	282;"	d
+ZEBRA_NEXTHOP_IPV6_IFNAME	lib/zebra.h	283;"	d
+ZEBRA_OSPF6_DISTANCE_DEFAULT	lib/zebra.h	314;"	d
+ZEBRA_OSPF_DISTANCE_DEFAULT	lib/zebra.h	313;"	d
+ZEBRA_REDISTRIBUTE_ADD	lib/zebra.h	232;"	d
+ZEBRA_REDISTRIBUTE_DEFAULT_ADD	lib/zebra.h	234;"	d
+ZEBRA_REDISTRIBUTE_DEFAULT_DELETE	lib/zebra.h	235;"	d
+ZEBRA_REDISTRIBUTE_DELETE	lib/zebra.h	233;"	d
+ZEBRA_RIPNG_DISTANCE_DEFAULT	lib/zebra.h	312;"	d
+ZEBRA_RIP_DISTANCE_DEFAULT	lib/zebra.h	311;"	d
+ZEBRA_ROUTE_BGP	lib/zebra.h	251;"	d
+ZEBRA_ROUTE_CONNECT	lib/zebra.h	245;"	d
+ZEBRA_ROUTE_CR	lib/zebra.h	252;"	d
+ZEBRA_ROUTE_KERNEL	lib/zebra.h	244;"	d
+ZEBRA_ROUTE_MAX	lib/zebra.h	253;"	d
+ZEBRA_ROUTE_OSPF	lib/zebra.h	249;"	d
+ZEBRA_ROUTE_OSPF6	lib/zebra.h	250;"	d
+ZEBRA_ROUTE_RIP	lib/zebra.h	247;"	d
+ZEBRA_ROUTE_RIPNG	lib/zebra.h	248;"	d
+ZEBRA_ROUTE_STATIC	lib/zebra.h	246;"	d
+ZEBRA_ROUTE_SYSTEM	lib/zebra.h	243;"	d
+ZEBRA_STATIC_DISTANCE_DEFAULT	lib/zebra.h	310;"	d
+ZLOG_BGP	lib/log.h	/^  ZLOG_BGP,$/;"	e	enum:__anon4
+ZLOG_DEFAULT	lib/log.h	/^  ZLOG_DEFAULT,$/;"	e	enum:__anon4
+ZLOG_FILE	lib/log.h	28;"	d
+ZLOG_FILE_INDEX	lib/log.h	34;"	d
+ZLOG_MASC	lib/log.h	/^  ZLOG_MASC$/;"	e	enum:__anon4
+ZLOG_MAX_INDEX	lib/log.h	38;"	d
+ZLOG_NOLOG	lib/log.h	27;"	d
+ZLOG_NOLOG_INDEX	lib/log.h	33;"	d
+ZLOG_NONE	lib/log.h	/^  ZLOG_NONE,$/;"	e	enum:__anon4
+ZLOG_OSPF	lib/log.h	/^  ZLOG_OSPF,$/;"	e	enum:__anon4
+ZLOG_OSPF6	lib/log.h	/^  ZLOG_OSPF6,$/;"	e	enum:__anon4
+ZLOG_RIP	lib/log.h	/^  ZLOG_RIP,$/;"	e	enum:__anon4
+ZLOG_RIPNG	lib/log.h	/^  ZLOG_RIPNG,  $/;"	e	enum:__anon4
+ZLOG_STDERR	lib/log.h	31;"	d
+ZLOG_STDERR_INDEX	lib/log.h	37;"	d
+ZLOG_STDOUT	lib/log.h	30;"	d
+ZLOG_STDOUT_INDEX	lib/log.h	36;"	d
+ZLOG_SYSLOG	lib/log.h	29;"	d
+ZLOG_SYSLOG_INDEX	lib/log.h	35;"	d
+ZLOG_ZEBRA	lib/log.h	/^  ZLOG_ZEBRA,$/;"	e	enum:__anon4
+_PUBLIC_INCLUDE	utils/common.h	2;"	d
+_XPG4_2	lib/zebra.h	31;"	d
+_ZEBRA_H	lib/zebra.h	22;"	d
+_ZEBRA_IF_H	lib/if.h	22;"	d
+_ZEBRA_LINKLIST_H	lib/linklist.h	23;"	d
+_ZEBRA_LOG_H	lib/log.h	23;"	d
+_ZEBRA_MEMORY_H	lib/memory.h	22;"	d
+_ZEBRA_PREFIX_H	lib/prefix.h	23;"	d
+_ZEBRA_TABLE_H	lib/table.h	24;"	d
+_ZEBRA_THREAD_H	lib/thread.h	23;"	d
+_ZEBRA_VECTOR_H	lib/vector.h	24;"	d
+__EXTENSIONS__	lib/zebra.h	32;"	d
+__anon5::alloc	lib/memory.c	/^  unsigned long alloc;$/;"	m	struct:__anon5	file:	access:public
+__anon5::c_calloc	lib/memory.c	/^  unsigned long c_calloc;$/;"	m	struct:__anon5	file:	access:public
+__anon5::c_malloc	lib/memory.c	/^  unsigned long c_malloc;$/;"	m	struct:__anon5	file:	access:public
+__anon5::c_strdup	lib/memory.c	/^  unsigned long c_strdup;$/;"	m	struct:__anon5	file:	access:public
+__anon5::name	lib/memory.c	/^  char *name;$/;"	m	struct:__anon5	file:	access:public
+__anon5::t_calloc	lib/memory.c	/^  unsigned long t_calloc;$/;"	m	struct:__anon5	file:	access:public
+__anon5::t_free	lib/memory.c	/^  unsigned long t_free;$/;"	m	struct:__anon5	file:	access:public
+__anon5::t_malloc	lib/memory.c	/^  unsigned long t_malloc;$/;"	m	struct:__anon5	file:	access:public
+__anon5::t_realloc	lib/memory.c	/^  unsigned long t_realloc;$/;"	m	struct:__anon5	file:	access:public
+__anon6::alloc	lib/memory.c	/^  unsigned long alloc;$/;"	m	struct:__anon6	file:	access:public
+__anon6::name	lib/memory.c	/^  char *name;$/;"	m	struct:__anon6	file:	access:public
+_vector	lib/vector.h	/^struct _vector $/;"	s
+_vector::alloced	lib/vector.h	/^  unsigned int alloced;		\/* number of allocated slot *\/$/;"	m	struct:_vector	access:public
+_vector::index	lib/vector.h	/^  void **index;			\/* index to data *\/$/;"	m	struct:_vector	access:public
+_vector::max	lib/vector.h	/^  unsigned int max;		\/* max number of used slot *\/$/;"	m	struct:_vector	access:public
+abs_builddir	Makefile	/^abs_builddir = \/home\/macro\/workspace\/huawei$/;"	m
+abs_builddir	comm/Makefile	/^abs_builddir = \/home\/macro\/workspace\/huawei\/comm$/;"	m
+abs_builddir	lib/Makefile	/^abs_builddir = \/home\/macro\/workspace\/huawei\/lib$/;"	m
+abs_builddir	utils/Makefile	/^abs_builddir = \/home\/macro\/workspace\/huawei\/utils$/;"	m
+abs_srcdir	Makefile	/^abs_srcdir = \/home\/macro\/workspace\/huawei$/;"	m
+abs_srcdir	comm/Makefile	/^abs_srcdir = \/home\/macro\/workspace\/huawei\/comm$/;"	m
+abs_srcdir	lib/Makefile	/^abs_srcdir = \/home\/macro\/workspace\/huawei\/lib$/;"	m
+abs_srcdir	utils/Makefile	/^abs_srcdir = \/home\/macro\/workspace\/huawei\/utils$/;"	m
+abs_top_builddir	Makefile	/^abs_top_builddir = \/home\/macro\/workspace\/huawei$/;"	m
+abs_top_builddir	comm/Makefile	/^abs_top_builddir = \/home\/macro\/workspace\/huawei$/;"	m
+abs_top_builddir	lib/Makefile	/^abs_top_builddir = \/home\/macro\/workspace\/huawei$/;"	m
+abs_top_builddir	utils/Makefile	/^abs_top_builddir = \/home\/macro\/workspace\/huawei$/;"	m
+abs_top_srcdir	Makefile	/^abs_top_srcdir = \/home\/macro\/workspace\/huawei$/;"	m
+abs_top_srcdir	comm/Makefile	/^abs_top_srcdir = \/home\/macro\/workspace\/huawei$/;"	m
+abs_top_srcdir	lib/Makefile	/^abs_top_srcdir = \/home\/macro\/workspace\/huawei$/;"	m
+abs_top_srcdir	utils/Makefile	/^abs_top_srcdir = \/home\/macro\/workspace\/huawei$/;"	m
+ac_ct_AR	Makefile	/^ac_ct_AR = ar$/;"	m
+ac_ct_AR	comm/Makefile	/^ac_ct_AR = ar$/;"	m
+ac_ct_AR	lib/Makefile	/^ac_ct_AR = ar$/;"	m
+ac_ct_AR	utils/Makefile	/^ac_ct_AR = ar$/;"	m
+ac_ct_CC	Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CC	comm/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CC	lib/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CC	utils/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CXX	Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_ct_CXX	comm/Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_ct_CXX	lib/Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_ct_CXX	utils/Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_ct_DUMPBIN	Makefile	/^ac_ct_DUMPBIN = $/;"	m
+ac_ct_DUMPBIN	comm/Makefile	/^ac_ct_DUMPBIN = $/;"	m
+ac_ct_DUMPBIN	lib/Makefile	/^ac_ct_DUMPBIN = $/;"	m
+ac_ct_DUMPBIN	utils/Makefile	/^ac_ct_DUMPBIN = $/;"	m
+ac_fn_c_check_func	configure	/^ac_fn_c_check_func ()$/;"	f
+ac_fn_c_check_header_compile	configure	/^ac_fn_c_check_header_compile ()$/;"	f
+ac_fn_c_check_header_mongrel	configure	/^ac_fn_c_check_header_mongrel ()$/;"	f
+ac_fn_c_check_type	configure	/^ac_fn_c_check_type ()$/;"	f
+ac_fn_c_try_compile	configure	/^ac_fn_c_try_compile ()$/;"	f
+ac_fn_c_try_cpp	configure	/^ac_fn_c_try_cpp ()$/;"	f
+ac_fn_c_try_link	configure	/^ac_fn_c_try_link ()$/;"	f
+ac_fn_c_try_run	configure	/^ac_fn_c_try_run ()$/;"	f
+ac_fn_cxx_try_compile	configure	/^ac_fn_cxx_try_compile ()$/;"	f
+ac_fn_cxx_try_cpp	configure	/^ac_fn_cxx_try_cpp ()$/;"	f
+ac_fn_cxx_try_link	configure	/^ac_fn_cxx_try_link ()$/;"	f
+add_event_handler	lib/event.c	/^int add_event_handler(struct event_handlers_queue* queue, void* handler)$/;"	f	signature:(struct event_handlers_queue* queue, void* handler)
+add_event_handler	lib/event.h	/^int add_event_handler(struct event_handlers_queue* queue, void* handler);$/;"	p	signature:(struct event_handlers_queue* queue, void* handler)
+add_section	confparser.c	/^int add_section(int conf, const char* section)$/;"	f	signature:(int conf, const char* section)
+add_section	confparser.h	/^int add_section(int conf, const char* section);$/;"	p	signature:(int conf, const char* section)
+add_task_to_pool	lib/thread_pool.c	/^int add_task_to_pool(Pool *pool, func ptr, void *args)$/;"	f	signature:(Pool *pool, func ptr, void *args)
+add_task_to_pool	lib/thread_pool.h	/^int add_task_to_pool(Pool *pool, func ptr, void *args);$/;"	p	signature:(Pool *pool, func ptr, void *args)
+add_value	confparser.c	/^int add_value( int conf, const char* section, const char* item, const char* value)$/;"	f	signature:( int conf, const char* section, const char* item, const char* value)
+add_value	confparser.h	/^int add_value( int conf, const char* section, const char* item, const char* value);$/;"	p	signature:( int conf, const char* section, const char* item, const char* value)
+add_xml_child	utils/xml.c	/^xmlNodePtr add_xml_child( xmlNodePtr node, char *name, char *value )$/;"	f	signature:( xmlNodePtr node, char *name, char *value )
+add_xml_child	utils/xml.h	/^xmlNodePtr add_xml_child( xmlNodePtr node, char *name, char *value );$/;"	p	signature:( xmlNodePtr node, char *name, char *value )
+add_xml_child_prop	utils/xml.c	/^int add_xml_child_prop( xmlNodePtr node, char *name, char *value )$/;"	f	signature:( xmlNodePtr node, char *name, char *value )
+add_xml_child_prop	utils/xml.h	/^int add_xml_child_prop( xmlNodePtr node, char *name, char *value );$/;"	p	signature:( xmlNodePtr node, char *name, char *value )
+address	lib/if.h	/^  struct prefix *address;$/;"	m	struct:connected	typeref:struct:connected::prefix	access:public
+adv_router	lib/prefix.h	/^      struct in_addr adv_router;$/;"	m	struct:prefix::__anon1::__anon2	typeref:struct:prefix::__anon1::__anon2::in_addr	access:public
+adv_router	lib/prefix.h	/^  struct in_addr adv_router;$/;"	m	struct:prefix_ls	typeref:struct:prefix_ls::in_addr	access:public
+afi2family	lib/prefix.c	/^afi2family (int afi)$/;"	f	signature:(int afi)
+afi2family	lib/prefix.h	/^int afi2family (int);$/;"	p	signature:(int)
+afi_t	lib/zebra.h	/^typedef u_int16_t afi_t;$/;"	t
+aggregate	lib/table.h	/^  void *aggregate;$/;"	m	struct:route_node	access:public
+aix_post_process_depfile	depcomp	/^aix_post_process_depfile ()$/;"	f
+all_digit	lib/prefix.c	/^all_digit (char *str)$/;"	f	signature:(char *str)
+all_digit	lib/prefix.h	/^int all_digit (char *);$/;"	p	signature:(char *)
+alloc	lib/memory.c	/^  unsigned long alloc;$/;"	m	struct:__anon5	file:	access:public
+alloc	lib/memory.c	/^  unsigned long alloc;$/;"	m	struct:__anon6	file:	access:public
+alloc	lib/thread.h	/^  unsigned long alloc;$/;"	m	struct:thread_master	access:public
+alloc_dec	lib/memory.c	/^alloc_dec (int type)$/;"	f	signature:(int type)
+alloc_dec	lib/memory.c	/^void alloc_dec (int);$/;"	p	file:	signature:(int)
+alloc_inc	lib/memory.c	/^alloc_inc (int type)$/;"	f	signature:(int type)
+alloc_inc	lib/memory.c	/^void alloc_inc (int);$/;"	p	file:	signature:(int)
+alloced	lib/vector.h	/^  unsigned int alloced;		\/* number of allocated slot *\/$/;"	m	struct:_vector	access:public
+am__CONFIG_DISTCLEAN_FILES	Makefile	/^am__CONFIG_DISTCLEAN_FILES = config.status config.cache config.log \\$/;"	m
+am__aclocal_m4_deps	Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.ac$/;"	m
+am__aclocal_m4_deps	comm/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.ac$/;"	m
+am__aclocal_m4_deps	lib/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.ac$/;"	m
+am__aclocal_m4_deps	utils/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.ac$/;"	m
+am__can_run_installinfo	Makefile	/^am__can_run_installinfo = \\$/;"	m
+am__can_run_installinfo	comm/Makefile	/^am__can_run_installinfo = \\$/;"	m
+am__can_run_installinfo	lib/Makefile	/^am__can_run_installinfo = \\$/;"	m
+am__can_run_installinfo	utils/Makefile	/^am__can_run_installinfo = \\$/;"	m
+am__cd	Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	comm/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	lib/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	utils/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	comm/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	lib/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	utils/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__define_uniq_tagged_files	Makefile	/^am__define_uniq_tagged_files = \\$/;"	m
+am__define_uniq_tagged_files	comm/Makefile	/^am__define_uniq_tagged_files = \\$/;"	m
+am__define_uniq_tagged_files	lib/Makefile	/^am__define_uniq_tagged_files = \\$/;"	m
+am__define_uniq_tagged_files	utils/Makefile	/^am__define_uniq_tagged_files = \\$/;"	m
+am__depfiles_maybe	Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__depfiles_maybe	comm/Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__depfiles_maybe	lib/Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__depfiles_maybe	utils/Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__distuninstallcheck_listfiles	Makefile	/^am__distuninstallcheck_listfiles = $(distuninstallcheck_listfiles) \\$/;"	m
+am__include	Makefile	/^am__include = include$/;"	m
+am__include	comm/Makefile	/^am__include = include$/;"	m
+am__include	lib/Makefile	/^am__include = include$/;"	m
+am__include	utils/Makefile	/^am__include = include$/;"	m
+am__installdirs	Makefile	/^am__installdirs = "$(DESTDIR)$(bindir)"$/;"	m
+am__is_gnu_make	Makefile	/^am__is_gnu_make = test -n '$(MAKEFILE_LIST)' && test -n '$(MAKELEVEL)'$/;"	m
+am__is_gnu_make	comm/Makefile	/^am__is_gnu_make = test -n '$(MAKEFILE_LIST)' && test -n '$(MAKELEVEL)'$/;"	m
+am__is_gnu_make	lib/Makefile	/^am__is_gnu_make = test -n '$(MAKEFILE_LIST)' && test -n '$(MAKELEVEL)'$/;"	m
+am__is_gnu_make	utils/Makefile	/^am__is_gnu_make = test -n '$(MAKEFILE_LIST)' && test -n '$(MAKELEVEL)'$/;"	m
+am__leading_dot	Makefile	/^am__leading_dot = .$/;"	m
+am__leading_dot	comm/Makefile	/^am__leading_dot = .$/;"	m
+am__leading_dot	lib/Makefile	/^am__leading_dot = .$/;"	m
+am__leading_dot	utils/Makefile	/^am__leading_dot = .$/;"	m
+am__make_dryrun	Makefile	/^am__make_dryrun = (target_option=n; $(am__make_running_with_option))$/;"	m
+am__make_dryrun	comm/Makefile	/^am__make_dryrun = (target_option=n; $(am__make_running_with_option))$/;"	m
+am__make_dryrun	lib/Makefile	/^am__make_dryrun = (target_option=n; $(am__make_running_with_option))$/;"	m
+am__make_dryrun	utils/Makefile	/^am__make_dryrun = (target_option=n; $(am__make_running_with_option))$/;"	m
+am__make_keepgoing	Makefile	/^am__make_keepgoing = (target_option=k; $(am__make_running_with_option))$/;"	m
+am__make_keepgoing	comm/Makefile	/^am__make_keepgoing = (target_option=k; $(am__make_running_with_option))$/;"	m
+am__make_keepgoing	lib/Makefile	/^am__make_keepgoing = (target_option=k; $(am__make_running_with_option))$/;"	m
+am__make_keepgoing	utils/Makefile	/^am__make_keepgoing = (target_option=k; $(am__make_running_with_option))$/;"	m
+am__make_running_with_option	Makefile	/^am__make_running_with_option = \\$/;"	m
+am__make_running_with_option	comm/Makefile	/^am__make_running_with_option = \\$/;"	m
+am__make_running_with_option	lib/Makefile	/^am__make_running_with_option = \\$/;"	m
+am__make_running_with_option	utils/Makefile	/^am__make_running_with_option = \\$/;"	m
+am__mv	Makefile	/^am__mv = mv -f$/;"	m
+am__mv	comm/Makefile	/^am__mv = mv -f$/;"	m
+am__mv	lib/Makefile	/^am__mv = mv -f$/;"	m
+am__mv	utils/Makefile	/^am__mv = mv -f$/;"	m
+am__post_remove_distdir	Makefile	/^am__post_remove_distdir = $(am__remove_distdir)$/;"	m
+am__quote	Makefile	/^am__quote = $/;"	m
+am__quote	comm/Makefile	/^am__quote = $/;"	m
+am__quote	lib/Makefile	/^am__quote = $/;"	m
+am__quote	utils/Makefile	/^am__quote = $/;"	m
+am__recursive_targets	Makefile	/^am__recursive_targets = \\$/;"	m
+am__relativize	Makefile	/^am__relativize = \\$/;"	m
+am__remove_distdir	Makefile	/^am__remove_distdir = \\$/;"	m
+am__tagged_files	Makefile	/^am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) \\$/;"	m
+am__tagged_files	comm/Makefile	/^am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) $(LISP)$/;"	m
+am__tagged_files	lib/Makefile	/^am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) $(LISP)$/;"	m
+am__tagged_files	utils/Makefile	/^am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) $(LISP)$/;"	m
+am__tar	Makefile	/^am__tar = $${TAR-tar} chof - "$$tardir"$/;"	m
+am__tar	comm/Makefile	/^am__tar = $${TAR-tar} chof - "$$tardir"$/;"	m
+am__tar	lib/Makefile	/^am__tar = $${TAR-tar} chof - "$$tardir"$/;"	m
+am__tar	utils/Makefile	/^am__tar = $${TAR-tar} chof - "$$tardir"$/;"	m
+am__uniquify_input	Makefile	/^am__uniquify_input = $(AWK) '\\$/;"	m
+am__uniquify_input	comm/Makefile	/^am__uniquify_input = $(AWK) '\\$/;"	m
+am__uniquify_input	lib/Makefile	/^am__uniquify_input = $(AWK) '\\$/;"	m
+am__uniquify_input	utils/Makefile	/^am__uniquify_input = $(AWK) '\\$/;"	m
+am__untar	Makefile	/^am__untar = $${TAR-tar} xf -$/;"	m
+am__untar	comm/Makefile	/^am__untar = $${TAR-tar} xf -$/;"	m
+am__untar	lib/Makefile	/^am__untar = $${TAR-tar} xf -$/;"	m
+am__untar	utils/Makefile	/^am__untar = $${TAR-tar} xf -$/;"	m
+am__v_AR_	comm/Makefile	/^am__v_AR_ = $(am__v_AR_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_AR_	lib/Makefile	/^am__v_AR_ = $(am__v_AR_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_AR_	utils/Makefile	/^am__v_AR_ = $(am__v_AR_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_AR_0	comm/Makefile	/^am__v_AR_0 = @echo "  AR      " $@;$/;"	m
+am__v_AR_0	lib/Makefile	/^am__v_AR_0 = @echo "  AR      " $@;$/;"	m
+am__v_AR_0	utils/Makefile	/^am__v_AR_0 = @echo "  AR      " $@;$/;"	m
+am__v_AR_1	comm/Makefile	/^am__v_AR_1 = $/;"	m
+am__v_AR_1	lib/Makefile	/^am__v_AR_1 = $/;"	m
+am__v_AR_1	utils/Makefile	/^am__v_AR_1 = $/;"	m
+am__v_CCLD_	Makefile	/^am__v_CCLD_ = $(am__v_CCLD_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CCLD_	comm/Makefile	/^am__v_CCLD_ = $(am__v_CCLD_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CCLD_	lib/Makefile	/^am__v_CCLD_ = $(am__v_CCLD_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CCLD_	utils/Makefile	/^am__v_CCLD_ = $(am__v_CCLD_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CCLD_0	Makefile	/^am__v_CCLD_0 = @echo "  CCLD    " $@;$/;"	m
+am__v_CCLD_0	comm/Makefile	/^am__v_CCLD_0 = @echo "  CCLD    " $@;$/;"	m
+am__v_CCLD_0	lib/Makefile	/^am__v_CCLD_0 = @echo "  CCLD    " $@;$/;"	m
+am__v_CCLD_0	utils/Makefile	/^am__v_CCLD_0 = @echo "  CCLD    " $@;$/;"	m
+am__v_CCLD_1	Makefile	/^am__v_CCLD_1 = $/;"	m
+am__v_CCLD_1	comm/Makefile	/^am__v_CCLD_1 = $/;"	m
+am__v_CCLD_1	lib/Makefile	/^am__v_CCLD_1 = $/;"	m
+am__v_CCLD_1	utils/Makefile	/^am__v_CCLD_1 = $/;"	m
+am__v_CC_	Makefile	/^am__v_CC_ = $(am__v_CC_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CC_	comm/Makefile	/^am__v_CC_ = $(am__v_CC_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CC_	lib/Makefile	/^am__v_CC_ = $(am__v_CC_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CC_	utils/Makefile	/^am__v_CC_ = $(am__v_CC_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CC_0	Makefile	/^am__v_CC_0 = @echo "  CC      " $@;$/;"	m
+am__v_CC_0	comm/Makefile	/^am__v_CC_0 = @echo "  CC      " $@;$/;"	m
+am__v_CC_0	lib/Makefile	/^am__v_CC_0 = @echo "  CC      " $@;$/;"	m
+am__v_CC_0	utils/Makefile	/^am__v_CC_0 = @echo "  CC      " $@;$/;"	m
+am__v_CC_1	Makefile	/^am__v_CC_1 = $/;"	m
+am__v_CC_1	comm/Makefile	/^am__v_CC_1 = $/;"	m
+am__v_CC_1	lib/Makefile	/^am__v_CC_1 = $/;"	m
+am__v_CC_1	utils/Makefile	/^am__v_CC_1 = $/;"	m
+am__v_GEN_	Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_GEN_	comm/Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_GEN_	lib/Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_GEN_	utils/Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_GEN_0	Makefile	/^am__v_GEN_0 = @echo "  GEN     " $@;$/;"	m
+am__v_GEN_0	comm/Makefile	/^am__v_GEN_0 = @echo "  GEN     " $@;$/;"	m
+am__v_GEN_0	lib/Makefile	/^am__v_GEN_0 = @echo "  GEN     " $@;$/;"	m
+am__v_GEN_0	utils/Makefile	/^am__v_GEN_0 = @echo "  GEN     " $@;$/;"	m
+am__v_GEN_1	Makefile	/^am__v_GEN_1 = $/;"	m
+am__v_GEN_1	comm/Makefile	/^am__v_GEN_1 = $/;"	m
+am__v_GEN_1	lib/Makefile	/^am__v_GEN_1 = $/;"	m
+am__v_GEN_1	utils/Makefile	/^am__v_GEN_1 = $/;"	m
+am__v_P_	Makefile	/^am__v_P_ = $(am__v_P_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_P_	comm/Makefile	/^am__v_P_ = $(am__v_P_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_P_	lib/Makefile	/^am__v_P_ = $(am__v_P_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_P_	utils/Makefile	/^am__v_P_ = $(am__v_P_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_P_0	Makefile	/^am__v_P_0 = false$/;"	m
+am__v_P_0	comm/Makefile	/^am__v_P_0 = false$/;"	m
+am__v_P_0	lib/Makefile	/^am__v_P_0 = false$/;"	m
+am__v_P_0	utils/Makefile	/^am__v_P_0 = false$/;"	m
+am__v_P_1	Makefile	/^am__v_P_1 = :$/;"	m
+am__v_P_1	comm/Makefile	/^am__v_P_1 = :$/;"	m
+am__v_P_1	lib/Makefile	/^am__v_P_1 = :$/;"	m
+am__v_P_1	utils/Makefile	/^am__v_P_1 = :$/;"	m
+am__v_at_	Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_at_	comm/Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_at_	lib/Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_at_	utils/Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_at_0	Makefile	/^am__v_at_0 = @$/;"	m
+am__v_at_0	comm/Makefile	/^am__v_at_0 = @$/;"	m
+am__v_at_0	lib/Makefile	/^am__v_at_0 = @$/;"	m
+am__v_at_0	utils/Makefile	/^am__v_at_0 = @$/;"	m
+am__v_at_1	Makefile	/^am__v_at_1 = $/;"	m
+am__v_at_1	comm/Makefile	/^am__v_at_1 = $/;"	m
+am__v_at_1	lib/Makefile	/^am__v_at_1 = $/;"	m
+am__v_at_1	utils/Makefile	/^am__v_at_1 = $/;"	m
+am__v_lt_	Makefile	/^am__v_lt_ = $(am__v_lt_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_lt_	comm/Makefile	/^am__v_lt_ = $(am__v_lt_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_lt_	lib/Makefile	/^am__v_lt_ = $(am__v_lt_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_lt_	utils/Makefile	/^am__v_lt_ = $(am__v_lt_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_lt_0	Makefile	/^am__v_lt_0 = --silent$/;"	m
+am__v_lt_0	comm/Makefile	/^am__v_lt_0 = --silent$/;"	m
+am__v_lt_0	lib/Makefile	/^am__v_lt_0 = --silent$/;"	m
+am__v_lt_0	utils/Makefile	/^am__v_lt_0 = --silent$/;"	m
+am__v_lt_1	Makefile	/^am__v_lt_1 = $/;"	m
+am__v_lt_1	comm/Makefile	/^am__v_lt_1 = $/;"	m
+am__v_lt_1	lib/Makefile	/^am__v_lt_1 = $/;"	m
+am__v_lt_1	utils/Makefile	/^am__v_lt_1 = $/;"	m
+am_libcommlite_a_OBJECTS	comm/Makefile	/^am_libcommlite_a_OBJECTS = libcommlite_a-comm_lite.$(OBJEXT)$/;"	m
+am_libmytools_a_OBJECTS	lib/Makefile	/^am_libmytools_a_OBJECTS = libmytools_a-thread_pool.$(OBJEXT) \\$/;"	m
+am_libudplite_a_OBJECTS	comm/Makefile	/^am_libudplite_a_OBJECTS = libudplite_a-udp_lite.$(OBJEXT)$/;"	m
+am_libutils_a_OBJECTS	utils/Makefile	/^am_libutils_a_OBJECTS = libutils_a-utils.$(OBJEXT) \\$/;"	m
+am_netstream_OBJECTS	Makefile	/^am_netstream_OBJECTS = netstream.$(OBJEXT)$/;"	m
+apply_classful_mask_ipv4	lib/prefix.c	/^void apply_classful_mask_ipv4 (struct prefix_ipv4 *p)$/;"	f	signature:(struct prefix_ipv4 *p)
+apply_classful_mask_ipv4	lib/prefix.h	/^void apply_classful_mask_ipv4 (struct prefix_ipv4 *);$/;"	p	signature:(struct prefix_ipv4 *)
+apply_mask	lib/prefix.c	/^apply_mask (struct prefix *p)$/;"	f	signature:(struct prefix *p)
+apply_mask	lib/prefix.h	/^void apply_mask (struct prefix *);$/;"	p	signature:(struct prefix *)
+apply_mask_ipv4	lib/prefix.c	/^apply_mask_ipv4 (struct prefix_ipv4 *p)$/;"	f	signature:(struct prefix_ipv4 *p)
+apply_mask_ipv4	lib/prefix.h	/^void apply_mask_ipv4 (struct prefix_ipv4 *);$/;"	p	signature:(struct prefix_ipv4 *)
+apply_mask_ipv6	lib/prefix.c	/^apply_mask_ipv6 (struct prefix_ipv6 *p)$/;"	f	signature:(struct prefix_ipv6 *p)
+apply_mask_ipv6	lib/prefix.h	/^void apply_mask_ipv6 (struct prefix_ipv6 *p);$/;"	p	signature:(struct prefix_ipv6 *p)
+arg	lib/thread.h	/^  void *arg;			\/* event argument *\/$/;"	m	struct:thread	access:public
+args	lib/thread_pool.h	/^	void *args;$/;"	m	struct:Task	access:public
+as_fn_append	config.status	/^  as_fn_append ()$/;"	f
+as_fn_append	configure	/^  as_fn_append ()$/;"	f
+as_fn_arith	config.status	/^  as_fn_arith ()$/;"	f
+as_fn_arith	configure	/^  as_fn_arith ()$/;"	f
+as_fn_error	config.status	/^as_fn_error ()$/;"	f
+as_fn_error	configure	/^as_fn_error ()$/;"	f
+as_fn_executable_p	config.status	/^as_fn_executable_p ()$/;"	f
+as_fn_executable_p	configure	/^as_fn_executable_p ()$/;"	f
+as_fn_exit	config.status	/^as_fn_exit ()$/;"	f
+as_fn_exit	configure	/^as_fn_exit ()$/;"	f
+as_fn_failure	configure	/^as_fn_failure () { as_fn_return 1; }$/;"	f
+as_fn_mkdir_p	config.status	/^as_fn_mkdir_p ()$/;"	f
+as_fn_mkdir_p	configure	/^as_fn_mkdir_p ()$/;"	f
+as_fn_ret_failure	configure	/^as_fn_ret_failure () { return 1; }$/;"	f
+as_fn_ret_success	configure	/^as_fn_ret_success () { return 0; }$/;"	f
+as_fn_set_status	config.status	/^as_fn_set_status ()$/;"	f
+as_fn_set_status	configure	/^as_fn_set_status ()$/;"	f
+as_fn_success	configure	/^as_fn_success () { as_fn_return 0; }$/;"	f
+as_fn_unset	config.status	/^as_fn_unset ()$/;"	f
+as_fn_unset	configure	/^as_fn_unset ()$/;"	f
+bandwidth	lib/if.h	/^  unsigned int bandwidth;$/;"	m	struct:interface	access:public
+bin_PROGRAMS	Makefile	/^bin_PROGRAMS = netstream$(EXEEXT)$/;"	m
+bindir	Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	comm/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	lib/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	utils/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+build	Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build	comm/Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build	lib/Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build	utils/Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build_alias	Makefile	/^build_alias = $/;"	m
+build_alias	comm/Makefile	/^build_alias = $/;"	m
+build_alias	lib/Makefile	/^build_alias = $/;"	m
+build_alias	utils/Makefile	/^build_alias = $/;"	m
+build_cpu	Makefile	/^build_cpu = i686$/;"	m
+build_cpu	comm/Makefile	/^build_cpu = i686$/;"	m
+build_cpu	lib/Makefile	/^build_cpu = i686$/;"	m
+build_cpu	utils/Makefile	/^build_cpu = i686$/;"	m
+build_os	Makefile	/^build_os = linux-gnu$/;"	m
+build_os	comm/Makefile	/^build_os = linux-gnu$/;"	m
+build_os	lib/Makefile	/^build_os = linux-gnu$/;"	m
+build_os	utils/Makefile	/^build_os = linux-gnu$/;"	m
+build_triplet	Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_triplet	comm/Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_triplet	lib/Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_triplet	utils/Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_vendor	Makefile	/^build_vendor = pc$/;"	m
+build_vendor	comm/Makefile	/^build_vendor = pc$/;"	m
+build_vendor	lib/Makefile	/^build_vendor = pc$/;"	m
+build_vendor	utils/Makefile	/^build_vendor = pc$/;"	m
+builddir	Makefile	/^builddir = .$/;"	m
+builddir	comm/Makefile	/^builddir = .$/;"	m
+builddir	lib/Makefile	/^builddir = .$/;"	m
+builddir	utils/Makefile	/^builddir = .$/;"	m
+byte_count	netstream.h	/^	u32 byte_count;$/;"	m	struct:NetFlow	access:public
+c_calloc	lib/memory.c	/^  unsigned long c_calloc;$/;"	m	struct:__anon5	file:	access:public
+c_malloc	lib/memory.c	/^  unsigned long c_malloc;$/;"	m	struct:__anon5	file:	access:public
+c_strdup	lib/memory.c	/^  unsigned long c_strdup;$/;"	m	struct:__anon5	file:	access:public
+cfgdir	conf.py	/^cfgdir=".\/"$/;"	v
+check_bit	lib/table.c	/^check_bit (u_char *prefix, u_char prefixlen)$/;"	f	file:	signature:(u_char *prefix, u_char prefixlen)
+close_connect	comm/comm_lite.c	/^int close_connect(int sockfd)$/;"	f	signature:(int sockfd)
+close_connect	comm/comm_lite.h	/^int close_connect(int sockfd);$/;"	p	signature:(int sockfd)
+close_pthread_pool	lib/thread_pool.c	/^int close_pthread_pool(Pool *pool)$/;"	f	signature:(Pool *pool)
+close_pthread_pool	lib/thread_pool.h	/^int close_pthread_pool(Pool *pool);$/;"	p	signature:(Pool *pool)
+close_sems	lib/semph.c	/^int close_sems()$/;"	f
+close_sems	lib/semph.h	/^int close_sems();$/;"	p	signature:()
+close_shm	lib/shmem.c	/^int close_shm(int shmid)$/;"	f	signature:(int shmid)
+close_shm	lib/shmem.h	/^int close_shm(int shmid);$/;"	p	signature:(int shmid)
+closezlog	lib/log.c	/^closezlog (struct zlog *zl)$/;"	f	signature:(struct zlog *zl)
+closezlog	lib/log.h	/^void closezlog (struct zlog *zl);$/;"	p	signature:(struct zlog *zl)
+cmp	lib/linklist.h	/^  int (*cmp) (void *val1, void *val2);$/;"	m	struct:list	access:public
+collisions	lib/if.h	/^  unsigned long collisions;$/;"	m	struct:if_stats	access:public
+com_h	comm/comm_lite.h	/^	struct common_header com_h;$/;"	m	struct:pma_pms_header	typeref:struct:pma_pms_header::common_header	access:public
+common_header	comm/comm_lite.h	/^struct common_header{$/;"	s
+common_header::device_type	comm/comm_lite.h	/^	u16 device_type;$/;"	m	struct:common_header	access:public
+common_header::pkg_len	comm/comm_lite.h	/^	u32 pkg_len;$/;"	m	struct:common_header	access:public
+common_header::pkg_type	comm/comm_lite.h	/^	u8 pkg_type;$/;"	m	struct:common_header	access:public
+common_header::pkg_version	comm/comm_lite.h	/^	u8 pkg_version;$/;"	m	struct:common_header	access:public
+cond	lib/thread_pool.h	/^	pthread_cond_t cond;$/;"	m	struct:Pool	access:public
+conf	lib/if.h	/^  u_char conf;$/;"	m	struct:connected	access:public
+connect_server	comm/udp_lite.c	/^int connect_server(const char* ip, int port)$/;"	f	signature:(const char* ip, int port)
+connect_server	comm/udp_lite.h	/^int connect_server(const char* ip, int port);$/;"	p	signature:(const char* ip, int port)
+connected	lib/if.h	/^  struct list *connected;$/;"	m	struct:interface	typeref:struct:interface::list	access:public
+connected	lib/if.h	/^struct connected$/;"	s
+connected	lib/log.h	/^  int connected;$/;"	m	struct:zlog	access:public
+connected::address	lib/if.h	/^  struct prefix *address;$/;"	m	struct:connected	typeref:struct:connected::prefix	access:public
+connected::conf	lib/if.h	/^  u_char conf;$/;"	m	struct:connected	access:public
+connected::destination	lib/if.h	/^  struct prefix *destination;$/;"	m	struct:connected	typeref:struct:connected::prefix	access:public
+connected::flags	lib/if.h	/^  u_char flags;$/;"	m	struct:connected	access:public
+connected::ifp	lib/if.h	/^  struct interface *ifp;$/;"	m	struct:connected	typeref:struct:connected::interface	access:public
+connected::label	lib/if.h	/^  char *label;$/;"	m	struct:connected	access:public
+connected_add	lib/if.c	/^void connected_add (struct interface *ifp, struct connected *ip)$/;"	f	signature:(struct interface *ifp, struct connected *ip)
+connected_add	lib/if.h	/^void connected_add (struct interface *, struct connected *);$/;"	p	signature:(struct interface *, struct connected *)
+connected_delete_by_prefix	lib/if.c	/^connected_delete_by_prefix (struct interface *ifp, struct prefix *p)$/;"	f	signature:(struct interface *ifp, struct prefix *p)
+connected_delete_by_prefix	lib/if.h	/^struct connected  *connected_delete_by_prefix (struct interface *, struct prefix *);$/;"	p	signature:(struct interface *, struct prefix *)
+connected_free	lib/if.c	/^connected_free (struct connected *connected)$/;"	f	signature:(struct connected *connected)
+connected_free	lib/if.h	/^void connected_free (struct connected *);$/;"	p	signature:(struct connected *)
+connected_new	lib/if.c	/^connected_new ()$/;"	f
+connected_new	lib/if.h	/^struct connected *connected_new ();$/;"	p	signature:()
+connected_same	lib/if.c	/^int connected_same(struct connected* c1,struct connected* c2){$/;"	f	signature:(struct connected* c1,struct connected* c2)
+connected_same	lib/if.h	/^int connected_same(struct connected* c1,struct connected* c2);$/;"	p	signature:(struct connected* c1,struct connected* c2)
+connected_same_prefix	lib/if.c	/^connected_same_prefix (struct prefix *p1, struct prefix *p2)$/;"	f	signature:(struct prefix *p1, struct prefix *p2)
+count	confparser.h	/^	int count;$/;"	m	struct:Section	access:public
+count	lib/linklist.h	/^  unsigned int count;$/;"	m	struct:list	access:public
+count	lib/thread.h	/^  int count;$/;"	m	struct:thread_list	access:public
+count	netstream.h	/^	u16 count;$/;"	m	struct:StreamHeader	access:public
+cr_init_list_head	utils/list.h	17;"	d
+cr_list_add	utils/list.c	/^void cr_list_add(struct cr_list_head* new, struct cr_list_head *head)$/;"	f	signature:(struct cr_list_head* new, struct cr_list_head *head)
+cr_list_add	utils/list.h	/^void cr_list_add(struct cr_list_head* new, struct cr_list_head *head);$/;"	p	signature:(struct cr_list_head* new, struct cr_list_head *head)
+cr_list_add_in_order	utils/list.c	/^void cr_list_add_in_order(struct cr_list_head* new, struct cr_list_head* head, int key, fetch_keyword v)$/;"	f	signature:(struct cr_list_head* new, struct cr_list_head* head, int key, fetch_keyword v)
+cr_list_add_in_order	utils/list.h	/^void cr_list_add_in_order(struct cr_list_head* new, struct cr_list_head* head, int key, fetch_keyword v);$/;"	p	signature:(struct cr_list_head* new, struct cr_list_head* head, int key, fetch_keyword v)
+cr_list_add_tail	utils/list.c	/^void cr_list_add_tail(struct cr_list_head* new, struct cr_list_head *head)$/;"	f	signature:(struct cr_list_head* new, struct cr_list_head *head)
+cr_list_add_tail	utils/list.h	/^void cr_list_add_tail(struct cr_list_head* new, struct cr_list_head *head);$/;"	p	signature:(struct cr_list_head* new, struct cr_list_head *head)
+cr_list_del	utils/list.c	/^int cr_list_del(struct cr_list_head* entry)$/;"	f	signature:(struct cr_list_head* entry)
+cr_list_del	utils/list.h	/^int cr_list_del(struct cr_list_head* entry);$/;"	p	signature:(struct cr_list_head* entry)
+cr_list_empty	utils/list.c	/^int cr_list_empty(const struct cr_list_head* head)$/;"	f	signature:(const struct cr_list_head* head)
+cr_list_empty	utils/list.h	/^int cr_list_empty(const struct cr_list_head* head);$/;"	p	signature:(const struct cr_list_head* head)
+cr_list_entrys_free	utils/list.h	26;"	d
+cr_list_entrys_free2	utils/list.h	39;"	d
+cr_list_head	utils/list.h	/^struct cr_list_head{$/;"	s
+cr_list_head::next	utils/list.h	/^	struct cr_list_head* next;$/;"	m	struct:cr_list_head	typeref:struct:cr_list_head::cr_list_head	access:public
+cr_list_head::prev	utils/list.h	/^	struct cr_list_head* prev;$/;"	m	struct:cr_list_head	typeref:struct:cr_list_head::cr_list_head	access:public
+cr_stack_empty	utils/list.h	55;"	d
+cr_stack_init	utils/list.h	52;"	d
+cr_stack_pop	utils/list.c	/^void* cr_stack_pop(struct cr_list_head* stack)$/;"	f	signature:(struct cr_list_head* stack)
+cr_stack_pop	utils/list.h	/^void* cr_stack_pop(struct cr_list_head* stack);$/;"	p	signature:(struct cr_list_head* stack)
+cr_stack_push	utils/list.c	/^void cr_stack_push(void* item, struct cr_list_head* stack)$/;"	f	signature:(void* item, struct cr_list_head* stack)
+cr_stack_push	utils/list.h	/^void cr_stack_push(void* item, struct cr_list_head* stack);$/;"	p	signature:(void* item, struct cr_list_head* stack)
+create_connect	comm/comm_lite.c	/^int create_connect(const char* ip, int port)$/;"	f	signature:(const char* ip, int port)
+create_connect	comm/comm_lite.h	/^int create_connect(const char* ip, int port);$/;"	p	signature:(const char* ip, int port)
+create_server	comm/udp_lite.c	/^int create_server(int listen_port, int type){$/;"	f	signature:(int listen_port, int type)
+create_server	comm/udp_lite.h	/^int create_server(int listen_port, int type);$/;"	p	signature:(int listen_port, int type)
+create_shm	lib/shmem.c	/^int create_shm(const char* path, int size)$/;"	f	signature:(const char* path, int size)
+create_shm	lib/shmem.h	/^int create_shm(const char* path, int size);$/;"	p	signature:(const char* path, int size)
+create_xml_doc	utils/xml.c	/^xmlDocPtr create_xml_doc()$/;"	f
+create_xml_doc	utils/xml.h	/^xmlDocPtr create_xml_doc();$/;"	p	signature:()
+create_xml_root_node	utils/xml.c	/^xmlNodePtr create_xml_root_node( xmlDocPtr doc, char *name )$/;"	f	signature:( xmlDocPtr doc, char *name )
+create_xml_root_node	utils/xml.h	/^xmlNodePtr create_xml_root_node( xmlDocPtr doc, char *name );$/;"	p	signature:( xmlDocPtr doc, char *name )
+dasid	netstream.h	/^	u16 dasid;$/;"	m	struct:NetFlow	access:public
+data	comm/comm_lite.h	/^	char	*data;$/;"	m	struct:packet	access:public
+data	lib/linklist.h	/^  void *data;$/;"	m	struct:listnode	access:public
+datadir	Makefile	/^datadir = ${datarootdir}$/;"	m
+datadir	comm/Makefile	/^datadir = ${datarootdir}$/;"	m
+datadir	lib/Makefile	/^datadir = ${datarootdir}$/;"	m
+datadir	utils/Makefile	/^datadir = ${datarootdir}$/;"	m
+datarootdir	Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datarootdir	comm/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datarootdir	lib/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datarootdir	utils/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+declare_event_queue	lib/event.h	14;"	d
+declare_event_queue_list	lib/event.h	16;"	d
+define_event_queue	lib/event.h	13;"	d
+define_event_queue_list	lib/event.h	15;"	d
+del	lib/linklist.h	/^  void (*del) (void *val);$/;"	m	struct:list	access:public
+depcomp	Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+depcomp	comm/Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+depcomp	lib/Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+depcomp	utils/Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+desc	lib/if.h	/^  char *desc;			$/;"	m	struct:interface	access:public
+destination	lib/if.h	/^  struct prefix *destination;$/;"	m	struct:connected	typeref:struct:connected::prefix	access:public
+device_type	comm/comm_lite.h	/^	u16 device_type;$/;"	m	struct:common_header	access:public
+dip	netstream.h	/^	u32 dip;$/;"	m	struct:NetFlow	access:public
+distcleancheck_listfiles	Makefile	/^distcleancheck_listfiles = find . -type f -print$/;"	m
+distdir	Makefile	/^distdir = $(PACKAGE)-$(VERSION)$/;"	m
+distribute_in	lib/if.h	/^  void *distribute_in;$/;"	m	struct:interface	access:public
+distribute_out	lib/if.h	/^  void *distribute_out;$/;"	m	struct:interface	access:public
+distuninstallcheck_listfiles	Makefile	/^distuninstallcheck_listfiles = find . -type f -print$/;"	m
+dmask	netstream.h	/^	u8 dmask;$/;"	m	struct:NetFlow	access:public
+docdir	Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+docdir	comm/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+docdir	lib/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+docdir	utils/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+dport	netstream.h	/^	u16 dport;$/;"	m	struct:NetFlow	access:public
+dst	comm/udp_lite.h	/^	struct in_addr dst;$/;"	m	struct:udp_pkt_info	typeref:struct:udp_pkt_info::in_addr	access:public
+dst_addr	comm/comm_lite.h	/^	struct in_addr dst_addr;$/;"	m	struct:pma_pms_header	typeref:struct:pma_pms_header::in_addr	access:public
+dvidir	Makefile	/^dvidir = ${docdir}$/;"	m
+dvidir	comm/Makefile	/^dvidir = ${docdir}$/;"	m
+dvidir	lib/Makefile	/^dvidir = ${docdir}$/;"	m
+dvidir	utils/Makefile	/^dvidir = ${docdir}$/;"	m
+end	comm/comm_lite.h	/^	char	*end;$/;"	m	struct:packet	access:public
+engine_id	netstream.h	/^	u8 engine_id;$/;"	m	struct:StreamHeader	access:public
+engine_type	netstream.h	/^	u8 engine_type;$/;"	m	struct:StreamHeader	access:public
+event	lib/thread.h	/^  struct thread_list event;$/;"	m	struct:thread_master	typeref:struct:thread_master::thread_list	access:public
+event_handler_item	lib/event.h	/^struct event_handler_item{$/;"	s
+event_handler_item::handler	lib/event.h	/^	void* handler;$/;"	m	struct:event_handler_item	access:public
+event_handler_item::next	lib/event.h	/^	struct event_handler_item* next;$/;"	m	struct:event_handler_item	typeref:struct:event_handler_item::event_handler_item	access:public
+event_handlers_queue	lib/event.h	/^struct event_handlers_queue$/;"	s
+event_handlers_queue::next	lib/event.h	/^	struct event_handler_item* next;$/;"	m	struct:event_handlers_queue	typeref:struct:event_handlers_queue::event_handler_item	access:public
+exceptfd	lib/thread.h	/^  fd_set exceptfd;$/;"	m	struct:thread_master	access:public
+exec_prefix	Makefile	/^exec_prefix = ${prefix}$/;"	m
+exec_prefix	comm/Makefile	/^exec_prefix = ${prefix}$/;"	m
+exec_prefix	lib/Makefile	/^exec_prefix = ${prefix}$/;"	m
+exec_prefix	utils/Makefile	/^exec_prefix = ${prefix}$/;"	m
+facility	lib/log.h	/^  int facility;		\/* as per syslog facility *\/$/;"	m	struct:zlog	access:public
+family	lib/prefix.h	/^  u_char family;$/;"	m	struct:prefix	access:public
+family	lib/prefix.h	/^  u_char family;$/;"	m	struct:prefix_ipv4	access:public
+family	lib/prefix.h	/^  u_char family;$/;"	m	struct:prefix_ipv6	access:public
+family	lib/prefix.h	/^  u_char family;$/;"	m	struct:prefix_ls	access:public
+family	lib/prefix.h	/^  u_char family;$/;"	m	struct:prefix_rd	access:public
+family2afi	lib/prefix.c	/^family2afi (int family)$/;"	f	signature:(int family)
+family2afi	lib/prefix.h	/^int family2afi (int);$/;"	p	signature:(int)
+fd	lib/thread.h	/^    int fd;			\/* file descriptor in case of read\/write. *\/$/;"	m	union:thread::__anon3	access:public
+fetch_keyword	utils/list.h	/^typedef int (*fetch_keyword)(struct cr_list_head* ptr);$/;"	t
+fifo	lib/zebra.h	/^struct fifo$/;"	s
+fifo::next	lib/zebra.h	/^  struct fifo *next;$/;"	m	struct:fifo	typeref:struct:fifo::fifo	access:public
+fifo::prev	lib/zebra.h	/^  struct fifo *prev;$/;"	m	struct:fifo	typeref:struct:fifo::fifo	access:public
+filename	lib/log.h	/^  char *filename;$/;"	m	struct:zlog	access:public
+flags	lib/if.h	/^  u_char flags;$/;"	m	struct:connected	access:public
+flags	lib/if.h	/^  unsigned long flags;$/;"	m	struct:interface	access:public
+flags	lib/log.h	/^  int flags;$/;"	m	struct:zlog	access:public
+flow_handle	netstream.c	/^int flow_handle(NetFlow *flow)$/;"	f	signature:(NetFlow *flow)
+flow_sequence	netstream.h	/^	u32 flow_sequence;$/;"	m	struct:StreamHeader	access:public
+format	lib/memory.c	/^  char *format;$/;"	m	struct:memory_list	file:	access:public
+fp	lib/log.h	/^  FILE *fp;$/;"	m	struct:zlog	access:public
+func	lib/thread.h	/^  int (*func) (struct thread *); \/* event function *\/$/;"	m	struct:thread	access:public
+func	lib/thread_pool.h	/^typedef void (*func)(void *);$/;"	t
+func_append	config.status	/^func_append ()\\$/;"	f
+func_append	configure	/^func_append ()\\$/;"	f
+func_append	libtool	/^func_append ()$/;"	f
+func_append	ltmain.sh	/^func_append ()$/;"	f
+func_append_quoted	config.status	/^func_append_quoted ()\\$/;"	f
+func_append_quoted	configure	/^func_append_quoted ()\\$/;"	f
+func_append_quoted	libtool	/^func_append_quoted ()$/;"	f
+func_append_quoted	ltmain.sh	/^func_append_quoted ()$/;"	f
+func_arith	config.status	/^func_arith ()\\$/;"	f
+func_arith	configure	/^func_arith ()\\$/;"	f
+func_arith	libtool	/^func_arith ()$/;"	f
+func_arith	ltmain.sh	/^func_arith ()$/;"	f
+func_at_file	ar-lib	/^func_at_file ()$/;"	f
+func_basename	config.status	/^func_basename ()\\$/;"	f
+func_basename	configure	/^func_basename ()\\$/;"	f
+func_basename	libtool	/^func_basename ()$/;"	f
+func_basename	ltmain.sh	/^func_basename ()$/;"	f
+func_check_version_match	libtool	/^func_check_version_match ()$/;"	f
+func_check_version_match	ltmain.sh	/^func_check_version_match ()$/;"	f
+func_cl_dashL	compile	/^func_cl_dashL ()$/;"	f
+func_cl_dashl	compile	/^func_cl_dashl ()$/;"	f
+func_cl_wrapper	compile	/^func_cl_wrapper ()$/;"	f
+func_config	libtool	/^func_config ()$/;"	f
+func_config	ltmain.sh	/^func_config ()$/;"	f
+func_convert_core_file_wine_to_w32	libtool	/^func_convert_core_file_wine_to_w32 ()$/;"	f
+func_convert_core_file_wine_to_w32	ltmain.sh	/^func_convert_core_file_wine_to_w32 ()$/;"	f
+func_convert_core_msys_to_w32	libtool	/^func_convert_core_msys_to_w32 ()$/;"	f
+func_convert_core_msys_to_w32	ltmain.sh	/^func_convert_core_msys_to_w32 ()$/;"	f
+func_convert_core_path_wine_to_w32	libtool	/^func_convert_core_path_wine_to_w32 ()$/;"	f
+func_convert_core_path_wine_to_w32	ltmain.sh	/^func_convert_core_path_wine_to_w32 ()$/;"	f
+func_convert_file_check	libtool	/^func_convert_file_check ()$/;"	f
+func_convert_file_check	ltmain.sh	/^func_convert_file_check ()$/;"	f
+func_convert_file_cygwin_to_w32	libtool	/^func_convert_file_cygwin_to_w32 ()$/;"	f
+func_convert_file_cygwin_to_w32	ltmain.sh	/^func_convert_file_cygwin_to_w32 ()$/;"	f
+func_convert_file_msys_to_cygwin	libtool	/^func_convert_file_msys_to_cygwin ()$/;"	f
+func_convert_file_msys_to_cygwin	ltmain.sh	/^func_convert_file_msys_to_cygwin ()$/;"	f
+func_convert_file_msys_to_w32	libtool	/^func_convert_file_msys_to_w32 ()$/;"	f
+func_convert_file_msys_to_w32	ltmain.sh	/^func_convert_file_msys_to_w32 ()$/;"	f
+func_convert_file_nix_to_cygwin	libtool	/^func_convert_file_nix_to_cygwin ()$/;"	f
+func_convert_file_nix_to_cygwin	ltmain.sh	/^func_convert_file_nix_to_cygwin ()$/;"	f
+func_convert_file_nix_to_w32	libtool	/^func_convert_file_nix_to_w32 ()$/;"	f
+func_convert_file_nix_to_w32	ltmain.sh	/^func_convert_file_nix_to_w32 ()$/;"	f
+func_convert_file_noop	libtool	/^func_convert_file_noop ()$/;"	f
+func_convert_file_noop	ltmain.sh	/^func_convert_file_noop ()$/;"	f
+func_convert_path_check	libtool	/^func_convert_path_check ()$/;"	f
+func_convert_path_check	ltmain.sh	/^func_convert_path_check ()$/;"	f
+func_convert_path_cygwin_to_w32	libtool	/^func_convert_path_cygwin_to_w32 ()$/;"	f
+func_convert_path_cygwin_to_w32	ltmain.sh	/^func_convert_path_cygwin_to_w32 ()$/;"	f
+func_convert_path_front_back_pathsep	libtool	/^func_convert_path_front_back_pathsep ()$/;"	f
+func_convert_path_front_back_pathsep	ltmain.sh	/^func_convert_path_front_back_pathsep ()$/;"	f
+func_convert_path_msys_to_cygwin	libtool	/^func_convert_path_msys_to_cygwin ()$/;"	f
+func_convert_path_msys_to_cygwin	ltmain.sh	/^func_convert_path_msys_to_cygwin ()$/;"	f
+func_convert_path_msys_to_w32	libtool	/^func_convert_path_msys_to_w32 ()$/;"	f
+func_convert_path_msys_to_w32	ltmain.sh	/^func_convert_path_msys_to_w32 ()$/;"	f
+func_convert_path_nix_to_cygwin	libtool	/^func_convert_path_nix_to_cygwin ()$/;"	f
+func_convert_path_nix_to_cygwin	ltmain.sh	/^func_convert_path_nix_to_cygwin ()$/;"	f
+func_convert_path_nix_to_w32	libtool	/^func_convert_path_nix_to_w32 ()$/;"	f
+func_convert_path_nix_to_w32	ltmain.sh	/^func_convert_path_nix_to_w32 ()$/;"	f
+func_convert_path_noop	libtool	/^func_convert_path_noop ()$/;"	f
+func_convert_path_noop	ltmain.sh	/^func_convert_path_noop ()$/;"	f
+func_cygming_dll_for_implib	libtool	/^func_cygming_dll_for_implib ()$/;"	f
+func_cygming_dll_for_implib	ltmain.sh	/^func_cygming_dll_for_implib ()$/;"	f
+func_cygming_dll_for_implib_fallback	libtool	/^func_cygming_dll_for_implib_fallback ()$/;"	f
+func_cygming_dll_for_implib_fallback	ltmain.sh	/^func_cygming_dll_for_implib_fallback ()$/;"	f
+func_cygming_dll_for_implib_fallback_core	libtool	/^func_cygming_dll_for_implib_fallback_core ()$/;"	f
+func_cygming_dll_for_implib_fallback_core	ltmain.sh	/^func_cygming_dll_for_implib_fallback_core ()$/;"	f
+func_cygming_gnu_implib_p	libtool	/^func_cygming_gnu_implib_p ()$/;"	f
+func_cygming_gnu_implib_p	ltmain.sh	/^func_cygming_gnu_implib_p ()$/;"	f
+func_cygming_ms_implib_p	libtool	/^func_cygming_ms_implib_p ()$/;"	f
+func_cygming_ms_implib_p	ltmain.sh	/^func_cygming_ms_implib_p ()$/;"	f
+func_cygpath	libtool	/^func_cygpath ()$/;"	f
+func_cygpath	ltmain.sh	/^func_cygpath ()$/;"	f
+func_dirname	config.status	/^func_dirname ()\\$/;"	f
+func_dirname	configure	/^func_dirname ()\\$/;"	f
+func_dirname	libtool	/^func_dirname ()$/;"	f
+func_dirname	ltmain.sh	/^func_dirname ()$/;"	f
+func_dirname_and_basename	config.status	/^func_dirname_and_basename ()\\$/;"	f
+func_dirname_and_basename	configure	/^func_dirname_and_basename ()\\$/;"	f
+func_dirname_and_basename	libtool	/^func_dirname_and_basename ()$/;"	f
+func_dirname_and_basename	ltmain.sh	/^func_dirname_and_basename ()$/;"	f
+func_echo	libtool	/^func_echo ()$/;"	f
+func_echo	ltmain.sh	/^func_echo ()$/;"	f
+func_echo_all	configure	/^func_echo_all ()$/;"	f
+func_echo_all	libtool	/^func_echo_all ()$/;"	f
+func_echo_all	ltmain.sh	/^func_echo_all ()$/;"	f
+func_emit_cwrapperexe_src	libtool	/^func_emit_cwrapperexe_src ()$/;"	f
+func_emit_cwrapperexe_src	ltmain.sh	/^func_emit_cwrapperexe_src ()$/;"	f
+func_emit_wrapper	libtool	/^func_emit_wrapper ()$/;"	f
+func_emit_wrapper	ltmain.sh	/^func_emit_wrapper ()$/;"	f
+func_enable_tag	libtool	/^func_enable_tag ()$/;"	f
+func_enable_tag	ltmain.sh	/^func_enable_tag ()$/;"	f
+func_error	ar-lib	/^func_error ()$/;"	f
+func_error	libtool	/^func_error ()$/;"	f
+func_error	ltmain.sh	/^func_error ()$/;"	f
+func_exec_program	libtool	/^func_exec_program ()$/;"	f
+func_exec_program	ltmain.sh	/^func_exec_program ()$/;"	f
+func_exec_program_core	libtool	/^func_exec_program_core ()$/;"	f
+func_exec_program_core	ltmain.sh	/^func_exec_program_core ()$/;"	f
+func_execute_cmds	libtool	/^func_execute_cmds ()$/;"	f
+func_execute_cmds	ltmain.sh	/^func_execute_cmds ()$/;"	f
+func_extract_an_archive	libtool	/^func_extract_an_archive ()$/;"	f
+func_extract_an_archive	ltmain.sh	/^func_extract_an_archive ()$/;"	f
+func_extract_archives	libtool	/^func_extract_archives ()$/;"	f
+func_extract_archives	ltmain.sh	/^func_extract_archives ()$/;"	f
+func_fallback_echo	config.status	/^func_fallback_echo ()$/;"	f
+func_fallback_echo	configure	/^  func_fallback_echo ()$/;"	f
+func_fallback_echo	configure	/^func_fallback_echo ()$/;"	f
+func_fallback_echo	libtool	/^func_fallback_echo ()$/;"	f
+func_fallback_echo	ltmain.sh	/^func_fallback_echo ()$/;"	f
+func_fatal_configuration	libtool	/^func_fatal_configuration ()$/;"	f
+func_fatal_configuration	ltmain.sh	/^func_fatal_configuration ()$/;"	f
+func_fatal_error	libtool	/^func_fatal_error ()$/;"	f
+func_fatal_error	ltmain.sh	/^func_fatal_error ()$/;"	f
+func_fatal_help	libtool	/^func_fatal_help ()$/;"	f
+func_fatal_help	ltmain.sh	/^func_fatal_help ()$/;"	f
+func_features	libtool	/^func_features ()$/;"	f
+func_features	ltmain.sh	/^func_features ()$/;"	f
+func_file_conv	ar-lib	/^func_file_conv ()$/;"	f
+func_file_conv	compile	/^func_file_conv ()$/;"	f
+func_generate_dlsyms	libtool	/^func_generate_dlsyms ()$/;"	f
+func_generate_dlsyms	ltmain.sh	/^func_generate_dlsyms ()$/;"	f
+func_grep	libtool	/^func_grep ()$/;"	f
+func_grep	ltmain.sh	/^func_grep ()$/;"	f
+func_help	libtool	/^func_help ()$/;"	f
+func_help	ltmain.sh	/^func_help ()$/;"	f
+func_infer_tag	libtool	/^func_infer_tag ()$/;"	f
+func_infer_tag	ltmain.sh	/^func_infer_tag ()$/;"	f
+func_init_to_host_path_cmd	libtool	/^func_init_to_host_path_cmd ()$/;"	f
+func_init_to_host_path_cmd	ltmain.sh	/^func_init_to_host_path_cmd ()$/;"	f
+func_lalib_p	libtool	/^func_lalib_p ()$/;"	f
+func_lalib_p	ltmain.sh	/^func_lalib_p ()$/;"	f
+func_lalib_unsafe_p	libtool	/^func_lalib_unsafe_p ()$/;"	f
+func_lalib_unsafe_p	ltmain.sh	/^func_lalib_unsafe_p ()$/;"	f
+func_len	config.status	/^func_len ()\\$/;"	f
+func_len	configure	/^func_len ()\\$/;"	f
+func_len	libtool	/^func_len ()$/;"	f
+func_len	ltmain.sh	/^func_len ()$/;"	f
+func_lo2o	config.status	/^func_lo2o ()\\$/;"	f
+func_lo2o	configure	/^func_lo2o ()\\$/;"	f
+func_lo2o	libtool	/^func_lo2o ()$/;"	f
+func_lo2o	ltmain.sh	/^func_lo2o ()$/;"	f
+func_lt_dump_args	libtool	/^func_lt_dump_args ()$/;"	f
+func_lt_dump_args	ltmain.sh	/^func_lt_dump_args ()$/;"	f
+func_ltwrapper_executable_p	libtool	/^func_ltwrapper_executable_p ()$/;"	f
+func_ltwrapper_executable_p	ltmain.sh	/^func_ltwrapper_executable_p ()$/;"	f
+func_ltwrapper_p	libtool	/^func_ltwrapper_p ()$/;"	f
+func_ltwrapper_p	ltmain.sh	/^func_ltwrapper_p ()$/;"	f
+func_ltwrapper_script_p	libtool	/^func_ltwrapper_script_p ()$/;"	f
+func_ltwrapper_script_p	ltmain.sh	/^func_ltwrapper_script_p ()$/;"	f
+func_ltwrapper_scriptname	libtool	/^func_ltwrapper_scriptname ()$/;"	f
+func_ltwrapper_scriptname	ltmain.sh	/^func_ltwrapper_scriptname ()$/;"	f
+func_missing_arg	libtool	/^func_missing_arg ()$/;"	f
+func_missing_arg	ltmain.sh	/^func_missing_arg ()$/;"	f
+func_mkdir_p	libtool	/^func_mkdir_p ()$/;"	f
+func_mkdir_p	ltmain.sh	/^func_mkdir_p ()$/;"	f
+func_mktempdir	libtool	/^func_mktempdir ()$/;"	f
+func_mktempdir	ltmain.sh	/^func_mktempdir ()$/;"	f
+func_mode_compile	libtool	/^func_mode_compile ()$/;"	f
+func_mode_compile	ltmain.sh	/^func_mode_compile ()$/;"	f
+func_mode_execute	libtool	/^func_mode_execute ()$/;"	f
+func_mode_execute	ltmain.sh	/^func_mode_execute ()$/;"	f
+func_mode_finish	libtool	/^func_mode_finish ()$/;"	f
+func_mode_finish	ltmain.sh	/^func_mode_finish ()$/;"	f
+func_mode_help	libtool	/^func_mode_help ()$/;"	f
+func_mode_help	ltmain.sh	/^func_mode_help ()$/;"	f
+func_mode_install	libtool	/^func_mode_install ()$/;"	f
+func_mode_install	ltmain.sh	/^func_mode_install ()$/;"	f
+func_mode_link	libtool	/^func_mode_link ()$/;"	f
+func_mode_link	ltmain.sh	/^func_mode_link ()$/;"	f
+func_mode_uninstall	libtool	/^func_mode_uninstall ()$/;"	f
+func_mode_uninstall	ltmain.sh	/^func_mode_uninstall ()$/;"	f
+func_normal_abspath	libtool	/^func_normal_abspath ()$/;"	f
+func_normal_abspath	ltmain.sh	/^func_normal_abspath ()$/;"	f
+func_parse_lt_options	libtool	/^func_parse_lt_options ()$/;"	f
+func_parse_lt_options	ltmain.sh	/^func_parse_lt_options ()$/;"	f
+func_quote_for_eval	libtool	/^func_quote_for_eval ()$/;"	f
+func_quote_for_eval	ltmain.sh	/^func_quote_for_eval ()$/;"	f
+func_quote_for_expand	libtool	/^func_quote_for_expand ()$/;"	f
+func_quote_for_expand	ltmain.sh	/^func_quote_for_expand ()$/;"	f
+func_relative_path	libtool	/^func_relative_path ()$/;"	f
+func_relative_path	ltmain.sh	/^func_relative_path ()$/;"	f
+func_replace_sysroot	libtool	/^func_replace_sysroot ()$/;"	f
+func_replace_sysroot	ltmain.sh	/^func_replace_sysroot ()$/;"	f
+func_resolve_sysroot	libtool	/^func_resolve_sysroot ()$/;"	f
+func_resolve_sysroot	ltmain.sh	/^func_resolve_sysroot ()$/;"	f
+func_show_eval	libtool	/^func_show_eval ()$/;"	f
+func_show_eval	ltmain.sh	/^func_show_eval ()$/;"	f
+func_show_eval_locale	libtool	/^func_show_eval_locale ()$/;"	f
+func_show_eval_locale	ltmain.sh	/^func_show_eval_locale ()$/;"	f
+func_source	libtool	/^func_source ()$/;"	f
+func_source	ltmain.sh	/^func_source ()$/;"	f
+func_split_long_opt	config.status	/^func_split_long_opt ()\\$/;"	f
+func_split_long_opt	configure	/^func_split_long_opt ()\\$/;"	f
+func_split_long_opt	libtool	/^func_split_long_opt ()$/;"	f
+func_split_long_opt	ltmain.sh	/^func_split_long_opt ()$/;"	f
+func_split_short_opt	config.status	/^func_split_short_opt ()\\$/;"	f
+func_split_short_opt	configure	/^func_split_short_opt ()\\$/;"	f
+func_split_short_opt	libtool	/^func_split_short_opt ()$/;"	f
+func_split_short_opt	ltmain.sh	/^func_split_short_opt ()$/;"	f
+func_stripname	config.status	/^func_stripname ()\\$/;"	f
+func_stripname	configure	/^func_stripname ()\\$/;"	f
+func_stripname	libtool	/^func_stripname ()$/;"	f
+func_stripname	ltmain.sh	/^func_stripname ()$/;"	f
+func_stripname_cnf	configure	/^func_stripname_cnf ()$/;"	f
+func_to_host_file	libtool	/^func_to_host_file ()$/;"	f
+func_to_host_file	ltmain.sh	/^func_to_host_file ()$/;"	f
+func_to_host_path	libtool	/^func_to_host_path ()$/;"	f
+func_to_host_path	ltmain.sh	/^func_to_host_path ()$/;"	f
+func_to_tool_file	libtool	/^func_to_tool_file ()$/;"	f
+func_to_tool_file	ltmain.sh	/^func_to_tool_file ()$/;"	f
+func_tr_sh	libtool	/^func_tr_sh ()$/;"	f
+func_tr_sh	ltmain.sh	/^func_tr_sh ()$/;"	f
+func_usage	libtool	/^func_usage ()$/;"	f
+func_usage	ltmain.sh	/^func_usage ()$/;"	f
+func_verbose	libtool	/^func_verbose ()$/;"	f
+func_verbose	ltmain.sh	/^func_verbose ()$/;"	f
+func_version	libtool	/^func_version ()$/;"	f
+func_version	ltmain.sh	/^func_version ()$/;"	f
+func_warning	libtool	/^func_warning ()$/;"	f
+func_warning	ltmain.sh	/^func_warning ()$/;"	f
+func_win32_import_lib_p	libtool	/^func_win32_import_lib_p ()$/;"	f
+func_win32_import_lib_p	ltmain.sh	/^func_win32_import_lib_p ()$/;"	f
+func_win32_libid	libtool	/^func_win32_libid ()$/;"	f
+func_win32_libid	ltmain.sh	/^func_win32_libid ()$/;"	f
+func_write_libtool_object	libtool	/^func_write_libtool_object ()$/;"	f
+func_write_libtool_object	ltmain.sh	/^func_write_libtool_object ()$/;"	f
+func_xform	config.status	/^func_xform ()\\$/;"	f
+func_xform	configure	/^func_xform ()\\$/;"	f
+func_xform	libtool	/^func_xform ()$/;"	f
+func_xform	ltmain.sh	/^func_xform ()$/;"	f
+funcptr	lib/event.h	/^typedef void (*funcptr)(void *args);$/;"	t
+get_attr_by_name	utils/xml.c	/^xmlChar* get_attr_by_name(xmlDocPtr doc, xmlNodePtr node, const xmlChar *name)$/;"	f	signature:(xmlDocPtr doc, xmlNodePtr node, const xmlChar *name)
+get_attr_by_name	utils/xml.h	/^xmlChar* get_attr_by_name(xmlDocPtr doc, xmlNodePtr node, const xmlChar *name);$/;"	p	signature:(xmlDocPtr doc, xmlNodePtr node, const xmlChar *name)
+get_node_by_name	utils/xml.c	/^xmlNodePtr get_node_by_name(xmlDocPtr doc, xmlNodePtr parent, const xmlChar *name)$/;"	f	signature:(xmlDocPtr doc, xmlNodePtr parent, const xmlChar *name)
+get_node_by_name	utils/xml.h	/^xmlNodePtr get_node_by_name(xmlDocPtr doc, xmlNodePtr parent, const xmlChar *name);$/;"	p	signature:(xmlDocPtr doc, xmlNodePtr parent, const xmlChar *name)
+get_sem_value	lib/semph.c	/^int get_sem_value(int i)$/;"	f	signature:(int i)
+get_sem_value	lib/semph.h	/^int get_sem_value(int i);$/;"	p	signature:(int i)
+get_shmqueue_head	lib/shmem.c	/^int get_shmqueue_head(int shmid)$/;"	f	signature:(int shmid)
+get_shmqueue_length	lib/shmem.c	/^int get_shmqueue_length(int shmid)$/;"	f	signature:(int shmid)
+get_shmqueue_tail	lib/shmem.c	/^int get_shmqueue_tail(int shmid)$/;"	f	signature:(int shmid)
+get_value	confparser.c	/^int get_value(int conf, const char* section, const char* item)$/;"	f	signature:(int conf, const char* section, const char* item)
+get_value	confparser.h	/^int get_value(int conf, const char* section, const char* item); $/;"	p	signature:(int conf, const char* section, const char* item)
+get_value_by_name	utils/xml.c	/^xmlChar *get_value_by_name(xmlDocPtr doc, xmlNodePtr parent, const xmlChar *name)$/;"	f	signature:(xmlDocPtr doc, xmlNodePtr parent, const xmlChar *name)
+get_value_by_name	utils/xml.h	/^xmlChar *get_value_by_name(xmlDocPtr doc, xmlNodePtr parent, const xmlChar *name);$/;"	p	signature:(xmlDocPtr doc, xmlNodePtr parent, const xmlChar *name)
+getdata	lib/linklist.h	48;"	d
+give_advice	missing	/^give_advice ()$/;"	f
+global_max_size	lib/shmem.c	/^unsigned int global_max_size;$/;"	v
+global_sems	lib/semph.c	/^int global_sems = 0;$/;"	v
+handler	lib/event.h	/^	void* handler;$/;"	m	struct:event_handler_item	access:public
+head	comm/comm_lite.h	/^	char	*head;$/;"	m	struct:packet	access:public
+head	lib/linklist.h	/^  struct listnode *head;$/;"	m	struct:list	typeref:struct:list::listnode	access:public
+head	lib/shmem.h	/^	int head;$/;"	m	struct:shmqueue_ctl	access:public
+head	lib/thread.h	/^  struct thread *head;$/;"	m	struct:thread_list	typeref:struct:thread_list::thread	access:public
+host	Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host	comm/Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host	lib/Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host	utils/Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host_alias	Makefile	/^host_alias = $/;"	m
+host_alias	comm/Makefile	/^host_alias = $/;"	m
+host_alias	lib/Makefile	/^host_alias = $/;"	m
+host_alias	utils/Makefile	/^host_alias = $/;"	m
+host_cpu	Makefile	/^host_cpu = i686$/;"	m
+host_cpu	comm/Makefile	/^host_cpu = i686$/;"	m
+host_cpu	lib/Makefile	/^host_cpu = i686$/;"	m
+host_cpu	utils/Makefile	/^host_cpu = i686$/;"	m
+host_os	Makefile	/^host_os = linux-gnu$/;"	m
+host_os	comm/Makefile	/^host_os = linux-gnu$/;"	m
+host_os	lib/Makefile	/^host_os = linux-gnu$/;"	m
+host_os	utils/Makefile	/^host_os = linux-gnu$/;"	m
+host_triplet	Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_triplet	comm/Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_triplet	lib/Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_triplet	utils/Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_vendor	Makefile	/^host_vendor = pc$/;"	m
+host_vendor	comm/Makefile	/^host_vendor = pc$/;"	m
+host_vendor	lib/Makefile	/^host_vendor = pc$/;"	m
+host_vendor	utils/Makefile	/^host_vendor = pc$/;"	m
+htmldir	Makefile	/^htmldir = ${docdir}$/;"	m
+htmldir	comm/Makefile	/^htmldir = ${docdir}$/;"	m
+htmldir	lib/Makefile	/^htmldir = ${docdir}$/;"	m
+htmldir	utils/Makefile	/^htmldir = ${docdir}$/;"	m
+hw_addr	lib/if.h	/^  u_char hw_addr[INTERFACE_HWADDR_MAX];$/;"	m	struct:interface	access:public
+hw_addr_len	lib/if.h	/^  int hw_addr_len;$/;"	m	struct:interface	access:public
+hw_type	lib/if.h	/^  unsigned short hw_type;$/;"	m	struct:interface	access:public
+id	lib/prefix.h	/^      struct in_addr id;$/;"	m	struct:prefix::__anon1::__anon2	typeref:struct:prefix::__anon1::__anon2::in_addr	access:public
+id	lib/prefix.h	/^  struct in_addr id __attribute__ ((aligned (8)));$/;"	m	struct:prefix_ls	typeref:struct:prefix_ls::in_addr	access:public
+id_t	utils/common.h	/^typedef unsigned int id_t;$/;"	t
+ident	lib/log.h	/^  const char *ident;$/;"	m	struct:zlog	access:public
+if_add_hook	lib/if.c	/^if_add_hook (int type, int (*func)(struct interface *ifp))$/;"	f	signature:(int type, int (*func)(struct interface *ifp))
+if_add_hook	lib/if.h	/^void if_add_hook (int, int (*)(struct interface *));$/;"	p	signature:(int, int (*)(struct interface *))
+if_create	lib/if.c	/^if_create ()$/;"	f
+if_create	lib/if.h	/^struct interface *if_create (void);$/;"	p	signature:(void)
+if_delete	lib/if.c	/^if_delete (struct interface *ifp)$/;"	f	signature:(struct interface *ifp)
+if_delete	lib/if.h	/^void if_delete (struct interface *);$/;"	p	signature:(struct interface *)
+if_delete_hook	lib/if.c	/^  int (*if_delete_hook) (struct interface *);$/;"	m	struct:if_master	file:	access:public
+if_dump_all	lib/if.h	/^void if_dump_all ();$/;"	p	signature:()
+if_get_by_name	lib/if.c	/^if_get_by_name (char *name)$/;"	f	signature:(char *name)
+if_get_by_name	lib/if.h	/^struct interface *if_get_by_name (char *);$/;"	p	signature:(char *)
+if_indextoname	lib/if.c	/^if_indextoname (unsigned int ifindex, char *name)$/;"	f	signature:(unsigned int ifindex, char *name)
+if_indextoname	lib/if.h	/^char *if_indextoname (unsigned int, char *);$/;"	p	signature:(unsigned int, char *)
+if_init	lib/if.c	/^if_init ()$/;"	f
+if_init	lib/if.h	/^void if_init ();$/;"	p	signature:()
+if_is_broadcast	lib/if.c	/^if_is_broadcast (struct interface *ifp)$/;"	f	signature:(struct interface *ifp)
+if_is_broadcast	lib/if.h	/^int if_is_broadcast (struct interface *);$/;"	p	signature:(struct interface *)
+if_is_loopback	lib/if.c	/^if_is_loopback (struct interface *ifp)$/;"	f	signature:(struct interface *ifp)
+if_is_loopback	lib/if.h	/^int if_is_loopback (struct interface *);$/;"	p	signature:(struct interface *)
+if_is_multicast	lib/if.c	/^if_is_multicast (struct interface *ifp)$/;"	f	signature:(struct interface *ifp)
+if_is_multicast	lib/if.h	/^int if_is_multicast (struct interface *);$/;"	p	signature:(struct interface *)
+if_is_pointopoint	lib/if.c	/^if_is_pointopoint (struct interface *ifp)$/;"	f	signature:(struct interface *ifp)
+if_is_pointopoint	lib/if.h	/^int if_is_pointopoint (struct interface *);$/;"	p	signature:(struct interface *)
+if_is_up	lib/if.c	/^if_is_up (struct interface *ifp)$/;"	f	signature:(struct interface *ifp)
+if_is_up	lib/if.h	/^int if_is_up (struct interface *);$/;"	p	signature:(struct interface *)
+if_lookup_address	lib/if.c	/^if_lookup_address (struct in_addr src)$/;"	f	signature:(struct in_addr src)
+if_lookup_address	lib/if.h	/^struct interface *if_lookup_address (struct in_addr);$/;"	p	signature:(struct in_addr)
+if_lookup_by_index	lib/if.c	/^if_lookup_by_index (unsigned int index)$/;"	f	signature:(unsigned int index)
+if_lookup_by_index	lib/if.h	/^struct interface *if_lookup_by_index (unsigned int);$/;"	p	signature:(unsigned int)
+if_lookup_by_name	lib/if.c	/^if_lookup_by_name (char *name)$/;"	f	signature:(char *name)
+if_lookup_by_name	lib/if.h	/^struct interface *if_lookup_by_name (char *);$/;"	p	signature:(char *)
+if_lookup_exact_address	lib/if.c	/^if_lookup_exact_address (struct in_addr src)$/;"	f	signature:(struct in_addr src)
+if_lookup_exact_address	lib/if.h	/^struct interface *if_lookup_exact_address (struct in_addr);$/;"	p	signature:(struct in_addr)
+if_master	lib/if.c	/^struct if_master$/;"	s	file:
+if_master	lib/if.c	/^} if_master;$/;"	v	typeref:struct:if_master
+if_master::if_delete_hook	lib/if.c	/^  int (*if_delete_hook) (struct interface *);$/;"	m	struct:if_master	file:	access:public
+if_master::if_new_hook	lib/if.c	/^  int (*if_new_hook) (struct interface *);$/;"	m	struct:if_master	file:	access:public
+if_nametoindex	lib/if.c	/^if_nametoindex (const char *name)$/;"	f	signature:(const char *name)
+if_nametoindex	lib/if.h	/^unsigned int if_nametoindex (const char *);$/;"	p	signature:(const char *)
+if_new	lib/if.c	/^if_new ()$/;"	f
+if_new	lib/if.h	/^struct interface *if_new (void);$/;"	p	signature:(void)
+if_new_hook	lib/if.c	/^  int (*if_new_hook) (struct interface *);$/;"	m	struct:if_master	file:	access:public
+if_section_existed	confparser.c	/^int if_section_existed(int conf, const char* section)$/;"	f	signature:(int conf, const char* section)
+if_section_existed	confparser.h	/^int if_section_existed(int conf, const char* section);$/;"	p	signature:(int conf, const char* section)
+if_stats	lib/if.h	/^struct if_stats$/;"	s
+if_stats::collisions	lib/if.h	/^  unsigned long collisions;$/;"	m	struct:if_stats	access:public
+if_stats::rx_bytes	lib/if.h	/^  unsigned long rx_bytes;     \/* total bytes received         *\/$/;"	m	struct:if_stats	access:public
+if_stats::rx_compressed	lib/if.h	/^  unsigned long rx_compressed;$/;"	m	struct:if_stats	access:public
+if_stats::rx_crc_errors	lib/if.h	/^  unsigned long rx_crc_errors;        \/* recved pkt with crc error    *\/$/;"	m	struct:if_stats	access:public
+if_stats::rx_dropped	lib/if.h	/^  unsigned long rx_dropped;   \/* no space in linux buffers    *\/$/;"	m	struct:if_stats	access:public
+if_stats::rx_errors	lib/if.h	/^  unsigned long rx_errors;    \/* bad packets received         *\/$/;"	m	struct:if_stats	access:public
+if_stats::rx_fifo_errors	lib/if.h	/^  unsigned long rx_fifo_errors;       \/* recv'r fifo overrun          *\/$/;"	m	struct:if_stats	access:public
+if_stats::rx_frame_errors	lib/if.h	/^  unsigned long rx_frame_errors;      \/* recv'd frame alignment error *\/$/;"	m	struct:if_stats	access:public
+if_stats::rx_length_errors	lib/if.h	/^  unsigned long rx_length_errors;$/;"	m	struct:if_stats	access:public
+if_stats::rx_missed_errors	lib/if.h	/^  unsigned long rx_missed_errors;     \/* receiver missed packet     *\/$/;"	m	struct:if_stats	access:public
+if_stats::rx_multicast	lib/if.h	/^  unsigned long rx_multicast; \/* multicast packets received   *\/$/;"	m	struct:if_stats	access:public
+if_stats::rx_over_errors	lib/if.h	/^  unsigned long rx_over_errors;       \/* receiver ring buff overflow  *\/$/;"	m	struct:if_stats	access:public
+if_stats::rx_packets	lib/if.h	/^  unsigned long rx_packets;   \/* total packets received       *\/$/;"	m	struct:if_stats	access:public
+if_stats::tx_aborted_errors	lib/if.h	/^  unsigned long tx_aborted_errors;$/;"	m	struct:if_stats	access:public
+if_stats::tx_bytes	lib/if.h	/^  unsigned long tx_bytes;     \/* total bytes transmitted      *\/$/;"	m	struct:if_stats	access:public
+if_stats::tx_carrier_errors	lib/if.h	/^  unsigned long tx_carrier_errors;$/;"	m	struct:if_stats	access:public
+if_stats::tx_compressed	lib/if.h	/^  unsigned long tx_compressed;$/;"	m	struct:if_stats	access:public
+if_stats::tx_dropped	lib/if.h	/^  unsigned long tx_dropped;   \/* no space available in linux  *\/$/;"	m	struct:if_stats	access:public
+if_stats::tx_errors	lib/if.h	/^  unsigned long tx_errors;    \/* packet transmit problems     *\/$/;"	m	struct:if_stats	access:public
+if_stats::tx_fifo_errors	lib/if.h	/^  unsigned long tx_fifo_errors;$/;"	m	struct:if_stats	access:public
+if_stats::tx_heartbeat_errors	lib/if.h	/^  unsigned long tx_heartbeat_errors;$/;"	m	struct:if_stats	access:public
+if_stats::tx_packets	lib/if.h	/^  unsigned long tx_packets;   \/* total packets transmitted    *\/$/;"	m	struct:if_stats	access:public
+if_stats::tx_window_errors	lib/if.h	/^  unsigned long tx_window_errors;$/;"	m	struct:if_stats	access:public
+ifaddr_ipv4_table	lib/if.c	/^struct route_table *ifaddr_ipv4_table;$/;"	v	typeref:struct:route_table
+ifc_pointopoint	lib/if.c	/^ifc_pointopoint (struct connected *ifc)$/;"	f	signature:(struct connected *ifc)
+ifc_pointopoint	lib/if.h	/^int ifc_pointopoint (struct connected *);$/;"	p	signature:(struct connected *)
+ifindex	comm/udp_lite.h	/^	int ifindex;$/;"	m	struct:udp_pkt_info	access:public
+ifindex	lib/if.h	/^  unsigned int ifindex;$/;"	m	struct:interface	access:public
+ifindex2ifname	lib/if.c	/^ifindex2ifname (unsigned int index)$/;"	f	signature:(unsigned int index)
+ifindex2ifname	lib/if.h	/^char *ifindex2ifname (unsigned int);$/;"	p	signature:(unsigned int)
+iflist	lib/if.c	/^struct list *iflist;$/;"	v	typeref:struct:list
+ifp	lib/if.h	/^  struct interface *ifp;$/;"	m	struct:connected	typeref:struct:connected::interface	access:public
+in_ifdex	netstream.h	/^	u16 in_ifdex;$/;"	m	struct:NetFlow	access:public
+in_pktinfo	lib/zebra.h	/^struct in_pktinfo$/;"	s
+in_pktinfo::ipi_addr	lib/zebra.h	/^  struct in_addr ipi_addr;$/;"	m	struct:in_pktinfo	typeref:struct:in_pktinfo::in_addr	access:public
+in_pktinfo::ipi_ifindex	lib/zebra.h	/^  int ipi_ifindex;$/;"	m	struct:in_pktinfo	access:public
+in_pktinfo::ipi_spec_dst	lib/zebra.h	/^  struct in_addr ipi_spec_dst;$/;"	m	struct:in_pktinfo	typeref:struct:in_pktinfo::in_addr	access:public
+includedir	Makefile	/^includedir = ${prefix}\/include$/;"	m
+includedir	comm/Makefile	/^includedir = ${prefix}\/include$/;"	m
+includedir	lib/Makefile	/^includedir = ${prefix}\/include$/;"	m
+includedir	utils/Makefile	/^includedir = ${prefix}\/include$/;"	m
+index	lib/memory.c	/^  int index;$/;"	m	struct:memory_list	file:	access:public
+index	lib/vector.h	/^  void **index;			\/* index to data *\/$/;"	m	struct:_vector	access:public
+info	lib/if.h	/^  void *info;$/;"	m	struct:interface	access:public
+info	lib/table.h	/^  void *info;$/;"	m	struct:route_node	access:public
+infodir	Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+infodir	comm/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+infodir	lib/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+infodir	utils/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+init_pthread_pool	lib/thread_pool.c	/^void init_pthread_pool(Pool *pool)$/;"	f	signature:(Pool *pool)
+init_pthread_pool	lib/thread_pool.h	/^void init_pthread_pool(Pool *pool);$/;"	p	signature:(Pool *pool)
+init_sems	lib/semph.c	/^int init_sems(const char * path, int sum)$/;"	f	signature:(const char * path, int sum)
+init_sems	lib/semph.h	/^int init_sems(const char *path, int sum);$/;"	p	signature:(const char *path, int sum)
+install_sh	Makefile	/^install_sh = ${SHELL} \/home\/macro\/install-sh$/;"	m
+install_sh	comm/Makefile	/^install_sh = ${SHELL} \/home\/macro\/install-sh$/;"	m
+install_sh	lib/Makefile	/^install_sh = ${SHELL} \/home\/macro\/install-sh$/;"	m
+install_sh	utils/Makefile	/^install_sh = ${SHELL} \/home\/macro\/install-sh$/;"	m
+install_sh_DATA	Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	comm/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	lib/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	utils/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	comm/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	lib/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	utils/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	comm/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	lib/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	utils/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+interface	lib/if.h	/^struct interface $/;"	s
+interface::bandwidth	lib/if.h	/^  unsigned int bandwidth;$/;"	m	struct:interface	access:public
+interface::connected	lib/if.h	/^  struct list *connected;$/;"	m	struct:interface	typeref:struct:interface::list	access:public
+interface::desc	lib/if.h	/^  char *desc;			$/;"	m	struct:interface	access:public
+interface::distribute_in	lib/if.h	/^  void *distribute_in;$/;"	m	struct:interface	access:public
+interface::distribute_out	lib/if.h	/^  void *distribute_out;$/;"	m	struct:interface	access:public
+interface::flags	lib/if.h	/^  unsigned long flags;$/;"	m	struct:interface	access:public
+interface::hw_addr	lib/if.h	/^  u_char hw_addr[INTERFACE_HWADDR_MAX];$/;"	m	struct:interface	access:public
+interface::hw_addr_len	lib/if.h	/^  int hw_addr_len;$/;"	m	struct:interface	access:public
+interface::hw_type	lib/if.h	/^  unsigned short hw_type;$/;"	m	struct:interface	access:public
+interface::ifindex	lib/if.h	/^  unsigned int ifindex;$/;"	m	struct:interface	access:public
+interface::info	lib/if.h	/^  void *info;$/;"	m	struct:interface	access:public
+interface::metric	lib/if.h	/^  int metric;$/;"	m	struct:interface	access:public
+interface::mtu	lib/if.h	/^  int mtu;$/;"	m	struct:interface	access:public
+interface::name	lib/if.h	/^  char name[INTERFACE_NAMSIZ + 1];$/;"	m	struct:interface	access:public
+interface::sdl	lib/if.h	/^  struct sockaddr_dl sdl;$/;"	m	struct:interface	typeref:struct:interface::sockaddr_dl	access:public
+interface::stats	lib/if.h	/^  struct if_data stats;$/;"	m	struct:interface	typeref:struct:interface::if_data	access:public
+interface::stats	lib/if.h	/^  struct if_stats stats;$/;"	m	struct:interface	typeref:struct:interface::if_stats	access:public
+interface::status	lib/if.h	/^  u_char status;$/;"	m	struct:interface	access:public
+iov_count	comm/udp_lite.c	/^int iov_count(struct iovec *iov) {$/;"	f	signature:(struct iovec *iov)
+iov_count	comm/udp_lite.c	/^int iov_count(struct iovec *iov);$/;"	p	file:	signature:(struct iovec *iov)
+iov_totallen	comm/udp_lite.c	/^int iov_totallen(struct iovec *iov) {$/;"	f	signature:(struct iovec *iov)
+iov_totallen	comm/udp_lite.c	/^int iov_totallen(struct iovec *iov);$/;"	p	file:	signature:(struct iovec *iov)
+ip	comm/comm_lite.h	/^	char	ip[INET_ADDRSTRLEN];$/;"	m	struct:packet	access:public
+ip6_masklen	lib/prefix.c	/^ip6_masklen (struct in6_addr netmask)$/;"	f	signature:(struct in6_addr netmask)
+ip6_masklen	lib/prefix.h	/^int ip6_masklen (struct in6_addr netmask);$/;"	p	signature:(struct in6_addr netmask)
+ip_masklen	lib/prefix.c	/^ip_masklen (struct in_addr netmask)$/;"	f	signature:(struct in_addr netmask)
+ip_masklen	lib/prefix.h	/^u_char ip_masklen (struct in_addr);$/;"	p	signature:(struct in_addr)
+ipi_addr	lib/zebra.h	/^  struct in_addr ipi_addr;$/;"	m	struct:in_pktinfo	typeref:struct:in_pktinfo::in_addr	access:public
+ipi_ifindex	lib/zebra.h	/^  int ipi_ifindex;$/;"	m	struct:in_pktinfo	access:public
+ipi_spec_dst	lib/zebra.h	/^  struct in_addr ipi_spec_dst;$/;"	m	struct:in_pktinfo	typeref:struct:in_pktinfo::in_addr	access:public
+item	utils/list.c	/^	void* item;$/;"	m	struct:stack_item	file:	access:public
+items	confparser.h	/^	Item *items;$/;"	m	struct:Section	access:public
+key	lib/log.h	/^  int key;$/;"	m	struct:message	access:public
+l_left	lib/table.h	42;"	d
+l_right	lib/table.h	43;"	d
+label	lib/if.h	/^  char *label;$/;"	m	struct:connected	access:public
+layer4	netstream.h	/^	u8 layer4;$/;"	m	struct:NetFlow	access:public
+len	comm/comm_lite.h	/^	unsigned int	len;$/;"	m	struct:packet	access:public
+len	comm/udp_lite.h	/^	int len;$/;"	m	struct:udp_pkt_info	access:public
+libcommlite_a_AR	comm/Makefile	/^libcommlite_a_AR = $(AR) $(ARFLAGS)$/;"	m
+libcommlite_a_CFLAGS	comm/Makefile	/^libcommlite_a_CFLAGS = -I$(LIB_XML_INCLUDE)$/;"	m
+libcommlite_a_LIBADD	comm/Makefile	/^libcommlite_a_LIBADD =$/;"	m
+libcommlite_a_OBJECTS	comm/Makefile	/^libcommlite_a_OBJECTS = $(am_libcommlite_a_OBJECTS)$/;"	m
+libcommlite_a_SOURCES	comm/Makefile	/^libcommlite_a_SOURCES = comm_lite.c comm_lite.h$/;"	m
+libdir	Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	comm/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	lib/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	utils/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libexecdir	comm/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libexecdir	lib/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libexecdir	utils/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libmytools_a_AR	lib/Makefile	/^libmytools_a_AR = $(AR) $(ARFLAGS)$/;"	m
+libmytools_a_CFLAGS	lib/Makefile	/^libmytools_a_CFLAGS = -I..\/$/;"	m
+libmytools_a_LIBADD	lib/Makefile	/^libmytools_a_LIBADD =$/;"	m
+libmytools_a_OBJECTS	lib/Makefile	/^libmytools_a_OBJECTS = $(am_libmytools_a_OBJECTS)$/;"	m
+libmytools_a_SOURCES	lib/Makefile	/^libmytools_a_SOURCES = thread_pool.c if.c event.c linklist.c log.c\\$/;"	m
+libudplite_a_AR	comm/Makefile	/^libudplite_a_AR = $(AR) $(ARFLAGS)$/;"	m
+libudplite_a_CFLAGS	comm/Makefile	/^libudplite_a_CFLAGS = -I$(LIB_XML_INCLUDE)$/;"	m
+libudplite_a_LIBADD	comm/Makefile	/^libudplite_a_LIBADD =$/;"	m
+libudplite_a_OBJECTS	comm/Makefile	/^libudplite_a_OBJECTS = $(am_libudplite_a_OBJECTS)$/;"	m
+libudplite_a_SOURCES	comm/Makefile	/^libudplite_a_SOURCES = udp_lite.c udp_lite.h$/;"	m
+libutils_a_AR	utils/Makefile	/^libutils_a_AR = $(AR) $(ARFLAGS)$/;"	m
+libutils_a_CFLAGS	utils/Makefile	/^libutils_a_CFLAGS = -I$(LIB_XML_INCLUDE)$/;"	m
+libutils_a_LIBADD	utils/Makefile	/^libutils_a_LIBADD =$/;"	m
+libutils_a_OBJECTS	utils/Makefile	/^libutils_a_OBJECTS = $(am_libutils_a_OBJECTS)$/;"	m
+libutils_a_SOURCES	utils/Makefile	/^libutils_a_SOURCES = utils.c\\$/;"	m
+link	lib/table.h	/^  struct route_node *link[2];$/;"	m	struct:route_node	typeref:struct:route_node::route_node	access:public
+list	lib/linklist.h	/^struct list $/;"	s
+list	lib/linklist.h	/^typedef struct list *list;$/;"	t	typeref:struct:list
+list::cmp	lib/linklist.h	/^  int (*cmp) (void *val1, void *val2);$/;"	m	struct:list	access:public
+list::count	lib/linklist.h	/^  unsigned int count;$/;"	m	struct:list	access:public
+list::del	lib/linklist.h	/^  void (*del) (void *val);$/;"	m	struct:list	access:public
+list::head	lib/linklist.h	/^  struct listnode *head;$/;"	m	struct:list	typeref:struct:list::listnode	access:public
+list::tail	lib/linklist.h	/^  struct listnode *tail;$/;"	m	struct:list	typeref:struct:list::listnode	access:public
+list_add_list	lib/linklist.c	/^list_add_list (struct list *l, struct list *m)$/;"	f	signature:(struct list *l, struct list *m)
+list_add_list	lib/linklist.h	/^void list_add_list (list, list);$/;"	p	signature:(list, list)
+list_add_node_next	lib/linklist.c	/^list_add_node_next (list list, listnode current, void *val)$/;"	f	signature:(list list, listnode current, void *val)
+list_add_node_next	lib/linklist.h	/^void list_add_node_next (list, listnode, void *);$/;"	p	signature:(list, listnode, void *)
+list_add_node_prev	lib/linklist.c	/^list_add_node_prev (list list, listnode current, void *val)$/;"	f	signature:(list list, listnode current, void *val)
+list_add_node_prev	lib/linklist.h	/^void list_add_node_prev (list, listnode, void *);$/;"	p	signature:(list, listnode, void *)
+list_add_rcu	utils/utils.h	91;"	d
+list_add_tail_rcu	utils/utils.h	104;"	d
+list_del_rcu	utils/utils.h	99;"	d
+list_delete	lib/linklist.c	/^list_delete (struct list *list)$/;"	f	signature:(struct list *list)
+list_delete	lib/linklist.h	/^void list_delete (struct list *);$/;"	p	signature:(struct list *)
+list_delete_all_node	lib/linklist.c	/^list_delete_all_node (struct list *list)$/;"	f	signature:(struct list *list)
+list_delete_all_node	lib/linklist.h	/^void list_delete_all_node (struct list *);$/;"	p	signature:(struct list *)
+list_delete_node	lib/linklist.c	/^list_delete_node (list list, listnode node)$/;"	f	signature:(list list, listnode node)
+list_delete_node	lib/linklist.h	/^void list_delete_node (list, listnode);$/;"	p	signature:(list, listnode)
+list_free	lib/linklist.c	/^list_free (struct list *l)$/;"	f	signature:(struct list *l)
+list_free	lib/linklist.h	/^void list_free (struct list *);$/;"	p	signature:(struct list *)
+list_head	utils/utils.h	/^struct list_head{$/;"	s
+list_head::next	utils/utils.h	/^	struct list_head *next;$/;"	m	struct:list_head	typeref:struct:list_head::list_head	access:public
+list_head::prev	utils/utils.h	/^	struct list_head *prev;$/;"	m	struct:list_head	typeref:struct:list_head::list_head	access:public
+list_isempty	lib/linklist.h	47;"	d
+list_new	lib/linklist.c	/^list_new ()$/;"	f
+list_new	lib/linklist.h	/^struct list *list_new();$/;"	p	signature:()
+listcount	lib/linklist.h	46;"	d
+listhead	lib/linklist.h	45;"	d
+listnode	lib/linklist.h	/^struct listnode $/;"	s
+listnode	lib/linklist.h	/^typedef struct listnode *listnode;$/;"	t	typeref:struct:listnode
+listnode::data	lib/linklist.h	/^  void *data;$/;"	m	struct:listnode	access:public
+listnode::next	lib/linklist.h	/^  struct listnode *next;$/;"	m	struct:listnode	typeref:struct:listnode::listnode	access:public
+listnode::prev	lib/linklist.h	/^  struct listnode *prev;$/;"	m	struct:listnode	typeref:struct:listnode::listnode	access:public
+listnode_add	lib/linklist.c	/^listnode_add (struct list *list, void *val)$/;"	f	signature:(struct list *list, void *val)
+listnode_add	lib/linklist.h	/^void listnode_add (struct list *, void *);$/;"	p	signature:(struct list *, void *)
+listnode_add_after	lib/linklist.c	/^listnode_add_after (struct list *list, struct listnode *pp, void *val)$/;"	f	signature:(struct list *list, struct listnode *pp, void *val)
+listnode_add_after	lib/linklist.h	/^void listnode_add_after (struct list *, struct listnode *, void *);$/;"	p	signature:(struct list *, struct listnode *, void *)
+listnode_add_sort	lib/linklist.c	/^listnode_add_sort (struct list *list, void *val)$/;"	f	signature:(struct list *list, void *val)
+listnode_add_sort	lib/linklist.h	/^void listnode_add_sort (struct list *, void *);$/;"	p	signature:(struct list *, void *)
+listnode_delete	lib/linklist.c	/^listnode_delete (struct list *list, void *val)$/;"	f	signature:(struct list *list, void *val)
+listnode_delete	lib/linklist.h	/^void listnode_delete (struct list *, void *);$/;"	p	signature:(struct list *, void *)
+listnode_free	lib/linklist.c	/^listnode_free (struct listnode *node)$/;"	f	file:	signature:(struct listnode *node)
+listnode_head	lib/linklist.c	/^listnode_head (struct list *list)$/;"	f	signature:(struct list *list)
+listnode_head	lib/linklist.h	/^void *listnode_head (struct list *);$/;"	p	signature:(struct list *)
+listnode_lookup	lib/linklist.c	/^listnode_lookup (struct list *list, void *data)$/;"	f	signature:(struct list *list, void *data)
+listnode_lookup	lib/linklist.h	/^struct listnode *listnode_lookup (struct list *, void *);$/;"	p	signature:(struct list *, void *)
+listnode_new	lib/linklist.c	/^listnode_new ()$/;"	f	file:
+load_cfg	conf.py	/^def load_cfg():$/;"	f	access:public
+localedir	Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localedir	comm/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localedir	lib/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localedir	utils/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localstatedir	Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+localstatedir	comm/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+localstatedir	lib/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+localstatedir	utils/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+lock	lib/table.h	/^  unsigned int lock;$/;"	m	struct:route_node	access:public
+lookup	lib/log.c	/^lookup (struct message *mes, int key)$/;"	f	signature:(struct message *mes, int key)
+lookup	lib/log.h	/^char *lookup (struct message *, int);$/;"	p	signature:(struct message *, int)
+lp	lib/prefix.h	/^    } lp;$/;"	m	union:prefix::__anon1	typeref:struct:prefix::__anon1::__anon2	access:public
+lsd_recvmsg	comm/udp_lite.c	/^int lsd_recvmsg(struct in_addr *src, struct in_addr *dst,$/;"	p	file:	signature:(struct in_addr *src, struct in_addr *dst, unsigned int *ifindex, struct iovec *message, int sockfd)
+main	config.guess	/^		main()$/;"	f
+main	config.guess	/^	main ()$/;"	f
+main	config.guess	/^main ()$/;"	f
+main	netstream.c	/^int main(int argc, const char *argv[])$/;"	f	signature:(int argc, const char *argv[])
+make_dummy_depfile	depcomp	/^make_dummy_depfile ()$/;"	f
+make_socket_status	comm/comm_lite.c	/^int make_socket_status( int sfd, int block)$/;"	f	signature:( int sfd, int block)
+make_socket_status	comm/comm_lite.h	/^int make_socket_status( int sfd, int block);$/;"	p	signature:( int sfd, int block)
+malloc_z	confparser.h	9;"	d
+malloc_z	utils/utils.h	112;"	d
+mandir	Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mandir	comm/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mandir	lib/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mandir	utils/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+maskbit	lib/prefix.c	/^static u_char maskbit[] = {0x00, 0x80, 0xc0, 0xe0, 0xf0,$/;"	v	file:
+maskbit	lib/table.c	/^static u_char maskbit[] =$/;"	v	file:
+masklen2ip	lib/prefix.c	/^masklen2ip (int masklen, struct in_addr *netmask)$/;"	f	signature:(int masklen, struct in_addr *netmask)
+masklen2ip	lib/prefix.h	/^void masklen2ip (int, struct in_addr *);$/;"	p	signature:(int, struct in_addr *)
+masklen2ip6	lib/prefix.c	/^masklen2ip6 (int masklen, struct in6_addr *netmask)$/;"	f	signature:(int masklen, struct in6_addr *netmask)
+masklen2ip6	lib/prefix.h	/^void masklen2ip6 (int masklen, struct in6_addr *netmask);$/;"	p	signature:(int masklen, struct in6_addr *netmask)
+maskpri	lib/log.h	/^  int maskpri;		\/* as per syslog setlogmask *\/$/;"	m	struct:zlog	access:public
+master	lib/thread.h	/^  struct thread_master *master;	\/* pointer to the struct thread_master. *\/$/;"	m	struct:thread	typeref:struct:thread::thread_master	access:public
+max	lib/vector.h	/^  unsigned int max;		\/* max number of used slot *\/$/;"	m	struct:_vector	access:public
+max_size	lib/shmem.h	/^	unsigned int max_size;$/;"	m	struct:shmqueue_ctl	access:public
+memory_init	lib/memory.h	/^void memory_init ();$/;"	p	signature:()
+memory_list	lib/memory.c	/^struct memory_list$/;"	s	file:
+memory_list::format	lib/memory.c	/^  char *format;$/;"	m	struct:memory_list	file:	access:public
+memory_list::index	lib/memory.c	/^  int index;$/;"	m	struct:memory_list	file:	access:public
+memory_list_bgp	lib/memory.c	/^struct memory_list memory_list_bgp[] =$/;"	v	typeref:struct:memory_list
+memory_list_lib	lib/memory.c	/^struct memory_list memory_list_lib[] =$/;"	v	typeref:struct:memory_list
+memory_list_ospf	lib/memory.c	/^struct memory_list memory_list_ospf[] =$/;"	v	typeref:struct:memory_list
+memory_list_ospf6	lib/memory.c	/^struct memory_list memory_list_ospf6[] =$/;"	v	typeref:struct:memory_list
+memory_list_rip	lib/memory.c	/^struct memory_list memory_list_rip[] =$/;"	v	typeref:struct:memory_list
+memory_list_separator	lib/memory.c	/^struct memory_list memory_list_separator[] =$/;"	v	typeref:struct:memory_list
+mes_lookup	lib/log.c	/^mes_lookup (struct message *meslist, int max, int index)$/;"	f	signature:(struct message *meslist, int max, int index)
+mes_lookup	lib/log.h	/^char *mes_lookup (struct message *meslist, int max, int index);$/;"	p	signature:(struct message *meslist, int max, int index)
+message	lib/log.h	/^struct message$/;"	s
+message::key	lib/log.h	/^  int key;$/;"	m	struct:message	access:public
+message::str	lib/log.h	/^  char *str;$/;"	m	struct:message	access:public
+metric	lib/if.h	/^  int metric;$/;"	m	struct:interface	access:public
+mkdir_p	Makefile	/^mkdir_p = $(MKDIR_P)$/;"	m
+mkdir_p	comm/Makefile	/^mkdir_p = $(MKDIR_P)$/;"	m
+mkdir_p	lib/Makefile	/^mkdir_p = $(MKDIR_P)$/;"	m
+mkdir_p	utils/Makefile	/^mkdir_p = $(MKDIR_P)$/;"	m
+mkinstalldirs	Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mkinstalldirs	comm/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mkinstalldirs	lib/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mkinstalldirs	utils/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mod_using	utils/utils.h	19;"	d
+msg	comm/udp_lite.h	/^	char* msg;$/;"	m	struct:udp_pkt_info	access:public
+mstat	lib/memory.c	/^} mstat [MTYPE_MAX];$/;"	v	typeref:struct:__anon5
+mstat	lib/memory.c	/^} mstat [MTYPE_MAX];$/;"	v	typeref:struct:__anon6
+mstr	lib/memory.c	/^struct message mstr [] =$/;"	v	typeref:struct:message
+mtu	lib/if.h	/^  int mtu;$/;"	m	struct:interface	access:public
+mtx	lib/thread_pool.h	/^	pthread_mutex_t mtx;$/;"	m	struct:Pool	access:public
+mtype_log	lib/memory.c	/^mtype_log (char *func, void *memory, const char *file, int line, int type)$/;"	f	signature:(char *func, void *memory, const char *file, int line, int type)
+mtype_zcalloc	lib/memory.c	/^mtype_zcalloc (const char *file, int line, int type, size_t size)$/;"	f	signature:(const char *file, int line, int type, size_t size)
+mtype_zcalloc	lib/memory.h	/^void *mtype_zcalloc (const char *file,$/;"	p	signature:(const char *file, int line, int type, size_t num, size_t size)
+mtype_zfree	lib/memory.c	/^mtype_zfree (const char *file, int line, int type, void *ptr)$/;"	f	signature:(const char *file, int line, int type, void *ptr)
+mtype_zfree	lib/memory.h	/^void mtype_zfree (const char *file,$/;"	p	signature:(const char *file, int line, int type, void *ptr)
+mtype_zmalloc	lib/memory.c	/^mtype_zmalloc (const char *file, int line, int type, size_t size)$/;"	f	signature:(const char *file, int line, int type, size_t size)
+mtype_zmalloc	lib/memory.h	/^void *mtype_zmalloc (const char *file,$/;"	p	signature:(const char *file, int line, int type, size_t size)
+mtype_zrealloc	lib/memory.c	/^mtype_zrealloc (const char *file, int line, int type, void *ptr, size_t size)$/;"	f	signature:(const char *file, int line, int type, void *ptr, size_t size)
+mtype_zrealloc	lib/memory.h	/^void *mtype_zrealloc (const char *file,$/;"	p	signature:(const char *file, int line, int type, void *ptr, size_t size)
+mtype_zstrdup	lib/memory.c	/^mtype_zstrdup (const char *file, int line, int type, char *str)$/;"	f	signature:(const char *file, int line, int type, char *str)
+mtype_zstrdup	lib/memory.h	/^char *mtype_zstrdup (const char *file,$/;"	p	signature:(const char *file, int line, int type, char *str)
+mutex_debug	utils/utils.c	/^pthread_mutex_t mutex_debug = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+name	confparser.h	/^	char name[100];$/;"	m	struct:Item	access:public
+name	confparser.h	/^	char name[100];$/;"	m	struct:Section	access:public
+name	lib/if.h	/^  char name[INTERFACE_NAMSIZ + 1];$/;"	m	struct:interface	access:public
+name	lib/memory.c	/^  char *name;$/;"	m	struct:__anon5	file:	access:public
+name	lib/memory.c	/^  char *name;$/;"	m	struct:__anon6	file:	access:public
+netmask_str2prefix_str	lib/prefix.c	/^netmask_str2prefix_str (char *net_str, char *mask_str, char *prefix_str)$/;"	f	signature:(char *net_str, char *mask_str, char *prefix_str)
+netmask_str2prefix_str	lib/prefix.h	/^int netmask_str2prefix_str (char *, char *, char *);$/;"	p	signature:(char *, char *, char *)
+netstream_DEPENDENCIES	Makefile	/^netstream_DEPENDENCIES = .\/comm\/libcommlite.a .\/comm\/libudplite.a \\$/;"	m
+netstream_LDADD	Makefile	/^netstream_LDADD = .\/comm\/libcommlite.a\\$/;"	m
+netstream_OBJECTS	Makefile	/^netstream_OBJECTS = $(am_netstream_OBJECTS)$/;"	m
+netstream_SOURCES	Makefile	/^netstream_SOURCES = netstream.c$/;"	m
+next	confparser.h	/^	Item *next;$/;"	m	struct:Item	access:public
+next	confparser.h	/^	Section *next;$/;"	m	struct:Section	access:public
+next	lib/event.h	/^	struct event_handler_item* next;$/;"	m	struct:event_handler_item	typeref:struct:event_handler_item::event_handler_item	access:public
+next	lib/event.h	/^	struct event_handler_item* next;$/;"	m	struct:event_handlers_queue	typeref:struct:event_handlers_queue::event_handler_item	access:public
+next	lib/linklist.h	/^  struct listnode *next;$/;"	m	struct:listnode	typeref:struct:listnode::listnode	access:public
+next	lib/thread.h	/^  struct thread *next;		\/* next pointer of the thread *\/$/;"	m	struct:thread	typeref:struct:thread::thread	access:public
+next	lib/thread_pool.h	/^	struct Task *next;$/;"	m	struct:Task	typeref:struct:Task::Task	access:public
+next	lib/zebra.h	/^  struct fifo *next;$/;"	m	struct:fifo	typeref:struct:fifo::fifo	access:public
+next	utils/list.h	/^	struct cr_list_head* next;$/;"	m	struct:cr_list_head	typeref:struct:cr_list_head::cr_list_head	access:public
+next	utils/utils.h	/^	struct list_head *next;$/;"	m	struct:list_head	typeref:struct:list_head::list_head	access:public
+nexthop	netstream.h	/^	u32 nexthop;$/;"	m	struct:NetFlow	access:public
+nextnode	lib/linklist.h	44;"	d
+noinst_HEADERS	comm/Makefile	/^noinst_HEADERS = comm_lite.h udp_lite.h$/;"	m
+noinst_HEADERS	lib/Makefile	/^noinst_HEADERS = thread_pool.h if.h event.h linklist.h log.h\\$/;"	m
+noinst_HEADERS	utils/Makefile	/^noinst_HEADERS = common.h list.h pma_err.h utils.h xml.h$/;"	m
+noinst_LIBRARIES	comm/Makefile	/^noinst_LIBRARIES = libcommlite.a libudplite.a$/;"	m
+noinst_LIBRARIES	lib/Makefile	/^noinst_LIBRARIES = libmytools.a$/;"	m
+noinst_LIBRARIES	utils/Makefile	/^noinst_LIBRARIES = libutils.a$/;"	m
+oldincludedir	Makefile	/^oldincludedir = \/usr\/include$/;"	m
+oldincludedir	comm/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+oldincludedir	lib/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+oldincludedir	utils/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+open_conf	confparser.c	/^int open_conf(const char* filepath)$/;"	f	signature:(const char* filepath)
+open_conf	confparser.h	/^int open_conf(const char* filepath);$/;"	p	signature:(const char* filepath)
+openzlog	lib/log.c	/^openzlog (const char *progname, int flags, zlog_proto_t protocol,$/;"	f	signature:(const char *progname, int flags, zlog_proto_t protocol, int syslog_flags, int syslog_facility)
+openzlog	lib/log.h	/^struct zlog *openzlog (const char *, int, zlog_proto_t, int, int);$/;"	p	signature:(const char *, int, zlog_proto_t, int, int)
+ops_type	comm/comm_lite.h	/^	int		ops_type;$/;"	m	struct:packet	access:public
+os	conf.py	/^import os$/;"	i
+out_ifdex	netstream.h	/^	u16 out_ifdex;$/;"	m	struct:NetFlow	access:public
+p	lib/table.h	/^  struct prefix p;$/;"	m	struct:route_node	typeref:struct:route_node::prefix	access:public
+p_sem	lib/semph.c	/^void p_sem(int i)$/;"	f	signature:(int i)
+p_sem	lib/semph.h	/^void p_sem(int i);$/;"	p	signature:(int i)
+packet	comm/comm_lite.h	/^struct packet{$/;"	s
+packet::data	comm/comm_lite.h	/^	char	*data;$/;"	m	struct:packet	access:public
+packet::end	comm/comm_lite.h	/^	char	*end;$/;"	m	struct:packet	access:public
+packet::head	comm/comm_lite.h	/^	char	*head;$/;"	m	struct:packet	access:public
+packet::ip	comm/comm_lite.h	/^	char	ip[INET_ADDRSTRLEN];$/;"	m	struct:packet	access:public
+packet::len	comm/comm_lite.h	/^	unsigned int	len;$/;"	m	struct:packet	access:public
+packet::ops_type	comm/comm_lite.h	/^	int		ops_type;$/;"	m	struct:packet	access:public
+packet::port	comm/comm_lite.h	/^	int		port;$/;"	m	struct:packet	access:public
+packet::sockfd	comm/comm_lite.h	/^	int		sockfd;$/;"	m	struct:packet	access:public
+packet::tail	comm/comm_lite.h	/^	char	*tail;$/;"	m	struct:packet	access:public
+packet::timeout	comm/comm_lite.h	/^	int		timeout;$/;"	m	struct:packet	access:public
+packet_count	netstream.h	/^	u32 packet_count;$/;"	m	struct:NetFlow	access:public
+packet_handler	comm/udp_lite.h	/^typedef int (*packet_handler)( struct udp_pkt_info* info);$/;"	t
+packet_recvier	netstream.c	/^int packet_recvier(struct udp_pkt_info* info)$/;"	f	signature:(struct udp_pkt_info* info)
+pad	netstream.h	/^	u8 pad;$/;"	m	struct:NetFlow	access:public
+pad2	netstream.h	/^	u16 pad2;$/;"	m	struct:NetFlow	access:public
+parent	lib/table.h	/^  struct route_node *parent;$/;"	m	struct:route_node	typeref:struct:route_node::route_node	access:public
+pdfdir	Makefile	/^pdfdir = ${docdir}$/;"	m
+pdfdir	comm/Makefile	/^pdfdir = ${docdir}$/;"	m
+pdfdir	lib/Makefile	/^pdfdir = ${docdir}$/;"	m
+pdfdir	utils/Makefile	/^pdfdir = ${docdir}$/;"	m
+pkg_len	comm/comm_lite.h	/^	u32 pkg_len;$/;"	m	struct:common_header	access:public
+pkg_type	comm/comm_lite.h	/^	u8 pkg_type;$/;"	m	struct:common_header	access:public
+pkg_version	comm/comm_lite.h	/^	u8 pkg_version;$/;"	m	struct:common_header	access:public
+pkgdatadir	Makefile	/^pkgdatadir = $(datadir)\/full-package-name$/;"	m
+pkgdatadir	comm/Makefile	/^pkgdatadir = $(datadir)\/full-package-name$/;"	m
+pkgdatadir	lib/Makefile	/^pkgdatadir = $(datadir)\/full-package-name$/;"	m
+pkgdatadir	utils/Makefile	/^pkgdatadir = $(datadir)\/full-package-name$/;"	m
+pkgincludedir	Makefile	/^pkgincludedir = $(includedir)\/full-package-name$/;"	m
+pkgincludedir	comm/Makefile	/^pkgincludedir = $(includedir)\/full-package-name$/;"	m
+pkgincludedir	lib/Makefile	/^pkgincludedir = $(includedir)\/full-package-name$/;"	m
+pkgincludedir	utils/Makefile	/^pkgincludedir = $(includedir)\/full-package-name$/;"	m
+pkglibdir	Makefile	/^pkglibdir = $(libdir)\/full-package-name$/;"	m
+pkglibdir	comm/Makefile	/^pkglibdir = $(libdir)\/full-package-name$/;"	m
+pkglibdir	lib/Makefile	/^pkglibdir = $(libdir)\/full-package-name$/;"	m
+pkglibdir	utils/Makefile	/^pkglibdir = $(libdir)\/full-package-name$/;"	m
+pkglibexecdir	Makefile	/^pkglibexecdir = $(libexecdir)\/full-package-name$/;"	m
+pkglibexecdir	comm/Makefile	/^pkglibexecdir = $(libexecdir)\/full-package-name$/;"	m
+pkglibexecdir	lib/Makefile	/^pkglibexecdir = $(libexecdir)\/full-package-name$/;"	m
+pkglibexecdir	utils/Makefile	/^pkglibexecdir = $(libexecdir)\/full-package-name$/;"	m
+plog_debug	lib/log.c	/^plog_debug (struct zlog *zl, const char *format, ...)$/;"	f	signature:(struct zlog *zl, const char *format, ...)
+plog_debug	lib/log.h	/^void plog_debug (struct zlog *, const char *format, ...);$/;"	p	signature:(struct zlog *, const char *format, ...)
+plog_err	lib/log.c	/^plog_err (struct zlog *zl, const char *format, ...)$/;"	f	signature:(struct zlog *zl, const char *format, ...)
+plog_err	lib/log.h	/^void plog_err (struct zlog *, const char *format, ...);$/;"	p	signature:(struct zlog *, const char *format, ...)
+plog_info	lib/log.c	/^plog_info (struct zlog *zl, const char *format, ...)$/;"	f	signature:(struct zlog *zl, const char *format, ...)
+plog_info	lib/log.h	/^void plog_info (struct zlog *, const char *format, ...);$/;"	p	signature:(struct zlog *, const char *format, ...)
+plog_notice	lib/log.c	/^plog_notice (struct zlog *zl, const char *format, ...)$/;"	f	signature:(struct zlog *zl, const char *format, ...)
+plog_notice	lib/log.h	/^void plog_notice (struct zlog *, const char *format, ...);$/;"	p	signature:(struct zlog *, const char *format, ...)
+plog_warn	lib/log.c	/^plog_warn (struct zlog *zl, const char *format, ...)$/;"	f	signature:(struct zlog *zl, const char *format, ...)
+plog_warn	lib/log.h	/^void plog_warn (struct zlog *, const char *format, ...);$/;"	p	signature:(struct zlog *, const char *format, ...)
+pma_bswap64	utils/utils.h	140;"	d
+pma_hton64	utils/utils.h	134;"	d
+pma_hton64	utils/utils.h	137;"	d
+pma_ntoh64	utils/utils.h	133;"	d
+pma_ntoh64	utils/utils.h	136;"	d
+pma_pms_header	comm/comm_lite.h	/^struct pma_pms_header{$/;"	s
+pma_pms_header::com_h	comm/comm_lite.h	/^	struct common_header com_h;$/;"	m	struct:pma_pms_header	typeref:struct:pma_pms_header::common_header	access:public
+pma_pms_header::dst_addr	comm/comm_lite.h	/^	struct in_addr dst_addr;$/;"	m	struct:pma_pms_header	typeref:struct:pma_pms_header::in_addr	access:public
+pma_pms_header::pph_agent_id	comm/comm_lite.h	/^	u32 pph_agent_id;$/;"	m	struct:pma_pms_header	access:public
+pma_pms_header::src_addr	comm/comm_lite.h	/^	struct in_addr src_addr;$/;"	m	struct:pma_pms_header	typeref:struct:pma_pms_header::in_addr	access:public
+pma_start_time	utils/utils.c	/^long int pma_start_time = 0;$/;"	v
+pool_daemon	lib/thread_pool.c	/^void *pool_daemon(void *args)$/;"	f	signature:(void *args)
+pool_daemon	lib/thread_pool.h	/^void *pool_daemon(void *args);$/;"	p	signature:(void *args)
+port	comm/comm_lite.h	/^	int		port;$/;"	m	struct:packet	access:public
+pph_agent_id	comm/comm_lite.h	/^	u32 pph_agent_id;$/;"	m	struct:pma_pms_header	access:public
+pph_pkg_dev_type	comm/comm_lite.h	27;"	d
+pph_pkg_len	comm/comm_lite.h	28;"	d
+pph_pkg_type	comm/comm_lite.h	25;"	d
+pph_pkg_version	comm/comm_lite.h	26;"	d
+pqueue	lib/thread_pool.h	/^	pthread_t *pqueue;$/;"	m	struct:Pool	access:public
+prefix	Makefile	/^prefix = \/usr\/local$/;"	m
+prefix	comm/Makefile	/^prefix = \/usr\/local$/;"	m
+prefix	lib/Makefile	/^prefix = \/usr\/local$/;"	m
+prefix	lib/prefix.h	/^    u_char prefix;$/;"	m	union:prefix::__anon1	access:public
+prefix	lib/prefix.h	/^  struct in6_addr prefix __attribute__ ((aligned (8)));$/;"	m	struct:prefix_ipv6	typeref:struct:prefix_ipv6::in6_addr	access:public
+prefix	lib/prefix.h	/^  struct in_addr prefix __attribute__ ((aligned (8)));$/;"	m	struct:prefix_ipv4	typeref:struct:prefix_ipv4::in_addr	access:public
+prefix	lib/prefix.h	/^struct prefix$/;"	s
+prefix	utils/Makefile	/^prefix = \/usr\/local$/;"	m
+prefix2str	lib/prefix.c	/^prefix2str (struct prefix *p, char *str, int size)$/;"	f	signature:(struct prefix *p, char *str, int size)
+prefix2str	lib/prefix.h	/^int prefix2str (struct prefix *, char *, int);$/;"	p	signature:(struct prefix *, char *, int)
+prefix4	lib/prefix.h	/^    struct in_addr prefix4;$/;"	m	union:prefix::__anon1	typeref:struct:prefix::__anon1::in_addr	access:public
+prefix6	lib/prefix.h	/^    struct in6_addr prefix6;$/;"	m	union:prefix::__anon1	typeref:struct:prefix::__anon1::in6_addr	access:public
+prefix::__anon1::__anon2::adv_router	lib/prefix.h	/^      struct in_addr adv_router;$/;"	m	struct:prefix::__anon1::__anon2	typeref:struct:prefix::__anon1::__anon2::in_addr	access:public
+prefix::__anon1::__anon2::id	lib/prefix.h	/^      struct in_addr id;$/;"	m	struct:prefix::__anon1::__anon2	typeref:struct:prefix::__anon1::__anon2::in_addr	access:public
+prefix::__anon1::lp	lib/prefix.h	/^    } lp;$/;"	m	union:prefix::__anon1	typeref:struct:prefix::__anon1::__anon2	access:public
+prefix::__anon1::prefix	lib/prefix.h	/^    u_char prefix;$/;"	m	union:prefix::__anon1	access:public
+prefix::__anon1::prefix4	lib/prefix.h	/^    struct in_addr prefix4;$/;"	m	union:prefix::__anon1	typeref:struct:prefix::__anon1::in_addr	access:public
+prefix::__anon1::prefix6	lib/prefix.h	/^    struct in6_addr prefix6;$/;"	m	union:prefix::__anon1	typeref:struct:prefix::__anon1::in6_addr	access:public
+prefix::__anon1::val	lib/prefix.h	/^    u_char val[8];$/;"	m	union:prefix::__anon1	access:public
+prefix::family	lib/prefix.h	/^  u_char family;$/;"	m	struct:prefix	access:public
+prefix::prefixlen	lib/prefix.h	/^  u_char prefixlen;$/;"	m	struct:prefix	access:public
+prefix::u	lib/prefix.h	/^  } u __attribute__ ((aligned (8)));$/;"	m	struct:prefix	typeref:union:prefix::__anon1	access:public
+prefix_blen	lib/prefix.c	/^prefix_blen (struct prefix *p)$/;"	f	signature:(struct prefix *p)
+prefix_blen	lib/prefix.h	/^int prefix_blen (struct prefix *);$/;"	p	signature:(struct prefix *)
+prefix_cmp	lib/prefix.c	/^prefix_cmp (struct prefix *p1, struct prefix *p2)$/;"	f	signature:(struct prefix *p1, struct prefix *p2)
+prefix_cmp	lib/prefix.h	/^int prefix_cmp (struct prefix *, struct prefix *);$/;"	p	signature:(struct prefix *, struct prefix *)
+prefix_copy	lib/prefix.c	/^prefix_copy (struct prefix *dest, struct prefix *src)$/;"	f	signature:(struct prefix *dest, struct prefix *src)
+prefix_copy	lib/prefix.h	/^void prefix_copy (struct prefix *, struct prefix *);$/;"	p	signature:(struct prefix *, struct prefix *)
+prefix_family_str	lib/prefix.c	/^prefix_family_str (struct prefix *p)$/;"	f	signature:(struct prefix *p)
+prefix_family_str	lib/prefix.h	/^char *prefix_family_str (struct prefix *p);$/;"	p	signature:(struct prefix *p)
+prefix_free	lib/prefix.c	/^prefix_free (struct prefix *p)$/;"	f	signature:(struct prefix *p)
+prefix_free	lib/prefix.h	/^void prefix_free (struct prefix *p);$/;"	p	signature:(struct prefix *p)
+prefix_ipv4	lib/prefix.h	/^struct prefix_ipv4$/;"	s
+prefix_ipv4::family	lib/prefix.h	/^  u_char family;$/;"	m	struct:prefix_ipv4	access:public
+prefix_ipv4::prefix	lib/prefix.h	/^  struct in_addr prefix __attribute__ ((aligned (8)));$/;"	m	struct:prefix_ipv4	typeref:struct:prefix_ipv4::in_addr	access:public
+prefix_ipv4::prefixlen	lib/prefix.h	/^  u_char prefixlen;$/;"	m	struct:prefix_ipv4	access:public
+prefix_ipv4_any	lib/prefix.c	/^prefix_ipv4_any (struct prefix_ipv4 *p)$/;"	f	signature:(struct prefix_ipv4 *p)
+prefix_ipv4_any	lib/prefix.h	/^int prefix_ipv4_any (struct prefix_ipv4 *);$/;"	p	signature:(struct prefix_ipv4 *)
+prefix_ipv4_free	lib/prefix.c	/^prefix_ipv4_free (struct prefix_ipv4 *p)$/;"	f	signature:(struct prefix_ipv4 *p)
+prefix_ipv4_free	lib/prefix.h	/^void prefix_ipv4_free ();$/;"	p	signature:()
+prefix_ipv4_new	lib/prefix.c	/^prefix_ipv4_new ()$/;"	f
+prefix_ipv4_new	lib/prefix.h	/^struct prefix_ipv4 *prefix_ipv4_new ();$/;"	p	signature:()
+prefix_ipv6	lib/prefix.h	/^struct prefix_ipv6$/;"	s
+prefix_ipv6::family	lib/prefix.h	/^  u_char family;$/;"	m	struct:prefix_ipv6	access:public
+prefix_ipv6::prefix	lib/prefix.h	/^  struct in6_addr prefix __attribute__ ((aligned (8)));$/;"	m	struct:prefix_ipv6	typeref:struct:prefix_ipv6::in6_addr	access:public
+prefix_ipv6::prefixlen	lib/prefix.h	/^  u_char prefixlen;$/;"	m	struct:prefix_ipv6	access:public
+prefix_ipv6_free	lib/prefix.c	/^prefix_ipv6_free (struct prefix_ipv6 *p)$/;"	f	signature:(struct prefix_ipv6 *p)
+prefix_ipv6_free	lib/prefix.h	/^void prefix_ipv6_free ();$/;"	p	signature:()
+prefix_ipv6_new	lib/prefix.c	/^prefix_ipv6_new ()$/;"	f
+prefix_ipv6_new	lib/prefix.h	/^struct prefix_ipv6 *prefix_ipv6_new ();$/;"	p	signature:()
+prefix_ls	lib/prefix.h	/^struct prefix_ls$/;"	s
+prefix_ls::adv_router	lib/prefix.h	/^  struct in_addr adv_router;$/;"	m	struct:prefix_ls	typeref:struct:prefix_ls::in_addr	access:public
+prefix_ls::family	lib/prefix.h	/^  u_char family;$/;"	m	struct:prefix_ls	access:public
+prefix_ls::id	lib/prefix.h	/^  struct in_addr id __attribute__ ((aligned (8)));$/;"	m	struct:prefix_ls	typeref:struct:prefix_ls::in_addr	access:public
+prefix_ls::prefixlen	lib/prefix.h	/^  u_char prefixlen;$/;"	m	struct:prefix_ls	access:public
+prefix_match	lib/prefix.c	/^prefix_match (struct prefix *n, struct prefix *p)$/;"	f	signature:(struct prefix *n, struct prefix *p)
+prefix_match	lib/prefix.h	/^int prefix_match (struct prefix *n, struct prefix *p);$/;"	p	signature:(struct prefix *n, struct prefix *p)
+prefix_new	lib/prefix.c	/^prefix_new ()$/;"	f
+prefix_new	lib/prefix.h	/^struct prefix *prefix_new ();$/;"	p	signature:()
+prefix_rd	lib/prefix.h	/^struct prefix_rd$/;"	s
+prefix_rd::family	lib/prefix.h	/^  u_char family;$/;"	m	struct:prefix_rd	access:public
+prefix_rd::prefixlen	lib/prefix.h	/^  u_char prefixlen;$/;"	m	struct:prefix_rd	access:public
+prefix_rd::val	lib/prefix.h	/^  u_char val[8] __attribute__ ((aligned (8)));$/;"	m	struct:prefix_rd	access:public
+prefix_same	lib/prefix.c	/^prefix_same (struct prefix *p1, struct prefix *p2)$/;"	f	signature:(struct prefix *p1, struct prefix *p2)
+prefix_same	lib/prefix.h	/^int prefix_same (struct prefix *, struct prefix *);$/;"	p	signature:(struct prefix *, struct prefix *)
+prefixlen	lib/prefix.h	/^  u_char prefixlen;$/;"	m	struct:prefix	access:public
+prefixlen	lib/prefix.h	/^  u_char prefixlen;$/;"	m	struct:prefix_ipv4	access:public
+prefixlen	lib/prefix.h	/^  u_char prefixlen;$/;"	m	struct:prefix_ipv6	access:public
+prefixlen	lib/prefix.h	/^  u_char prefixlen;$/;"	m	struct:prefix_ls	access:public
+prefixlen	lib/prefix.h	/^  u_char prefixlen;$/;"	m	struct:prefix_rd	access:public
+prev	lib/linklist.h	/^  struct listnode *prev;$/;"	m	struct:listnode	typeref:struct:listnode::listnode	access:public
+prev	lib/thread.h	/^  struct thread *prev;		\/* previous pointer of the thread *\/$/;"	m	struct:thread	typeref:struct:thread::thread	access:public
+prev	lib/zebra.h	/^  struct fifo *prev;$/;"	m	struct:fifo	typeref:struct:fifo::fifo	access:public
+prev	utils/list.h	/^	struct cr_list_head* prev;$/;"	m	struct:cr_list_head	typeref:struct:cr_list_head::cr_list_head	access:public
+prev	utils/utils.h	/^	struct list_head *prev;$/;"	m	struct:list_head	typeref:struct:list_head::list_head	access:public
+priority	lib/log.h	/^  int priority;		\/* as per syslog priority *\/$/;"	m	struct:zlog	access:public
+program_details	missing	/^program_details ()$/;"	f
+program_transform_name	Makefile	/^program_transform_name = s,x,x,$/;"	m
+program_transform_name	comm/Makefile	/^program_transform_name = s,x,x,$/;"	m
+program_transform_name	lib/Makefile	/^program_transform_name = s,x,x,$/;"	m
+program_transform_name	utils/Makefile	/^program_transform_name = s,x,x,$/;"	m
+protocol	lib/log.h	/^  zlog_proto_t protocol;$/;"	m	struct:zlog	access:public
+prototypes	configure	/^   function prototypes and stuff, but not '\\xHH' hex character constants.$/;"	f
+psdir	Makefile	/^psdir = ${docdir}$/;"	m
+psdir	comm/Makefile	/^psdir = ${docdir}$/;"	m
+psdir	lib/Makefile	/^psdir = ${docdir}$/;"	m
+psdir	utils/Makefile	/^psdir = ${docdir}$/;"	m
+ptrs	utils/list.c	/^	struct cr_list_head ptrs;$/;"	m	struct:stack_item	typeref:struct:stack_item::cr_list_head	file:	access:public
+read	lib/thread.h	/^  struct thread_list read;$/;"	m	struct:thread_master	typeref:struct:thread_master::thread_list	access:public
+read_shm	lib/shmem.c	/^void * read_shm(int shmid, void* buff, unsigned int start_pos, unsigned int length)$/;"	f	signature:(int shmid, void* buff, unsigned int start_pos, unsigned int length)
+read_shm	lib/shmem.h	/^void *read_shm(int shmid, void *buff, unsigned int start_pos, unsigned int length);$/;"	p	signature:(int shmid, void *buff, unsigned int start_pos, unsigned int length)
+readfd	lib/thread.h	/^  fd_set readfd;$/;"	m	struct:thread_master	access:public
+ready	lib/thread.h	/^  struct thread_list ready;$/;"	m	struct:thread_master	typeref:struct:thread_master::thread_list	access:public
+record_priority	lib/log.h	/^  int record_priority;$/;"	m	struct:zlog	access:public
+recvbuf	comm/udp_lite.c	/^char recvbuf[MAX_MESSAGE_LEN];$/;"	v
+route_common	lib/table.c	/^route_common (struct prefix *n, struct prefix *p, struct prefix *new)$/;"	f	file:	signature:(struct prefix *n, struct prefix *p, struct prefix *new)
+route_dump_node	lib/table.c	/^route_dump_node (struct route_table *t)$/;"	f	signature:(struct route_table *t)
+route_lock_node	lib/table.c	/^route_lock_node (struct route_node *node)$/;"	f	signature:(struct route_node *node)
+route_lock_node	lib/table.h	/^struct route_node *route_lock_node (struct route_node *node);$/;"	p	signature:(struct route_node *node)
+route_next	lib/table.c	/^route_next (struct route_node *node)$/;"	f	signature:(struct route_node *node)
+route_next	lib/table.h	/^struct route_node *route_next (struct route_node *);$/;"	p	signature:(struct route_node *)
+route_next_until	lib/table.c	/^route_next_until (struct route_node *node, struct route_node *limit)$/;"	f	signature:(struct route_node *node, struct route_node *limit)
+route_next_until	lib/table.h	/^struct route_node *route_next_until (struct route_node *, struct route_node *);$/;"	p	signature:(struct route_node *, struct route_node *)
+route_node	lib/table.h	/^struct route_node$/;"	s
+route_node::aggregate	lib/table.h	/^  void *aggregate;$/;"	m	struct:route_node	access:public
+route_node::info	lib/table.h	/^  void *info;$/;"	m	struct:route_node	access:public
+route_node::link	lib/table.h	/^  struct route_node *link[2];$/;"	m	struct:route_node	typeref:struct:route_node::route_node	access:public
+route_node::lock	lib/table.h	/^  unsigned int lock;$/;"	m	struct:route_node	access:public
+route_node::p	lib/table.h	/^  struct prefix p;$/;"	m	struct:route_node	typeref:struct:route_node::prefix	access:public
+route_node::parent	lib/table.h	/^  struct route_node *parent;$/;"	m	struct:route_node	typeref:struct:route_node::route_node	access:public
+route_node::table	lib/table.h	/^  struct route_table *table;$/;"	m	struct:route_node	typeref:struct:route_node::route_table	access:public
+route_node_delete	lib/table.c	/^route_node_delete (struct route_node *node)$/;"	f	signature:(struct route_node *node)
+route_node_delete	lib/table.c	/^void route_node_delete (struct route_node *);$/;"	p	file:	signature:(struct route_node *)
+route_node_delete	lib/table.h	/^void route_node_delete (struct route_node *node);$/;"	p	signature:(struct route_node *node)
+route_node_free	lib/table.c	/^route_node_free (struct route_node *node)$/;"	f	signature:(struct route_node *node)
+route_node_get	lib/table.c	/^route_node_get (struct route_table *table, struct prefix *p)$/;"	f	signature:(struct route_table *table, struct prefix *p)
+route_node_get	lib/table.h	/^struct route_node *route_node_get (struct route_table *, struct prefix *);$/;"	p	signature:(struct route_table *, struct prefix *)
+route_node_lookup	lib/table.c	/^route_node_lookup (struct route_table *table, struct prefix *p)$/;"	f	signature:(struct route_table *table, struct prefix *p)
+route_node_lookup	lib/table.h	/^struct route_node *route_node_lookup (struct route_table *, struct prefix *);$/;"	p	signature:(struct route_table *, struct prefix *)
+route_node_match	lib/table.c	/^route_node_match (struct route_table *table, struct prefix *p)$/;"	f	signature:(struct route_table *table, struct prefix *p)
+route_node_match	lib/table.h	/^struct route_node *route_node_match (struct route_table *, struct prefix *);$/;"	p	signature:(struct route_table *, struct prefix *)
+route_node_match_ipv4	lib/table.c	/^route_node_match_ipv4 (struct route_table *table, struct in_addr *addr)$/;"	f	signature:(struct route_table *table, struct in_addr *addr)
+route_node_match_ipv4	lib/table.h	/^struct route_node *route_node_match_ipv4 (struct route_table *,$/;"	p	signature:(struct route_table *, struct in_addr *)
+route_node_match_ipv6	lib/table.c	/^route_node_match_ipv6 (struct route_table *table, struct in6_addr *addr)$/;"	f	signature:(struct route_table *table, struct in6_addr *addr)
+route_node_match_ipv6	lib/table.h	/^struct route_node *route_node_match_ipv6 (struct route_table *,$/;"	p	signature:(struct route_table *, struct in6_addr *)
+route_node_new	lib/table.c	/^route_node_new ()$/;"	f
+route_node_set	lib/table.c	/^route_node_set (struct route_table *table, struct prefix *prefix)$/;"	f	signature:(struct route_table *table, struct prefix *prefix)
+route_table	lib/table.h	/^struct route_table$/;"	s
+route_table::top	lib/table.h	/^  struct route_node *top;$/;"	m	struct:route_table	typeref:struct:route_table::route_node	access:public
+route_table_finish	lib/table.c	/^route_table_finish (struct route_table *rt)$/;"	f	signature:(struct route_table *rt)
+route_table_finish	lib/table.h	/^void route_table_finish (struct route_table *);$/;"	p	signature:(struct route_table *)
+route_table_free	lib/table.c	/^route_table_free (struct route_table *rt)$/;"	f	signature:(struct route_table *rt)
+route_table_free	lib/table.c	/^void route_table_free (struct route_table *);$/;"	p	file:	signature:(struct route_table *)
+route_table_init	lib/table.c	/^route_table_init (void)$/;"	f	signature:(void)
+route_table_init	lib/table.h	/^struct route_table *route_table_init (void);$/;"	p	signature:(void)
+route_top	lib/table.c	/^route_top (struct route_table *table)$/;"	f	signature:(struct route_table *table)
+route_top	lib/table.h	/^struct route_node *route_top (struct route_table *);$/;"	p	signature:(struct route_table *)
+route_unlock_node	lib/table.c	/^route_unlock_node (struct route_node *node)$/;"	f	signature:(struct route_node *node)
+route_unlock_node	lib/table.h	/^void route_unlock_node (struct route_node *node);$/;"	p	signature:(struct route_node *node)
+ru	lib/thread.h	/^  RUSAGE_T ru;			\/* Indepth usage info.  *\/$/;"	m	struct:thread	access:public
+runner	lib/thread_pool.h	/^	func runner;$/;"	m	struct:Task	access:public
+rx_bytes	lib/if.h	/^  unsigned long rx_bytes;     \/* total bytes received         *\/$/;"	m	struct:if_stats	access:public
+rx_compressed	lib/if.h	/^  unsigned long rx_compressed;$/;"	m	struct:if_stats	access:public
+rx_crc_errors	lib/if.h	/^  unsigned long rx_crc_errors;        \/* recved pkt with crc error    *\/$/;"	m	struct:if_stats	access:public
+rx_dropped	lib/if.h	/^  unsigned long rx_dropped;   \/* no space in linux buffers    *\/$/;"	m	struct:if_stats	access:public
+rx_errors	lib/if.h	/^  unsigned long rx_errors;    \/* bad packets received         *\/$/;"	m	struct:if_stats	access:public
+rx_fifo_errors	lib/if.h	/^  unsigned long rx_fifo_errors;       \/* recv'r fifo overrun          *\/$/;"	m	struct:if_stats	access:public
+rx_frame_errors	lib/if.h	/^  unsigned long rx_frame_errors;      \/* recv'd frame alignment error *\/$/;"	m	struct:if_stats	access:public
+rx_length_errors	lib/if.h	/^  unsigned long rx_length_errors;$/;"	m	struct:if_stats	access:public
+rx_missed_errors	lib/if.h	/^  unsigned long rx_missed_errors;     \/* receiver missed packet     *\/$/;"	m	struct:if_stats	access:public
+rx_multicast	lib/if.h	/^  unsigned long rx_multicast; \/* multicast packets received   *\/$/;"	m	struct:if_stats	access:public
+rx_over_errors	lib/if.h	/^  unsigned long rx_over_errors;       \/* receiver ring buff overflow  *\/$/;"	m	struct:if_stats	access:public
+rx_packets	lib/if.h	/^  unsigned long rx_packets;   \/* total packets received       *\/$/;"	m	struct:if_stats	access:public
+safi_t	lib/zebra.h	/^typedef u_char safi_t;$/;"	t
+sample_interval	netstream.h	/^	u16 sample_interval;$/;"	m	struct:StreamHeader	access:public
+sands	lib/thread.h	/^    struct timeval sands;	\/* rest of time sands value. *\/$/;"	m	union:thread::__anon3	typeref:struct:thread::__anon3::timeval	access:public
+sasid	netstream.h	/^	u16 sasid;$/;"	m	struct:NetFlow	access:public
+sbindir	Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sbindir	comm/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sbindir	lib/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sbindir	utils/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sdl	lib/if.h	/^  struct sockaddr_dl sdl;$/;"	m	struct:interface	typeref:struct:interface::sockaddr_dl	access:public
+send_message_to_agent	comm/comm_lite.c	/^int send_message_to_agent(char* ip, int port, int type,  const char* buff, int len){$/;"	f	signature:(char* ip, int port, int type, const char* buff, int len)
+send_message_to_agent	comm/comm_lite.h	/^int send_message_to_agent(char* ip, int port, int type,  const char* buff, int len);$/;"	p	signature:(char* ip, int port, int type, const char* buff, int len)
+set_base_from	depcomp	/^set_base_from ()$/;"	f
+set_dir_from	depcomp	/^set_dir_from ()$/;"	f
+set_link	lib/table.c	/^set_link (struct route_node *node, struct route_node *new)$/;"	f	file:	signature:(struct route_node *node, struct route_node *new)
+set_sem_value	lib/semph.c	/^int set_sem_value(int i, int value)$/;"	f	signature:(int i, int value)
+set_sem_value	lib/semph.h	/^int set_sem_value(int i, int value);$/;"	p	signature:(int i, int value)
+set_shmqueue_head	lib/shmem.c	/^int set_shmqueue_head(int shmid, int head)$/;"	f	signature:(int shmid, int head)
+set_shmqueue_length	lib/shmem.c	/^int set_shmqueue_length(int shmid, int length)$/;"	f	signature:(int shmid, int length)
+set_shmqueue_tail	lib/shmem.c	/^int set_shmqueue_tail(int shmid, int tail)$/;"	f	signature:(int shmid, int tail)
+sharedstatedir	Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sharedstatedir	comm/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sharedstatedir	lib/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sharedstatedir	utils/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+shmqueue_ctl	lib/shmem.h	/^struct shmqueue_ctl{$/;"	s
+shmqueue_ctl::head	lib/shmem.h	/^	int head;$/;"	m	struct:shmqueue_ctl	access:public
+shmqueue_ctl::max_size	lib/shmem.h	/^	unsigned int max_size;$/;"	m	struct:shmqueue_ctl	access:public
+shmqueue_ctl::tail	lib/shmem.h	/^	int tail;$/;"	m	struct:shmqueue_ctl	access:public
+show_memory_vty	lib/memory.c	/^show_memory_vty (struct vty *vty, struct memory_list *list)$/;"	f	signature:(struct vty *vty, struct memory_list *list)
+shutdown	lib/thread_pool.h	/^	int shutdown;\/\/ destory the pool$/;"	m	struct:Pool	access:public
+sip	netstream.h	/^	u32 sip;$/;"	m	struct:NetFlow	access:public
+size	lib/thread_pool.h	/^	int size;$/;"	m	struct:Pool	access:public
+smask	netstream.h	/^	u8 smask;$/;"	m	struct:NetFlow	access:public
+sockfd	comm/comm_lite.h	/^	int		sockfd;$/;"	m	struct:packet	access:public
+sockfd	comm/udp_lite.h	/^	int sockfd;$/;"	m	struct:udp_pkt_info	access:public
+sockunion2hostprefix	lib/prefix.h	/^struct prefix *sockunion2hostprefix ();$/;"	p	signature:()
+sockunion2prefix	lib/prefix.h	/^struct prefix *sockunion2prefix ();$/;"	p	signature:()
+sport	netstream.h	/^	u16 sport;$/;"	m	struct:NetFlow	access:public
+src	comm/udp_lite.h	/^	struct in_addr src;$/;"	m	struct:udp_pkt_info	typeref:struct:udp_pkt_info::in_addr	access:public
+src_addr	comm/comm_lite.h	/^	struct in_addr src_addr;$/;"	m	struct:pma_pms_header	typeref:struct:pma_pms_header::in_addr	access:public
+srcdir	Makefile	/^srcdir = .$/;"	m
+srcdir	comm/Makefile	/^srcdir = .$/;"	m
+srcdir	lib/Makefile	/^srcdir = .$/;"	m
+srcdir	utils/Makefile	/^srcdir = .$/;"	m
+stack_item	utils/list.c	/^struct stack_item$/;"	s	file:
+stack_item::item	utils/list.c	/^	void* item;$/;"	m	struct:stack_item	file:	access:public
+stack_item::ptrs	utils/list.c	/^	struct cr_list_head ptrs;$/;"	m	struct:stack_item	typeref:struct:stack_item::cr_list_head	file:	access:public
+start_pthread_pool	lib/thread_pool.c	/^int start_pthread_pool(Pool *pool)$/;"	f	signature:(Pool *pool)
+start_pthread_pool	lib/thread_pool.h	/^int start_pthread_pool(Pool *pool);$/;"	p	signature:(Pool *pool)
+stat	lib/log.h	/^  int stat;$/;"	m	struct:zlog	access:public
+stats	lib/if.h	/^  struct if_data stats;$/;"	m	struct:interface	typeref:struct:interface::if_data	access:public
+stats	lib/if.h	/^  struct if_stats stats;$/;"	m	struct:interface	typeref:struct:interface::if_stats	access:public
+status	lib/if.h	/^  u_char status;$/;"	m	struct:interface	access:public
+status	lib/thread_pool.h	/^	int status;\/\/ 0 init  1 usable$/;"	m	struct:Pool	access:public
+str	lib/log.h	/^  char *str;$/;"	m	struct:message	access:public
+str2in6_addr	lib/prefix.c	/^str2in6_addr (char *str, struct in6_addr *addr)$/;"	f	signature:(char *str, struct in6_addr *addr)
+str2in6_addr	lib/prefix.h	/^void str2in6_addr (char *str, struct in6_addr *addr);$/;"	p	signature:(char *str, struct in6_addr *addr)
+str2prefix	lib/prefix.c	/^str2prefix (char *str, struct prefix *p)$/;"	f	signature:(char *str, struct prefix *p)
+str2prefix	lib/prefix.h	/^int str2prefix (char *, struct prefix *);$/;"	p	signature:(char *, struct prefix *)
+str2prefix_ipv4	lib/prefix.c	/^str2prefix_ipv4 (char *str, struct prefix_ipv4 *p)$/;"	f	signature:(char *str, struct prefix_ipv4 *p)
+str2prefix_ipv4	lib/prefix.h	/^int str2prefix_ipv4 (char *, struct prefix_ipv4 *);$/;"	p	signature:(char *, struct prefix_ipv4 *)
+str2prefix_ipv6	lib/prefix.c	/^str2prefix_ipv6 (char *str, struct prefix_ipv6 *p)$/;"	f	signature:(char *str, struct prefix_ipv6 *p)
+str2prefix_ipv6	lib/prefix.h	/^int str2prefix_ipv6 (char *str, struct prefix_ipv6 *p);$/;"	p	signature:(char *str, struct prefix_ipv6 *p)
+str2routev6	lib/prefix.h	/^struct prefix *str2routev6 (char *);$/;"	p	signature:(char *)
+subdir	Makefile	/^subdir = .$/;"	m
+subdir	comm/Makefile	/^subdir = comm$/;"	m
+subdir	lib/Makefile	/^subdir = lib$/;"	m
+subdir	utils/Makefile	/^subdir = utils$/;"	m
+sysconfdir	Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+sysconfdir	comm/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+sysconfdir	lib/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+sysconfdir	utils/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+syslog	lib/log.h	/^  int syslog;$/;"	m	struct:zlog	access:public
+t_calloc	lib/memory.c	/^  unsigned long t_calloc;$/;"	m	struct:__anon5	file:	access:public
+t_free	lib/memory.c	/^  unsigned long t_free;$/;"	m	struct:__anon5	file:	access:public
+t_malloc	lib/memory.c	/^  unsigned long t_malloc;$/;"	m	struct:__anon5	file:	access:public
+t_realloc	lib/memory.c	/^  unsigned long t_realloc;$/;"	m	struct:__anon5	file:	access:public
+table	lib/table.h	/^  struct route_table *table;$/;"	m	struct:route_node	typeref:struct:route_node::route_table	access:public
+tail	comm/comm_lite.h	/^	char	*tail;$/;"	m	struct:packet	access:public
+tail	lib/linklist.h	/^  struct listnode *tail;$/;"	m	struct:list	typeref:struct:list::listnode	access:public
+tail	lib/shmem.h	/^	int tail;$/;"	m	struct:shmqueue_ctl	access:public
+tail	lib/thread.h	/^  struct thread *tail;$/;"	m	struct:thread_list	typeref:struct:thread_list::thread	access:public
+tail	lib/thread_pool.h	/^	Task *tail;$/;"	m	struct:Pool	access:public
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | BZIP2=$${BZIP2--9} bzip2 -c >$(distdir).tar.bz2$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | GZIP=$(GZIP_ENV) gzip -c >$(distdir).tar.gz$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | XZ_OPT=$${XZ_OPT--e} xz -c >$(distdir).tar.xz$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | compress -c >$(distdir).tar.Z$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | lzip -c $${LZIP_OPT--9} >$(distdir).tar.lz$/;"	m
+target_alias	Makefile	/^target_alias = $/;"	m
+target_alias	comm/Makefile	/^target_alias = $/;"	m
+target_alias	lib/Makefile	/^target_alias = $/;"	m
+target_alias	utils/Makefile	/^target_alias = $/;"	m
+taskqueue	lib/thread_pool.h	/^	Task *taskqueue;$/;"	m	struct:Pool	access:public
+tcpflag	netstream.h	/^	u8 tcpflag;$/;"	m	struct:NetFlow	access:public
+thread	lib/thread.h	/^struct thread$/;"	s
+thread::__anon3::fd	lib/thread.h	/^    int fd;			\/* file descriptor in case of read\/write. *\/$/;"	m	union:thread::__anon3	access:public
+thread::__anon3::sands	lib/thread.h	/^    struct timeval sands;	\/* rest of time sands value. *\/$/;"	m	union:thread::__anon3	typeref:struct:thread::__anon3::timeval	access:public
+thread::__anon3::val	lib/thread.h	/^    int val;			\/* second argument of the event. *\/$/;"	m	union:thread::__anon3	access:public
+thread::arg	lib/thread.h	/^  void *arg;			\/* event argument *\/$/;"	m	struct:thread	access:public
+thread::func	lib/thread.h	/^  int (*func) (struct thread *); \/* event function *\/$/;"	m	struct:thread	access:public
+thread::master	lib/thread.h	/^  struct thread_master *master;	\/* pointer to the struct thread_master. *\/$/;"	m	struct:thread	typeref:struct:thread::thread_master	access:public
+thread::next	lib/thread.h	/^  struct thread *next;		\/* next pointer of the thread *\/$/;"	m	struct:thread	typeref:struct:thread::thread	access:public
+thread::prev	lib/thread.h	/^  struct thread *prev;		\/* previous pointer of the thread *\/$/;"	m	struct:thread	typeref:struct:thread::thread	access:public
+thread::ru	lib/thread.h	/^  RUSAGE_T ru;			\/* Indepth usage info.  *\/$/;"	m	struct:thread	access:public
+thread::type	lib/thread.h	/^  unsigned char type;		\/* thread type *\/$/;"	m	struct:thread	access:public
+thread::u	lib/thread.h	/^  } u;$/;"	m	struct:thread	typeref:union:thread::__anon3	access:public
+thread_add_event	lib/thread.c	/^thread_add_event (struct thread_master *m,$/;"	f	signature:(struct thread_master *m, int (*func) (struct thread *), void *arg, int val)
+thread_add_event	lib/thread.h	/^struct thread *thread_add_event (struct thread_master *,$/;"	p	signature:(struct thread_master *, int (*)(struct thread *), void *, int )
+thread_add_read	lib/thread.c	/^thread_add_read (struct thread_master *m,$/;"	f	signature:(struct thread_master *m, int (*func) (struct thread *), void *arg, int fd)
+thread_add_read	lib/thread.h	/^struct thread *thread_add_read (struct thread_master *,$/;"	p	signature:(struct thread_master *, int (*)(struct thread *), void *, int)
+thread_add_timer	lib/thread.c	/^thread_add_timer (struct thread_master *m,$/;"	f	signature:(struct thread_master *m, int (*func) (struct thread *), void *arg, long timer)
+thread_add_timer	lib/thread.h	/^struct thread *thread_add_timer (struct thread_master *,$/;"	p	signature:(struct thread_master *, int (*)(struct thread *), void *, long)
+thread_add_timer_high_resolution	lib/thread.c	/^struct thread* thread_add_timer_high_resolution(struct thread_master *m,$/;"	f	signature:(struct thread_master *m, int (*func) (struct thread *), void *arg, unsigned long microsecends)
+thread_add_timer_high_resolution	lib/thread.h	/^struct thread *thread_add_timer_high_resolution (struct thread_master *,$/;"	p	signature:(struct thread_master *, int (*)(struct thread *), void *, unsigned long)
+thread_add_unuse	lib/thread.c	/^thread_add_unuse (struct thread_master *m, struct thread *thread)$/;"	f	file:	signature:(struct thread_master *m, struct thread *thread)
+thread_add_write	lib/thread.c	/^thread_add_write (struct thread_master *m,$/;"	f	signature:(struct thread_master *m, int (*func) (struct thread *), void *arg, int fd)
+thread_add_write	lib/thread.h	/^struct thread *thread_add_write (struct thread_master *,$/;"	p	signature:(struct thread_master *, int (*)(struct thread *), void *, int)
+thread_call	lib/thread.c	/^thread_call (struct thread *thread)$/;"	f	signature:(struct thread *thread)
+thread_call	lib/thread.h	/^void thread_call (struct thread *);$/;"	p	signature:(struct thread *)
+thread_cancel	lib/thread.c	/^thread_cancel (struct thread *thread)$/;"	f	signature:(struct thread *thread)
+thread_cancel	lib/thread.h	/^void thread_cancel (struct thread *);$/;"	p	signature:(struct thread *)
+thread_cancel_event	lib/thread.c	/^thread_cancel_event (struct thread_master *m, void *arg)$/;"	f	signature:(struct thread_master *m, void *arg)
+thread_cancel_event	lib/thread.h	/^void thread_cancel_event (struct thread_master *, void *);$/;"	p	signature:(struct thread_master *, void *)
+thread_consumed_time	lib/thread.c	/^thread_consumed_time (RUSAGE_T *now, RUSAGE_T *start)$/;"	f	file:	signature:(RUSAGE_T *now, RUSAGE_T *start)
+thread_empty	lib/thread.c	/^thread_empty (struct thread_list *list)$/;"	f	signature:(struct thread_list *list)
+thread_execute	lib/thread.c	/^thread_execute (struct thread_master *m,$/;"	f	signature:(struct thread_master *m, int (*func)(struct thread *), void *arg, int val)
+thread_execute	lib/thread.h	/^struct thread *thread_execute (struct thread_master *,$/;"	p	signature:(struct thread_master *, int (*)(struct thread *), void *, int)
+thread_fetch	lib/thread.c	/^thread_fetch(struct thread_master *m, struct thread *fetch)$/;"	f	signature:(struct thread_master *m, struct thread *fetch)
+thread_fetch	lib/thread.h	/^struct thread *thread_fetch (struct thread_master *, struct thread *);$/;"	p	signature:(struct thread_master *, struct thread *)
+thread_get	lib/thread.c	/^thread_get (struct thread_master *m, u_char type,$/;"	f	file:	signature:(struct thread_master *m, u_char type, int (*func) (struct thread *), void *arg)
+thread_list	lib/thread.h	/^struct thread_list$/;"	s
+thread_list::count	lib/thread.h	/^  int count;$/;"	m	struct:thread_list	access:public
+thread_list::head	lib/thread.h	/^  struct thread *head;$/;"	m	struct:thread_list	typeref:struct:thread_list::thread	access:public
+thread_list::tail	lib/thread.h	/^  struct thread *tail;$/;"	m	struct:thread_list	typeref:struct:thread_list::thread	access:public
+thread_list_add	lib/thread.c	/^thread_list_add (struct thread_list *list, struct thread *thread)$/;"	f	file:	signature:(struct thread_list *list, struct thread *thread)
+thread_list_add_before	lib/thread.c	/^thread_list_add_before (struct thread_list *list,$/;"	f	file:	signature:(struct thread_list *list, struct thread *point, struct thread *thread)
+thread_list_debug	lib/thread.c	/^thread_list_debug (struct thread_list *list)$/;"	f	file:	signature:(struct thread_list *list)
+thread_list_delete	lib/thread.c	/^thread_list_delete (struct thread_list *list, struct thread *thread)$/;"	f	file:	signature:(struct thread_list *list, struct thread *thread)
+thread_list_free	lib/thread.c	/^thread_list_free (struct thread_master *m, struct thread_list *list)$/;"	f	file:	signature:(struct thread_master *m, struct thread_list *list)
+thread_master	lib/thread.h	/^struct thread_master$/;"	s
+thread_master::alloc	lib/thread.h	/^  unsigned long alloc;$/;"	m	struct:thread_master	access:public
+thread_master::event	lib/thread.h	/^  struct thread_list event;$/;"	m	struct:thread_master	typeref:struct:thread_master::thread_list	access:public
+thread_master::exceptfd	lib/thread.h	/^  fd_set exceptfd;$/;"	m	struct:thread_master	access:public
+thread_master::read	lib/thread.h	/^  struct thread_list read;$/;"	m	struct:thread_master	typeref:struct:thread_master::thread_list	access:public
+thread_master::readfd	lib/thread.h	/^  fd_set readfd;$/;"	m	struct:thread_master	access:public
+thread_master::ready	lib/thread.h	/^  struct thread_list ready;$/;"	m	struct:thread_master	typeref:struct:thread_master::thread_list	access:public
+thread_master::timer	lib/thread.h	/^  struct thread_list timer;$/;"	m	struct:thread_master	typeref:struct:thread_master::thread_list	access:public
+thread_master::unuse	lib/thread.h	/^  struct thread_list unuse;$/;"	m	struct:thread_master	typeref:struct:thread_master::thread_list	access:public
+thread_master::write	lib/thread.h	/^  struct thread_list write;$/;"	m	struct:thread_master	typeref:struct:thread_master::thread_list	access:public
+thread_master::writefd	lib/thread.h	/^  fd_set writefd;$/;"	m	struct:thread_master	access:public
+thread_master_create	lib/thread.c	/^thread_master_create ()$/;"	f
+thread_master_create	lib/thread.h	/^struct thread_master *thread_master_create ();$/;"	p	signature:()
+thread_master_debug	lib/thread.c	/^thread_master_debug (struct thread_master *m)$/;"	f	signature:(struct thread_master *m)
+thread_master_free	lib/thread.c	/^thread_master_free (struct thread_master *m)$/;"	f	signature:(struct thread_master *m)
+thread_process_fd	lib/thread.c	/^thread_process_fd (struct thread_master *m, struct thread_list *list,$/;"	f	signature:(struct thread_master *m, struct thread_list *list, fd_set *fdset, fd_set *mfdset)
+thread_run	lib/thread.c	/^thread_run (struct thread_master *m, struct thread *thread,$/;"	f	signature:(struct thread_master *m, struct thread *thread, struct thread *fetch)
+thread_should_yield	lib/thread.c	/^thread_should_yield (struct thread *thread)$/;"	f	signature:(struct thread *thread)
+thread_timer_remain_second	lib/thread.h	/^char *thread_timer_remain_second (struct thread *);$/;"	p	signature:(struct thread *)
+thread_timer_wait	lib/thread.c	/^thread_timer_wait (struct thread_master *m, struct timeval *timer_val)$/;"	f	signature:(struct thread_master *m, struct timeval *timer_val)
+thread_trim_head	lib/thread.c	/^thread_trim_head (struct thread_list *list)$/;"	f	file:	signature:(struct thread_list *list)
+time_at_end	netstream.h	/^	u32 time_at_end;$/;"	m	struct:NetFlow	access:public
+time_at_start	netstream.h	/^	u32 time_at_start;$/;"	m	struct:NetFlow	access:public
+time_print	lib/log.c	/^time_print (FILE *fp)$/;"	f	file:	signature:(FILE *fp)
+timeout	comm/comm_lite.h	/^	int		timeout;$/;"	m	struct:packet	access:public
+timer	lib/thread.h	/^  struct thread_list timer;$/;"	m	struct:thread_master	typeref:struct:thread_master::thread_list	access:public
+timeval_adjust	lib/thread.c	/^timeval_adjust (struct timeval a)$/;"	f	signature:(struct timeval a)
+timeval_cmp	lib/thread.c	/^timeval_cmp (struct timeval a, struct timeval b)$/;"	f	file:	signature:(struct timeval a, struct timeval b)
+timeval_elapsed	lib/thread.c	/^timeval_elapsed (struct timeval a, struct timeval b)$/;"	f	file:	signature:(struct timeval a, struct timeval b)
+timeval_subtract	lib/thread.c	/^timeval_subtract (struct timeval a, struct timeval b)$/;"	f	file:	signature:(struct timeval a, struct timeval b)
+top	lib/table.h	/^  struct route_node *top;$/;"	m	struct:route_table	typeref:struct:route_table::route_node	access:public
+top_build_prefix	Makefile	/^top_build_prefix = $/;"	m
+top_build_prefix	comm/Makefile	/^top_build_prefix = ..\/$/;"	m
+top_build_prefix	lib/Makefile	/^top_build_prefix = ..\/$/;"	m
+top_build_prefix	utils/Makefile	/^top_build_prefix = ..\/$/;"	m
+top_builddir	Makefile	/^top_builddir = .$/;"	m
+top_builddir	comm/Makefile	/^top_builddir = ..$/;"	m
+top_builddir	lib/Makefile	/^top_builddir = ..$/;"	m
+top_builddir	utils/Makefile	/^top_builddir = ..$/;"	m
+top_distdir	Makefile	/^top_distdir = $(distdir)$/;"	m
+top_srcdir	Makefile	/^top_srcdir = .$/;"	m
+top_srcdir	comm/Makefile	/^top_srcdir = ..$/;"	m
+top_srcdir	lib/Makefile	/^top_srcdir = ..$/;"	m
+top_srcdir	utils/Makefile	/^top_srcdir = ..$/;"	m
+tos	netstream.h	/^	u8 tos;$/;"	m	struct:NetFlow	access:public
+transform	Makefile	/^transform = $(program_transform_name)$/;"	m
+transform	comm/Makefile	/^transform = $(program_transform_name)$/;"	m
+transform	lib/Makefile	/^transform = $(program_transform_name)$/;"	m
+transform	utils/Makefile	/^transform = $(program_transform_name)$/;"	m
+traverse_event	lib/event.c	/^int traverse_event(struct event_handlers_queue* queue, void *args)$/;"	f	signature:(struct event_handlers_queue* queue, void *args)
+tx_aborted_errors	lib/if.h	/^  unsigned long tx_aborted_errors;$/;"	m	struct:if_stats	access:public
+tx_bytes	lib/if.h	/^  unsigned long tx_bytes;     \/* total bytes transmitted      *\/$/;"	m	struct:if_stats	access:public
+tx_carrier_errors	lib/if.h	/^  unsigned long tx_carrier_errors;$/;"	m	struct:if_stats	access:public
+tx_compressed	lib/if.h	/^  unsigned long tx_compressed;$/;"	m	struct:if_stats	access:public
+tx_dropped	lib/if.h	/^  unsigned long tx_dropped;   \/* no space available in linux  *\/$/;"	m	struct:if_stats	access:public
+tx_errors	lib/if.h	/^  unsigned long tx_errors;    \/* packet transmit problems     *\/$/;"	m	struct:if_stats	access:public
+tx_fifo_errors	lib/if.h	/^  unsigned long tx_fifo_errors;$/;"	m	struct:if_stats	access:public
+tx_heartbeat_errors	lib/if.h	/^  unsigned long tx_heartbeat_errors;$/;"	m	struct:if_stats	access:public
+tx_packets	lib/if.h	/^  unsigned long tx_packets;   \/* total packets transmitted    *\/$/;"	m	struct:if_stats	access:public
+tx_window_errors	lib/if.h	/^  unsigned long tx_window_errors;$/;"	m	struct:if_stats	access:public
+type	confparser.h	/^	int type;$/;"	m	struct:Item	access:public
+type	lib/thread.h	/^  unsigned char type;		\/* thread type *\/$/;"	m	struct:thread	access:public
+u	lib/prefix.h	/^  } u __attribute__ ((aligned (8)));$/;"	m	struct:prefix	typeref:union:prefix::__anon1	access:public
+u	lib/thread.h	/^  } u;$/;"	m	struct:thread	typeref:union:thread::__anon3	access:public
+u16	utils/common.h	/^typedef unsigned short u16;$/;"	t
+u32	utils/common.h	/^typedef unsigned int u32;$/;"	t
+u64	utils/common.h	/^typedef unsigned long long u64;$/;"	t
+u8	utils/common.h	/^typedef unsigned char u8;$/;"	t
+u_char	comm/udp_lite.c	/^typedef unsigned char u_char;$/;"	t	file:
+u_int16_t	lib/zebra.h	/^typedef unsigned short u_int16_t;$/;"	t
+u_int32_t	lib/zebra.h	/^typedef unsigned int u_int32_t;$/;"	t
+u_int8_t	lib/zebra.h	/^typedef unsigned short u_int8_t;$/;"	t
+udp_pkt_info	comm/udp_lite.h	/^struct udp_pkt_info {$/;"	s
+udp_pkt_info::dst	comm/udp_lite.h	/^	struct in_addr dst;$/;"	m	struct:udp_pkt_info	typeref:struct:udp_pkt_info::in_addr	access:public
+udp_pkt_info::ifindex	comm/udp_lite.h	/^	int ifindex;$/;"	m	struct:udp_pkt_info	access:public
+udp_pkt_info::len	comm/udp_lite.h	/^	int len;$/;"	m	struct:udp_pkt_info	access:public
+udp_pkt_info::msg	comm/udp_lite.h	/^	char* msg;$/;"	m	struct:udp_pkt_info	access:public
+udp_pkt_info::sockfd	comm/udp_lite.h	/^	int sockfd;$/;"	m	struct:udp_pkt_info	access:public
+udp_pkt_info::src	comm/udp_lite.h	/^	struct in_addr src;$/;"	m	struct:udp_pkt_info	typeref:struct:udp_pkt_info::in_addr	access:public
+udp_receive	comm/udp_lite.c	/^int udp_receive(int sockfd, packet_handler h)$/;"	f	signature:(int sockfd, packet_handler h)
+udp_receive	comm/udp_lite.h	/^int udp_receive(int sockfd, packet_handler h);$/;"	p	signature:(int sockfd, packet_handler h)
+udp_recvmsg	comm/udp_lite.c	/^int udp_recvmsg(struct in_addr *src, struct in_addr *dst,$/;"	f	signature:(struct in_addr *src, struct in_addr *dst, unsigned int *ifindex, struct iovec *message, int sockfd)
+udp_send	comm/udp_lite.c	/^int udp_send(int sockfd, struct udp_pkt_info* info)$/;"	f	signature:(int sockfd, struct udp_pkt_info* info)
+udp_send	comm/udp_lite.h	/^int udp_send(int sockfd, struct udp_pkt_info* info);$/;"	p	signature:(int sockfd, struct udp_pkt_info* info)
+unix_nsecs	netstream.h	/^	u32 unix_nsecs;$/;"	m	struct:StreamHeader	access:public
+unix_secs	netstream.h	/^	u32 unix_secs;$/;"	m	struct:StreamHeader	access:public
+unuse	lib/thread.h	/^  struct thread_list unuse;$/;"	m	struct:thread_master	typeref:struct:thread_master::thread_list	access:public
+update_pma_addr	comm/comm_lite.c	/^int update_pma_addr(int sockfd){$/;"	f	signature:(int sockfd)
+uptime	netstream.h	/^	u32 uptime;$/;"	m	struct:StreamHeader	access:public
+v_sem	lib/semph.c	/^void v_sem(int i)$/;"	f	signature:(int i)
+v_sem	lib/semph.h	/^void v_sem(int i);$/;"	p	signature:(int i)
+val	lib/prefix.h	/^    u_char val[8];$/;"	m	union:prefix::__anon1	access:public
+val	lib/prefix.h	/^  u_char val[8] __attribute__ ((aligned (8)));$/;"	m	struct:prefix_rd	access:public
+val	lib/thread.h	/^    int val;			\/* second argument of the event. *\/$/;"	m	union:thread::__anon3	access:public
+value	confparser.h	/^	char value[100];$/;"	m	struct:Item	access:public
+vector	lib/vector.h	/^typedef struct _vector *vector;$/;"	t	typeref:struct:_vector
+vector_copy	lib/vector.c	/^vector_copy (vector v)$/;"	f	signature:(vector v)
+vector_copy	lib/vector.h	/^vector vector_copy (vector v);$/;"	p	signature:(vector v)
+vector_count	lib/vector.c	/^vector_count (vector v)$/;"	f	signature:(vector v)
+vector_count	lib/vector.h	/^unsigned int vector_count (vector v);$/;"	p	signature:(vector v)
+vector_empty_slot	lib/vector.c	/^vector_empty_slot (vector v)$/;"	f	signature:(vector v)
+vector_empty_slot	lib/vector.h	/^int vector_empty_slot (vector v);$/;"	p	signature:(vector v)
+vector_ensure	lib/vector.c	/^vector_ensure (vector v, unsigned int num)$/;"	f	signature:(vector v, unsigned int num)
+vector_ensure	lib/vector.h	/^void vector_ensure (vector v, unsigned int num);$/;"	p	signature:(vector v, unsigned int num)
+vector_free	lib/vector.c	/^vector_free (vector v)$/;"	f	signature:(vector v)
+vector_free	lib/vector.h	/^void vector_free (vector v);$/;"	p	signature:(vector v)
+vector_init	lib/vector.c	/^vector_init (unsigned int size)$/;"	f	signature:(unsigned int size)
+vector_init	lib/vector.h	/^vector vector_init (unsigned int size);$/;"	p	signature:(unsigned int size)
+vector_lookup	lib/vector.c	/^vector_lookup (vector v, unsigned int i)$/;"	f	signature:(vector v, unsigned int i)
+vector_lookup	lib/vector.h	/^void *vector_lookup (vector, unsigned int);$/;"	p	signature:(vector, unsigned int)
+vector_lookup_ensure	lib/vector.c	/^vector_lookup_ensure (vector v, unsigned int i)$/;"	f	signature:(vector v, unsigned int i)
+vector_lookup_ensure	lib/vector.h	/^void *vector_lookup_ensure (vector, unsigned int);$/;"	p	signature:(vector, unsigned int)
+vector_max	lib/vector.h	40;"	d
+vector_only_index_free	lib/vector.c	/^vector_only_index_free (void *index)$/;"	f	signature:(void *index)
+vector_only_index_free	lib/vector.h	/^void vector_only_index_free (void *index);$/;"	p	signature:(void *index)
+vector_only_wrapper_free	lib/vector.c	/^vector_only_wrapper_free (vector v)$/;"	f	signature:(vector v)
+vector_only_wrapper_free	lib/vector.h	/^void vector_only_wrapper_free (vector v);$/;"	p	signature:(vector v)
+vector_set	lib/vector.c	/^vector_set (vector v, void *val)$/;"	f	signature:(vector v, void *val)
+vector_set	lib/vector.h	/^int vector_set (vector v, void *val);$/;"	p	signature:(vector v, void *val)
+vector_set_index	lib/vector.c	/^vector_set_index (vector v, unsigned int i, void *val)$/;"	f	signature:(vector v, unsigned int i, void *val)
+vector_set_index	lib/vector.h	/^int vector_set_index (vector v, unsigned int i, void *val);$/;"	p	signature:(vector v, unsigned int i, void *val)
+vector_slot	lib/vector.h	39;"	d
+vector_unset	lib/vector.c	/^vector_unset (vector v, unsigned int i)$/;"	f	signature:(vector v, unsigned int i)
+vector_unset	lib/vector.h	/^void vector_unset (vector v, unsigned int i);$/;"	p	signature:(vector v, unsigned int i)
+version	netstream.h	/^	u16 version;$/;"	m	struct:StreamHeader	access:public
+vzlog	lib/log.c	/^vzlog (struct zlog *zl, int priority, const char *format, va_list *args)$/;"	f	signature:(struct zlog *zl, int priority, const char *format, va_list *args)
+write	lib/thread.h	/^  struct thread_list write;$/;"	m	struct:thread_master	typeref:struct:thread_master::thread_list	access:public
+write_shm	lib/shmem.c	/^int write_shm(int shmid, void *buff, unsigned int start_pos, unsigned int length)$/;"	f	signature:(int shmid, void *buff, unsigned int start_pos, unsigned int length)
+write_shm	lib/shmem.h	/^int write_shm(int shmid, void *buff, unsigned int start_pos, unsigned int length);$/;"	p	signature:(int shmid, void *buff, unsigned int start_pos, unsigned int length)
+writefd	lib/thread.h	/^  fd_set writefd;$/;"	m	struct:thread_master	access:public
+xml_close	utils/xml.c	/^int xml_close()$/;"	f
+xml_close	utils/xml.h	/^int xml_close();$/;"	p	signature:()
+xml_init	utils/xml.c	/^int xml_init()$/;"	f
+xml_init	utils/xml.h	/^int xml_init();$/;"	p	signature:()
+zcalloc	lib/memory.c	/^zcalloc (int type, size_t size)$/;"	f	signature:(int type, size_t size)
+zcalloc	lib/memory.h	/^void *zcalloc (int type, size_t size);$/;"	p	signature:(int type, size_t size)
+zebra_command_t	lib/zebra.h	/^typedef u_int8_t zebra_command_t;$/;"	t
+zebra_size_t	lib/zebra.h	/^typedef u_int16_t zebra_size_t;$/;"	t
+zerror	lib/memory.c	/^zerror (const char *fname, int type, size_t size)$/;"	f	file:	signature:(const char *fname, int type, size_t size)
+zfree	lib/memory.c	/^zfree (int type, void *ptr)$/;"	f	signature:(int type, void *ptr)
+zfree	lib/memory.h	/^void  zfree (int type, void *ptr);$/;"	p	signature:(int type, void *ptr)
+zlog	lib/log.c	/^zlog (struct zlog *zl, int priority, const char *format, ...)$/;"	f	signature:(struct zlog *zl, int priority, const char *format, ...)
+zlog	lib/log.h	/^struct zlog $/;"	s
+zlog::connected	lib/log.h	/^  int connected;$/;"	m	struct:zlog	access:public
+zlog::facility	lib/log.h	/^  int facility;		\/* as per syslog facility *\/$/;"	m	struct:zlog	access:public
+zlog::filename	lib/log.h	/^  char *filename;$/;"	m	struct:zlog	access:public
+zlog::flags	lib/log.h	/^  int flags;$/;"	m	struct:zlog	access:public
+zlog::fp	lib/log.h	/^  FILE *fp;$/;"	m	struct:zlog	access:public
+zlog::ident	lib/log.h	/^  const char *ident;$/;"	m	struct:zlog	access:public
+zlog::maskpri	lib/log.h	/^  int maskpri;		\/* as per syslog setlogmask *\/$/;"	m	struct:zlog	access:public
+zlog::priority	lib/log.h	/^  int priority;		\/* as per syslog priority *\/$/;"	m	struct:zlog	access:public
+zlog::protocol	lib/log.h	/^  zlog_proto_t protocol;$/;"	m	struct:zlog	access:public
+zlog::record_priority	lib/log.h	/^  int record_priority;$/;"	m	struct:zlog	access:public
+zlog::stat	lib/log.h	/^  int stat;$/;"	m	struct:zlog	access:public
+zlog::syslog	lib/log.h	/^  int syslog;$/;"	m	struct:zlog	access:public
+zlog_cwd	lib/log.c	/^static char *zlog_cwd = NULL;$/;"	v	file:
+zlog_debug	lib/log.c	/^zlog_debug (const char *format, ...)$/;"	f	signature:(const char *format, ...)
+zlog_default	lib/log.c	/^struct zlog *zlog_default = NULL;$/;"	v	typeref:struct:zlog
+zlog_err	lib/log.c	/^zlog_err (const char *format, ...)$/;"	f	signature:(const char *format, ...)
+zlog_free_cwd	lib/log.c	/^zlog_free_cwd ()$/;"	f
+zlog_get_cwd	lib/log.c	/^zlog_get_cwd ()$/;"	f
+zlog_info	lib/log.c	/^zlog_info (const char *format, ...)$/;"	f	signature:(const char *format, ...)
+zlog_notice	lib/log.c	/^zlog_notice (const char *format, ...)$/;"	f	signature:(const char *format, ...)
+zlog_priority	lib/log.c	/^const char *zlog_priority[] =$/;"	v
+zlog_proto_names	lib/log.c	/^const char *zlog_proto_names[] =$/;"	v
+zlog_proto_t	lib/log.h	/^} zlog_proto_t;$/;"	t	typeref:enum:__anon4
+zlog_reset_file	lib/log.c	/^zlog_reset_file (struct zlog *zl)$/;"	f	signature:(struct zlog *zl)
+zlog_reset_file	lib/log.h	/^int zlog_reset_file (struct zlog *zl);$/;"	p	signature:(struct zlog *zl)
+zlog_reset_flag	lib/log.c	/^zlog_reset_flag (struct zlog *zl, int flags)$/;"	f	signature:(struct zlog *zl, int flags)
+zlog_reset_flag	lib/log.h	/^void zlog_reset_flag (struct zlog *zl, int flags);$/;"	p	signature:(struct zlog *zl, int flags)
+zlog_rotate	lib/log.c	/^zlog_rotate (struct zlog *zl)$/;"	f	signature:(struct zlog *zl)
+zlog_rotate	lib/log.h	/^int zlog_rotate ();$/;"	p	signature:()
+zlog_save_cwd	lib/log.c	/^zlog_save_cwd ()$/;"	f
+zlog_set_file	lib/log.c	/^zlog_set_file (struct zlog *zl, int flags, char *filename)$/;"	f	signature:(struct zlog *zl, int flags, char *filename)
+zlog_set_file	lib/log.h	/^int zlog_set_file (struct zlog *zl, int flags, char *filename);$/;"	p	signature:(struct zlog *zl, int flags, char *filename)
+zlog_set_flag	lib/log.c	/^zlog_set_flag (struct zlog *zl, int flags)$/;"	f	signature:(struct zlog *zl, int flags)
+zlog_set_flag	lib/log.h	/^void zlog_set_flag (struct zlog *zl, int flags);$/;"	p	signature:(struct zlog *zl, int flags)
+zlog_warn	lib/log.c	/^zlog_warn (const char *format, ...)$/;"	f	signature:(const char *format, ...)
+zmalloc	lib/memory.c	/^zmalloc (int type, size_t size)$/;"	f	signature:(int type, size_t size)
+zmalloc	lib/memory.h	/^void *zmalloc (int type, size_t size);$/;"	p	signature:(int type, size_t size)
+zrealloc	lib/memory.c	/^zrealloc (int type, void *ptr, size_t size)$/;"	f	signature:(int type, void *ptr, size_t size)
+zrealloc	lib/memory.h	/^void *zrealloc (int type, void *ptr, size_t size);$/;"	p	signature:(int type, void *ptr, size_t size)
+zstrdup	lib/memory.c	/^zstrdup (int type, char *str)$/;"	f	signature:(int type, char *str)
+zstrdup	lib/memory.h	/^char *zstrdup (int type, char *str);$/;"	p	signature:(int type, char *str)

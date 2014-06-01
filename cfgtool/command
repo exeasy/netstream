@@ -1,0 +1,14 @@
+//设置netstream 的报文输出版本
+set_version.tcl 10.11.114.11 5
+
+//设置某个接口的采样方式
+set_sampler.tcl 10.11.114.11 {0|1|2} {fix-packets 1-65535 | fix-time 5-30000(ms) | random-packets 1-65535 | random-time [3.0,6.0,12.0,24.0] } 
+
+//设置某个采样的超时时间
+set_timeout.tcl 10.11.114.11 { inactive 10-600(sec) | active 1-60(min) }
+
+//设置tcp采样
+set_tcpflag.tcl 10.11.114.11 { enable | disable }
+
+
+
