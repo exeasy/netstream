@@ -6,7 +6,7 @@ AM_CFLAGS=-O2 -ggdb3 -std=c99 -I$(LIB_XML_INCLUDE) -lpthread
 AM_LDFLAGS=
 
 
-netstream_SOURCES=netstream.c
+netstream_SOURCES=netstream.c netstream.h
 netstream_LDADD=./comm/libcommlite.a\
 				./comm/libudplite.a\
 		 ./lib/libmytools.a\

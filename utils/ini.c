@@ -3,7 +3,7 @@
 #include <limits.h>
 #include <string.h> /* strdup */
 
-#include <alpm.h>
+#include <stdio.h>
 
 #include "utils.h"
 

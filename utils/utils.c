@@ -60,3 +60,10 @@ size_t strtrim(char *str)
 	return end - pch;
 }
 
+
+int adv_atoi(char* str, int base)
+{
+	 char* endptr = NULL;
+	 if ( str == NULL) return -1;
+	 return strtoul( str, &endptr, base); 
+}
